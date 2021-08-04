@@ -1,0 +1,3377 @@
+{
+  "@context" : {
+    "hasNarrowerTerm" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasNarrowerTerm",
+      "@type" : "@id"
+    },
+    "belongsTo" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#belongsTo",
+      "@type" : "@id"
+    },
+    "hasLocalName" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasLocalName",
+      "@type" : "@id"
+    },
+    "sourceConfluencePlace" : {
+      "@id" : "http://dbpedia.org/ontology/sourceConfluencePlace",
+      "@type" : "@id"
+    },
+    "principal" : {
+      "@id" : "http://dbpedia.org/ontology/principal",
+      "@type" : "@id"
+    },
+    "University" : {
+      "@id" : "http://reliant.teknowledge.com/DAML/Mid-level-ontology.owl#University"
+    },
+    "olympicOathSwornByAthlete" : {
+      "@id" : "http://dbpedia.org/ontology/olympicOathSwornByAthlete",
+      "@type" : "@id"
+    },
+    "P109_has_current_or_former_curator" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#P109_has_current_or_former_curator",
+      "@type" : "@id"
+    },
+    "birthName" : {
+      "@id" : "http://dbpedia.org/ontology/birthName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "numberOfOfficials" : {
+      "@id" : "http://dbpedia.org/ontology/numberOfOfficials",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Address" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Address"
+    },
+    "isStateOf" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#isStateOf",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasTitle",
+      "@type" : "@id"
+    },
+    "LandscapePainting" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#LandscapePainting"
+    },
+    "Modern" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Modern"
+    },
+    "E22_Man-Made_Object" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E22_Man-Made_Object"
+    },
+    "toTimePeriodValue" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#toTimePeriodValue",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "commune" : {
+      "@id" : "http://dbpedia.org/ontology/commune",
+      "@type" : "@id"
+    },
+    "ObjectDescription" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#ObjectDescription"
+    },
+    "acquiredThrough" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#acquiredThrough",
+      "@type" : "@id"
+    },
+    "UnitOfMeasure" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#UnitOfMeasure"
+    },
+    "mostWinner" : {
+      "@id" : "http://dbpedia.org/ontology/mostWinner",
+      "@type" : "@id"
+    },
+    "role" : {
+      "@id" : "http://dbpedia.org/ontology/role",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "pastMember" : {
+      "@id" : "http://dbpedia.org/ontology/pastMember",
+      "@type" : "@id"
+    },
+    "isCreatorOf" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#isCreatorOf",
+      "@type" : "@id"
+    },
+    "functionStartYear" : {
+      "@id" : "http://dbpedia.org/ontology/functionStartYear",
+      "@type" : "http://www.w3.org/2001/XMLSchema#gYear"
+    },
+    "owningOrganisation" : {
+      "@id" : "http://dbpedia.org/ontology/owningOrganisation",
+      "@type" : "@id"
+    },
+    "leader" : {
+      "@id" : "http://dbpedia.org/ontology/leader",
+      "@type" : "@id"
+    },
+    "range" : {
+      "@id" : "http://dbpedia.org/ontology/range",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Medieval" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Medieval"
+    },
+    "affiliation" : {
+      "@id" : "http://dbpedia.org/ontology/affiliation",
+      "@type" : "@id"
+    },
+    "PaintingDescriptor" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#PaintingDescriptor"
+    },
+    "MuseumBuilding" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#MuseumBuilding"
+    },
+    "recordPlace" : {
+      "@id" : "http://dbpedia.org/ontology/recordPlace",
+      "@type" : "@id"
+    },
+    "owner" : {
+      "@id" : "http://dbpedia.org/ontology/owner",
+      "@type" : "@id"
+    },
+    "river" : {
+      "@id" : "http://dbpedia.org/ontology/river",
+      "@type" : "@id"
+    },
+    "notableStudent" : {
+      "@id" : "http://dbpedia.org/ontology/notableStudent",
+      "@type" : "@id"
+    },
+    "Town" : {
+      "@id" : "http://dbpedia.org/ontology/Town"
+    },
+    "RepresentedThing" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#RepresentedThing"
+    },
+    "overallRecord" : {
+      "@id" : "http://dbpedia.org/ontology/overallRecord",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "province" : {
+      "@id" : "http://dbpedia.org/ontology/province",
+      "@type" : "@id"
+    },
+    "memberOfParliament" : {
+      "@id" : "http://dbpedia.org/ontology/memberOfParliament",
+      "@type" : "@id"
+    },
+    "councilArea" : {
+      "@id" : "http://dbpedia.org/ontology/councilArea",
+      "@type" : "@id"
+    },
+    "Woman" : {
+      "@id" : "http://reliant.teknowledge.com/DAML/SUMO#Woman"
+    },
+    "E84_Information_Carrier" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E84_Information_Carrier"
+    },
+    "member" : {
+      "@id" : "http://schema.org/member",
+      "@type" : "@id"
+    },
+    "ColorAttribute" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#ColorAttribute"
+    },
+    "prospectLeague" : {
+      "@id" : "http://dbpedia.org/ontology/prospectLeague",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "nutsRegion" : {
+      "@id" : "http://dbpedia.org/ontology/nutsRegion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "itemNumber" : {
+      "@id" : "http://kulturarvsdata.se/ksamsok#itemNumber"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "dissolutionYear" : {
+      "@id" : "http://dbpedia.org/ontology/dissolutionYear",
+      "@type" : "http://www.w3.org/2001/XMLSchema#gYear"
+    },
+    "created" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#created"
+    },
+    "Painting" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting"
+    },
+    "chairman" : {
+      "@id" : "http://dbpedia.org/ontology/chairman",
+      "@type" : "@id"
+    },
+    "leaderParty" : {
+      "@id" : "http://dbpedia.org/ontology/leaderParty",
+      "@type" : "@id"
+    },
+    "formerCoach" : {
+      "@id" : "http://dbpedia.org/ontology/formerCoach",
+      "@type" : "@id"
+    },
+    "isEncodedByBioChemEntity" : {
+      "@id" : "http://bioschemas.org/isEncodedByBioChemEntity",
+      "@type" : "@id"
+    },
+    "foundingPerson" : {
+      "@id" : "http://dbpedia.org/ontology/foundingPerson",
+      "@type" : "@id"
+    },
+    "oversight" : {
+      "@id" : "http://dbpedia.org/ontology/oversight",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Photographer" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Photographer"
+    },
+    "assignedAttributeBy" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#assignedAttributeBy",
+      "@type" : "@id"
+    },
+    "publicationDate" : {
+      "@id" : "http://dbpedia.org/ontology/publicationDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "compiler" : {
+      "@id" : "http://dbpedia.org/ontology/compiler",
+      "@type" : "@id"
+    },
+    "StationaryArtifact" : {
+      "@id" : "http://reliant.teknowledge.com/DAML/Mid-level-ontology.owl#StationaryArtifact"
+    },
+    "vicePresident" : {
+      "@id" : "http://dbpedia.org/ontology/vicePresident",
+      "@type" : "@id"
+    },
+    "satellitesDeployed" : {
+      "@id" : "http://dbpedia.org/ontology/satellitesDeployed",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "hasIdentifierValue" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIdentifierValue",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "hsvCoordinateValue" : {
+      "@id" : "http://dbpedia.org/ontology/hsvCoordinateValue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "department" : {
+      "@id" : "http://dbpedia.org/ontology/department",
+      "@type" : "@id"
+    },
+    "serviceStartYear" : {
+      "@id" : "http://dbpedia.org/ontology/serviceStartYear",
+      "@type" : "http://www.w3.org/2001/XMLSchema#gYear"
+    },
+    "E9_Move" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E9_Move"
+    },
+    "poles" : {
+      "@id" : "http://dbpedia.org/ontology/poles",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "hasUnitOfCurrency" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasUnitOfCurrency",
+      "@type" : "@id"
+    },
+    "university" : {
+      "@id" : "http://dbpedia.org/ontology/university",
+      "@type" : "@id"
+    },
+    "UnitOfCurrency" : {
+      "@id" : "http://reliant.teknowledge.com/DAML/SUMO#UnitOfCurrency"
+    },
+    "AnimateThing" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#AnimateThing"
+    },
+    "redline" : {
+      "@id" : "http://dbpedia.org/ontology/redline",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "profession" : {
+      "@id" : "http://dbpedia.org/ontology/profession",
+      "@type" : "@id"
+    },
+    "occurredDuring" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#occurredDuring",
+      "@type" : "@id"
+    },
+    "leiCode" : {
+      "@id" : "http://schema.org/leiCode",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "width" : {
+      "@id" : "http://schema.org/width",
+      "@type" : "@id"
+    },
+    "P27_moved_from" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#P27_moved_from",
+      "@type" : "@id"
+    },
+    "itemTechnique" : {
+      "@id" : "http://kulturarvsdata.se/ksamsok#itemTechnique"
+    },
+    "isKnownFor" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#isKnownFor",
+      "@type" : "@id"
+    },
+    "ObjectAttribute" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#ObjectAttribute"
+    },
+    "hasAcquisitionDate" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasAcquisitionDate",
+      "@type" : "@id"
+    },
+    "origin" : {
+      "@id" : "http://dbpedia.org/ontology/origin",
+      "@type" : "@id"
+    },
+    "license" : {
+      "@id" : "http://schema.org/license",
+      "@type" : "@id"
+    },
+    "teamPresident" : {
+      "@id" : "http://dbpedia.org/ontology/teamPresident",
+      "@type" : "@id"
+    },
+    "leaderName" : {
+      "@id" : "http://dbpedia.org/ontology/leaderName",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "recordDate" : {
+      "@id" : "http://dbpedia.org/ontology/recordDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "AcrylicMedium" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#AcrylicMedium"
+    },
+    "areaMetro" : {
+      "@id" : "http://dbpedia.org/ontology/PopulatedPlace/areaMetro",
+      "@type" : "@id"
+    },
+    "canonizedBy" : {
+      "@id" : "http://dbpedia.org/ontology/canonizedBy",
+      "@type" : "@id"
+    },
+    "chairperson" : {
+      "@id" : "http://dbpedia.org/ontology/chairperson",
+      "@type" : "@id"
+    },
+    "orbitalPeriod" : {
+      "@id" : "http://dbpedia.org/ontology/orbitalPeriod",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "resides" : {
+      "@id" : "http://dbpedia.org/ontology/resides",
+      "@type" : "@id"
+    },
+    "thirdDriverCountry" : {
+      "@id" : "http://dbpedia.org/ontology/thirdDriverCountry",
+      "@type" : "@id"
+    },
+    "P108_has_produced" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#P108_has_produced",
+      "@type" : "@id"
+    },
+    "playingTime" : {
+      "@id" : "http://dbpedia.org/ontology/playingTime",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "King" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#King"
+    },
+    "ethnicity" : {
+      "@id" : "http://dbpedia.org/ontology/ethnicity",
+      "@type" : "@id"
+    },
+    "P52_has_current_owner" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#P52_has_current_owner",
+      "@type" : "@id"
+    },
+    "production" : {
+      "@id" : "http://dbpedia.org/ontology/production",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "containsPlace" : {
+      "@id" : "http://schema.org/containsPlace",
+      "@type" : "@id"
+    },
+    "Country" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Country"
+    },
+    "meaning" : {
+      "@id" : "http://dbpedia.org/ontology/meaning",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "largestMetro" : {
+      "@id" : "http://dbpedia.org/ontology/largestMetro",
+      "@type" : "@id"
+    },
+    "serviceModule" : {
+      "@id" : "http://dbpedia.org/ontology/serviceModule",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "inseeCode" : {
+      "@id" : "http://dbpedia.org/ontology/inseeCode",
+      "@type" : "@id"
+    },
+    "subOrganization" : {
+      "@id" : "http://schema.org/subOrganization",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated"
+    },
+    "hasAssignedAttribute" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasAssignedAttribute",
+      "@type" : "@id"
+    },
+    "oldcode" : {
+      "@id" : "http://dbpedia.org/ontology/oldcode",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "sourceDistrict" : {
+      "@id" : "http://dbpedia.org/ontology/sourceDistrict",
+      "@type" : "@id"
+    },
+    "contentLocation" : {
+      "@id" : "http://schema.org/contentLocation",
+      "@type" : "@id"
+    },
+    "P107_has_current_or_former_member" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#P107_has_current_or_former_member",
+      "@type" : "@id"
+    },
+    "citation" : {
+      "@id" : "http://schema.org/citation",
+      "@type" : "@id"
+    },
+    "isIdentifiedBy" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#isIdentifiedBy",
+      "@type" : "@id"
+    },
+    "garrison" : {
+      "@id" : "http://dbpedia.org/ontology/garrison",
+      "@type" : "@id"
+    },
+    "startDate" : {
+      "@id" : "http://schema.org/startDate"
+    },
+    "country" : {
+      "@id" : "http://dbpedia.org/ontology/country",
+      "@type" : "@id"
+    },
+    "Organisation" : {
+      "@id" : "http://dbpedia.org/ontology/Organisation"
+    },
+    "numberOfParticipatingNations" : {
+      "@id" : "http://dbpedia.org/ontology/numberOfParticipatingNations",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "ratio" : {
+      "@id" : "http://dbpedia.org/ontology/ratio",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "foundationPerson" : {
+      "@id" : "http://dbpedia.org/ontology/foundationPerson",
+      "@type" : "@id"
+    },
+    "destination" : {
+      "@id" : "http://dbpedia.org/ontology/destination",
+      "@type" : "@id"
+    },
+    "serviceEndYear" : {
+      "@id" : "http://dbpedia.org/ontology/serviceEndYear",
+      "@type" : "http://www.w3.org/2001/XMLSchema#gYear"
+    },
+    "season" : {
+      "@id" : "http://dbpedia.org/ontology/season",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "Material" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Material"
+    },
+    "education" : {
+      "@id" : "http://dbpedia.org/ontology/education",
+      "@type" : "@id"
+    },
+    "chancellor" : {
+      "@id" : "http://dbpedia.org/ontology/chancellor",
+      "@type" : "@id"
+    },
+    "emmyAward" : {
+      "@id" : "http://dbpedia.org/ontology/emmyAward",
+      "@type" : "@id"
+    },
+    "PaintedPicture" : {
+      "@id" : "http://reliant.teknowledge.com/DAML/Mid-level-ontology.owl#PaintedPicture"
+    },
+    "WaterArea" : {
+      "@id" : "http://reliant.teknowledge.com/DAML/SUMO#WaterArea"
+    },
+    "Organization" : {
+      "@id" : "http://schema.org/Organization"
+    },
+    "comprises" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#comprises",
+      "@type" : "@id"
+    },
+    "stateOfOrigin" : {
+      "@id" : "http://dbpedia.org/ontology/stateOfOrigin",
+      "@type" : "@id"
+    },
+    "encodingFormat" : {
+      "@id" : "http://schema.org/encodingFormat",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "photographedBy" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#photographedBy",
+      "@type" : "@id"
+    },
+    "P30_transferred_custody_of" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#P30_transferred_custody_of",
+      "@type" : "@id"
+    },
+    "E42_Identifier" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E42_Identifier"
+    },
+    "numberOfParticipatingAthletes" : {
+      "@id" : "http://dbpedia.org/ontology/numberOfParticipatingAthletes",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "StateOfObject" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#StateOfObject"
+    },
+    "fromTimePeriodValue" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#fromTimePeriodValue",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "hasPaintType" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasPaintType",
+      "@type" : "@id"
+    },
+    "mayor" : {
+      "@id" : "http://dbpedia.org/ontology/mayor",
+      "@type" : "@id"
+    },
+    "descriptionString" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#descriptionString"
+    },
+    "capitalCountry" : {
+      "@id" : "http://dbpedia.org/ontology/capitalCountry",
+      "@type" : "@id"
+    },
+    "hasCondition" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCondition",
+      "@type" : "@id"
+    },
+    "associate" : {
+      "@id" : "http://dbpedia.org/ontology/associate",
+      "@type" : "@id"
+    },
+    "membership" : {
+      "@id" : "http://dbpedia.org/ontology/membership",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "DesignPattern" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#DesignPattern"
+    },
+    "titleString" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#titleString",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "goyaAward" : {
+      "@id" : "http://dbpedia.org/ontology/goyaAward",
+      "@type" : "@id"
+    },
+    "city" : {
+      "@id" : "http://dbpedia.org/ontology/city",
+      "@type" : "@id"
+    },
+    "foundingYear" : {
+      "@id" : "http://dbpedia.org/ontology/foundingYear",
+      "@type" : "http://www.w3.org/2001/XMLSchema#gYear"
+    },
+    "E54_Dimension" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E54_Dimension"
+    },
+    "brand" : {
+      "@id" : "http://schema.org/brand",
+      "@type" : "@id"
+    },
+    "MiniaturePainting" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#MiniaturePainting"
+    },
+    "company" : {
+      "@id" : "http://dbpedia.org/ontology/company",
+      "@type" : "@id"
+    },
+    "height" : {
+      "@id" : "http://schema.org/height",
+      "@type" : "@id"
+    },
+    "longValue" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#longValue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "currentOwnerOf" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#currentOwnerOf",
+      "@type" : "@id"
+    },
+    "almaMater" : {
+      "@id" : "http://dbpedia.org/ontology/almaMater",
+      "@type" : "@id"
+    },
+    "review" : {
+      "@id" : "http://dbpedia.org/ontology/review",
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "associationOfLocalGovernment" : {
+      "@id" : "http://dbpedia.org/ontology/associationOfLocalGovernment",
+      "@type" : "@id"
+    },
+    "currentMember" : {
+      "@id" : "http://dbpedia.org/ontology/currentMember",
+      "@type" : "@id"
+    },
+    "pages" : {
+      "@id" : "http://dbpedia.org/ontology/pages",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "StillLifePainting" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#StillLifePainting"
+    },
+    "shipDraft" : {
+      "@id" : "http://dbpedia.org/ontology/shipDraft",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "place" : {
+      "@id" : "http://dbpedia.org/ontology/place",
+      "@type" : "@id"
+    },
+    "part" : {
+      "@id" : "http://dbpedia.org/ontology/part",
+      "@type" : "@id"
+    },
+    "neighboringMunicipality" : {
+      "@id" : "http://dbpedia.org/ontology/neighboringMunicipality",
+      "@type" : "@id"
+    },
+    "encodesBioChemEntity" : {
+      "@id" : "http://bioschemas.org/encodesBioChemEntity",
+      "@type" : "@id"
+    },
+    "founder" : {
+      "@id" : "http://schema.org/founder",
+      "@type" : "@id"
+    },
+    "thirdCommander" : {
+      "@id" : "http://dbpedia.org/ontology/thirdCommander",
+      "@type" : "@id"
+    },
+    "ContentDevelopment" : {
+      "@id" : "http://reliant.teknowledge.com/DAML/SUMO#ContentDevelopment"
+    },
+    "area" : {
+      "@id" : "http://dbpedia.org/ontology/area",
+      "@type" : "@id"
+    },
+    "bioChemInteraction" : {
+      "@id" : "http://bioschemas.org/bioChemInteraction",
+      "@type" : "@id"
+    },
+    "managingEditor" : {
+      "@id" : "http://dbpedia.org/ontology/managingEditor",
+      "@type" : "@id"
+    },
+    "hasPopularityValue" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasPopularityValue",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "pistonStroke" : {
+      "@id" : "http://dbpedia.org/ontology/AutomobileEngine/pistonStroke"
+    },
+    "hasPresentationLocation" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasPresentationLocation",
+      "@type" : "@id"
+    },
+    "designer" : {
+      "@id" : "http://dbpedia.org/ontology/designer",
+      "@type" : "@id"
+    },
+    "leaderFunction" : {
+      "@id" : "http://dbpedia.org/ontology/leaderFunction",
+      "@type" : "@id"
+    },
+    "numberOfVolunteers" : {
+      "@id" : "http://dbpedia.org/ontology/numberOfVolunteers",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "minimumElevation" : {
+      "@id" : "http://dbpedia.org/ontology/minimumElevation",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "P88_consists_of" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#P88_consists_of",
+      "@type" : "@id"
+    },
+    "hasValue" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasValue",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "originalStartPoint" : {
+      "@id" : "http://dbpedia.org/ontology/originalStartPoint",
+      "@type" : "@id"
+    },
+    "offeredClasses" : {
+      "@id" : "http://dbpedia.org/ontology/offeredClasses",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Artist" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Artist"
+    },
+    "deathCause" : {
+      "@id" : "http://dbpedia.org/ontology/deathCause",
+      "@type" : "@id"
+    },
+    "servesCuisine" : {
+      "@id" : "http://schema.org/servesCuisine",
+      "@type" : "@id"
+    },
+    "numberOfStudents" : {
+      "@id" : "http://dbpedia.org/ontology/numberOfStudents",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "poleDriver" : {
+      "@id" : "http://dbpedia.org/ontology/poleDriver",
+      "@type" : "@id"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "geologicPeriod" : {
+      "@id" : "http://dbpedia.org/ontology/geologicPeriod",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Title" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Title"
+    },
+    "populationDensity" : {
+      "@id" : "http://dbpedia.org/ontology/populationDensity",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "E31_Document" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E31_Document"
+    },
+    "athletics" : {
+      "@id" : "http://dbpedia.org/ontology/athletics",
+      "@type" : "@id"
+    },
+    "countryWithFirstSatellite" : {
+      "@id" : "http://dbpedia.org/ontology/countryWithFirstSatellite",
+      "@type" : "@id"
+    },
+    "chiefEditor" : {
+      "@id" : "http://dbpedia.org/ontology/chiefEditor",
+      "@type" : "@id"
+    },
+    "E74_Group" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E74_Group"
+    },
+    "operator" : {
+      "@id" : "http://dbpedia.org/ontology/operator",
+      "@type" : "@id"
+    },
+    "orbitalInclination" : {
+      "@id" : "http://dbpedia.org/ontology/orbitalInclination",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "productionEndYear" : {
+      "@id" : "http://dbpedia.org/ontology/productionEndYear",
+      "@type" : "http://www.w3.org/2001/XMLSchema#gYear"
+    },
+    "child" : {
+      "@id" : "http://dbpedia.org/ontology/child",
+      "@type" : "@id"
+    },
+    "Colour" : {
+      "@id" : "http://dbpedia.org/ontology/Colour"
+    },
+    "thirdDriver" : {
+      "@id" : "http://dbpedia.org/ontology/thirdDriver",
+      "@type" : "@id"
+    },
+    "operatingIncome" : {
+      "@id" : "http://dbpedia.org/ontology/operatingIncome",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "Medium" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Medium"
+    },
+    "sourceConfluenceState" : {
+      "@id" : "http://dbpedia.org/ontology/sourceConfluenceState",
+      "@type" : "@id"
+    },
+    "provost" : {
+      "@id" : "http://dbpedia.org/ontology/provost",
+      "@type" : "@id"
+    },
+    "nameAuth" : {
+      "@id" : "http://kulturarvsdata.se/ksamsok#nameAuth"
+    },
+    "itemClass" : {
+      "@id" : "http://kulturarvsdata.se/ksamsok#itemClass"
+    },
+    "heir" : {
+      "@id" : "http://dbpedia.org/ontology/heir",
+      "@type" : "@id"
+    },
+    "deathPlace" : {
+      "@id" : "http://dbpedia.org/ontology/deathPlace",
+      "@type" : "@id"
+    },
+    "plays" : {
+      "@id" : "http://dbpedia.org/ontology/plays",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "patron" : {
+      "@id" : "http://dbpedia.org/ontology/patron",
+      "@type" : "@id"
+    },
+    "populationTotal" : {
+      "@id" : "http://dbpedia.org/ontology/populationTotal",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "E10_Transfer_of_Custody" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#E10_Transfer_of_Custody"
+    },
+    "father" : {
+      "@id" : "http://dbpedia.org/ontology/father",
+      "@type" : "@id"
+    },
+    "salary" : {
+      "@id" : "http://dbpedia.org/ontology/salary",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "networth" : {
+      "@id" : "http://dbpedia.org/ontology/networth",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "musicReleaseFormat" : {
+      "@id" : "http://schema.org/musicReleaseFormat",
+      "@type" : "@id"
+    },
+    "hasIntendedUse" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIntendedUse",
+      "@type" : "@id"
+    },
+    "narrator" : {
+      "@id" : "http://dbpedia.org/ontology/narrator",
+      "@type" : "@id"
+    },
+    "hasMolecularFunction" : {
+      "@id" : "http://bioschemas.org/hasMolecularFunction",
+      "@type" : "@id"
+    },
+    "deathDate" : {
+      "@id" : "http://schema.org/deathDate"
+    },
+    "storyEditor" : {
+      "@id" : "http://dbpedia.org/ontology/storyEditor",
+      "@type" : "@id"
+    },
+    "faxNumber" : {
+      "@id" : "http://schema.org/faxNumber",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "director" : {
+      "@id" : "http://schema.org/director",
+      "@type" : "@id"
+    },
+    "AbstractThing" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#AbstractThing"
+    },
+    "dissolutionDate" : {
+      "@id" : "http://dbpedia.org/ontology/dissolutionDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "runtime" : {
+      "@id" : "http://dbpedia.org/ontology/runtime",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "foundingLocation" : {
+      "@id" : "http://schema.org/foundingLocation",
+      "@type" : "@id"
+    },
+    "administrator" : {
+      "@id" : "http://dbpedia.org/ontology/administrator",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "shoots" : {
+      "@id" : "http://dbpedia.org/ontology/shoots",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "countryWithFirstSpaceflight" : {
+      "@id" : "http://dbpedia.org/ontology/countryWithFirstSpaceflight",
+      "@type" : "@id"
+    },
+    "firstDriver" : {
+      "@id" : "http://dbpedia.org/ontology/firstDriver",
+      "@type" : "@id"
+    },
+    "AcquisitionActivity" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#AcquisitionActivity"
+    },
+    "hasValueType" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasValueType",
+      "@type" : "@id"
+    },
+    "sourceCountry" : {
+      "@id" : "http://dbpedia.org/ontology/sourceCountry",
+      "@type" : "@id"
+    },
+    "proclaims" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#proclaims",
+      "@type" : "@id"
+    },
+    "hasMedium" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasMedium",
+      "@type" : "@id"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "narrower" : {
+      "@id" : "http://www.w3.org/2008/05/skos#narrower",
+      "@type" : "@id"
+    },
+    "discoverer" : {
+      "@id" : "http://dbpedia.org/ontology/discoverer",
+      "@type" : "@id"
+    },
+    "doctoralAdvisor" : {
+      "@id" : "http://dbpedia.org/ontology/doctoralAdvisor",
+      "@type" : "@id"
+    },
+    "elevation" : {
+      "@id" : "http://schema.org/elevation",
+      "@type" : "@id"
+    },
+    "isPartOf" : {
+      "@id" : "http://schema.org/isPartOf",
+      "@type" : "@id"
+    },
+    "Human" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Human"
+    },
+    "parent" : {
+      "@id" : "http://schema.org/parent",
+      "@type" : "@id"
+    },
+    "E3_Condition_State" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E3_Condition_State"
+    },
+    "collection" : {
+      "@id" : "http://kulturarvsdata.se/ksamsok#collection"
+    },
+    "coExecutiveProducer" : {
+      "@id" : "http://dbpedia.org/ontology/coExecutiveProducer",
+      "@type" : "@id"
+    },
+    "children" : {
+      "@id" : "http://schema.org/children",
+      "@type" : "@id"
+    },
+    "crewMember" : {
+      "@id" : "http://dbpedia.org/ontology/crewMember",
+      "@type" : "@id"
+    },
+    "sourceConfluenceRegion" : {
+      "@id" : "http://dbpedia.org/ontology/sourceConfluenceRegion",
+      "@type" : "@id"
+    },
+    "border" : {
+      "@id" : "http://dbpedia.org/ontology/border",
+      "@type" : "@id"
+    },
+    "Dimension" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Dimension"
+    },
+    "choreographer" : {
+      "@id" : "http://dbpedia.org/ontology/choreographer",
+      "@type" : "@id"
+    },
+    "hasPart" : {
+      "@id" : "http://schema.org/hasPart",
+      "@type" : "@id"
+    },
+    "Concept" : {
+      "@id" : "http://www.w3.org/2008/05/skos#Concept"
+    },
+    "associatedAct" : {
+      "@id" : "http://dbpedia.org/ontology/associatedAct",
+      "@type" : "@id"
+    },
+    "populationAsOf" : {
+      "@id" : "http://dbpedia.org/ontology/populationAsOf",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "campus" : {
+      "@id" : "http://dbpedia.org/ontology/campus",
+      "@type" : "@id"
+    },
+    "hasHistoricalContext" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasHistoricalContext",
+      "@type" : "@id"
+    },
+    "manufacturer" : {
+      "@id" : "http://dbpedia.org/ontology/manufacturer",
+      "@type" : "@id"
+    },
+    "familyName" : {
+      "@id" : "http://xmlns.com/foaf/0.1/#familyName"
+    },
+    "rebuildingDate" : {
+      "@id" : "http://dbpedia.org/ontology/rebuildingDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "runningMate" : {
+      "@id" : "http://dbpedia.org/ontology/runningMate",
+      "@type" : "@id"
+    },
+    "percentageOfAreaWaterRound" : {
+      "@id" : "http://dbpedia.org/ontology/percentageOfAreaWaterRound",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "hasClassification" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasClassification",
+      "@type" : "@id"
+    },
+    "about" : {
+      "@id" : "http://schema.org/about",
+      "@type" : "@id"
+    },
+    "numberOfUndergraduateStudents" : {
+      "@id" : "http://dbpedia.org/ontology/numberOfUndergraduateStudents",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "monarch" : {
+      "@id" : "http://dbpedia.org/ontology/monarch",
+      "@type" : "@id"
+    },
+    "prominence" : {
+      "@id" : "http://dbpedia.org/ontology/prominence",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "distanceToEdinburgh" : {
+      "@id" : "http://dbpedia.org/ontology/distanceToEdinburgh",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "BodyOfWater" : {
+      "@id" : "http://dbpedia.org/ontology/BodyOfWater"
+    },
+    "Man" : {
+      "@id" : "http://reliant.teknowledge.com/DAML/SUMO#Man"
+    },
+    "hasColor" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasColor",
+      "@type" : "@id"
+    },
+    "ContentBearingObject" : {
+      "@id" : "http://reliant.teknowledge.com/DAML/SUMO#ContentBearingObject"
+    },
+    "parentOrganisation" : {
+      "@id" : "http://dbpedia.org/ontology/parentOrganisation",
+      "@type" : "@id"
+    },
+    "byArtist" : {
+      "@id" : "http://schema.org/byArtist",
+      "@type" : "@id"
+    },
+    "manxName" : {
+      "@id" : "http://dbpedia.org/ontology/manxName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "LandArea" : {
+      "@id" : "http://reliant.teknowledge.com/DAML/SUMO#LandArea"
+    },
+    "mother" : {
+      "@id" : "http://dbpedia.org/ontology/mother",
+      "@type" : "@id"
+    },
+    "teamOwner" : {
+      "@id" : "http://dbpedia.org/ontology/teamOwner",
+      "@type" : "@id"
+    },
+    "subjectOf" : {
+      "@id" : "http://schema.org/subjectOf",
+      "@type" : "@id"
+    },
+    "cesarAward" : {
+      "@id" : "http://dbpedia.org/ontology/cesarAward",
+      "@type" : "@id"
+    },
+    "beatifiedPlace" : {
+      "@id" : "http://dbpedia.org/ontology/beatifiedPlace",
+      "@type" : "@id"
+    },
+    "timeZone" : {
+      "@id" : "http://dbpedia.org/ontology/timeZone",
+      "@type" : "@id"
+    },
+    "hasDesignPattern" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasDesignPattern",
+      "@type" : "@id"
+    },
+    "expressedIn" : {
+      "@id" : "http://bioschemas.org/expressedIn",
+      "@type" : "@id"
+    },
+    "boader" : {
+      "@id" : "http://www.w3.org/2008/05/skos#boader",
+      "@type" : "@id"
+    },
+    "omim" : {
+      "@id" : "http://dbpedia.org/ontology/omim",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "retiredDate" : {
+      "@id" : "http://dbpedia.org/ontology/retiredDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "Activity" : {
+      "@id" : "http://dbpedia.org/ontology/Activity"
+    },
+    "riverMouth" : {
+      "@id" : "http://dbpedia.org/ontology/riverMouth",
+      "@type" : "@id"
+    },
+    "carriedOutBy" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#carriedOutBy",
+      "@type" : "@id"
+    },
+    "AbstractPainting" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#AbstractPainting"
+    },
+    "startPoint" : {
+      "@id" : "http://dbpedia.org/ontology/startPoint",
+      "@type" : "@id"
+    },
+    "creativeDirector" : {
+      "@id" : "http://dbpedia.org/ontology/creativeDirector",
+      "@type" : "@id"
+    },
+    "P98_brought_into_life" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#P98_brought_into_life",
+      "@type" : "@id"
+    },
+    "hasPaintingDescriptor" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasPaintingDescriptor",
+      "@type" : "@id"
+    },
+    "productionStartYear" : {
+      "@id" : "http://dbpedia.org/ontology/productionStartYear",
+      "@type" : "http://www.w3.org/2001/XMLSchema#gYear"
+    },
+    "formerChoreographer" : {
+      "@id" : "http://dbpedia.org/ontology/formerChoreographer",
+      "@type" : "@id"
+    },
+    "daylightSavingTimeZone" : {
+      "@id" : "http://dbpedia.org/ontology/daylightSavingTimeZone",
+      "@type" : "@id"
+    },
+    "revenue" : {
+      "@id" : "http://dbpedia.org/ontology/revenue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "Landform" : {
+      "@id" : "http://schema.org/Landform"
+    },
+    "veneratedIn" : {
+      "@id" : "http://dbpedia.org/ontology/veneratedIn",
+      "@type" : "@id"
+    },
+    "trustee" : {
+      "@id" : "http://dbpedia.org/ontology/trustee",
+      "@type" : "@id"
+    },
+    "borough" : {
+      "@id" : "http://dbpedia.org/ontology/borough",
+      "@type" : "@id"
+    },
+    "capitalDistrict" : {
+      "@id" : "http://dbpedia.org/ontology/capitalDistrict",
+      "@type" : "@id"
+    },
+    "MaterialType" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#MaterialType"
+    },
+    "gtin" : {
+      "@id" : "http://schema.org/gtin",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "gender" : {
+      "@id" : "http://schema.org/gender",
+      "@type" : "@id"
+    },
+    "itemDescription" : {
+      "@id" : "http://kulturarvsdata.se/ksamsok#itemDescription"
+    },
+    "itemMaterial" : {
+      "@id" : "http://kulturarvsdata.se/ksamsok#itemMaterial"
+    },
+    "orderInOffice" : {
+      "@id" : "http://dbpedia.org/ontology/orderInOffice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "movedFrom" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#movedFrom",
+      "@type" : "@id"
+    },
+    "numberOfMembers" : {
+      "@id" : "http://dbpedia.org/ontology/numberOfMembers",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Event" : {
+      "@id" : "http://dbpedia.org/ontology/Event"
+    },
+    "states" : {
+      "@id" : "http://dbpedia.org/ontology/states",
+      "@type" : "@id"
+    },
+    "hasGeoPos" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasGeoPos",
+      "@type" : "@id"
+    },
+    "reopened" : {
+      "@id" : "http://dbpedia.org/ontology/reopened",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "Nationality" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Nationality"
+    },
+    "createdBy" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#createdBy",
+      "@type" : "@id"
+    },
+    "formerPartner" : {
+      "@id" : "http://dbpedia.org/ontology/formerPartner",
+      "@type" : "@id"
+    },
+    "P48_has_preferred_identifier" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#P48_has_preferred_identifier",
+      "@type" : "@id"
+    },
+    "appointer" : {
+      "@id" : "http://dbpedia.org/ontology/appointer",
+      "@type" : "@id"
+    },
+    "organisation" : {
+      "@id" : "http://dbpedia.org/ontology/organisation",
+      "@type" : "@id"
+    },
+    "managementRegion" : {
+      "@id" : "http://dbpedia.org/ontology/managementRegion",
+      "@type" : "@id"
+    },
+    "functionEndDate" : {
+      "@id" : "http://dbpedia.org/ontology/functionEndDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "doctoralStudent" : {
+      "@id" : "http://dbpedia.org/ontology/doctoralStudent",
+      "@type" : "@id"
+    },
+    "event" : {
+      "@id" : "http://dbpedia.org/ontology/event",
+      "@type" : "@id"
+    },
+    "Person" : {
+      "@id" : "http://schema.org/Person"
+    },
+    "coordinates" : {
+      "@id" : "http://kulturarvsdata.se/ksamsok#coordinates"
+    },
+    "hasPaintingTechnique" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasPaintingTechnique",
+      "@type" : "@id"
+    },
+    "PersonFunction" : {
+      "@id" : "http://dbpedia.org/ontology/PersonFunction"
+    },
+    "county" : {
+      "@id" : "http://dbpedia.org/ontology/county",
+      "@type" : "@id"
+    },
+    "largestCity" : {
+      "@id" : "http://dbpedia.org/ontology/largestCity",
+      "@type" : "@id"
+    },
+    "orbits" : {
+      "@id" : "http://dbpedia.org/ontology/orbits",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "executiveHeadteacher" : {
+      "@id" : "http://dbpedia.org/ontology/executiveHeadteacher",
+      "@type" : "@id"
+    },
+    "poleDriverCountry" : {
+      "@id" : "http://dbpedia.org/ontology/poleDriverCountry",
+      "@type" : "@id"
+    },
+    "pseudonym" : {
+      "@id" : "http://dbpedia.org/ontology/pseudonym",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "P55_has_current_location" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#P55_has_current_location",
+      "@type" : "@id"
+    },
+    "firstWinner" : {
+      "@id" : "http://dbpedia.org/ontology/firstWinner",
+      "@type" : "@id"
+    },
+    "powerOutput" : {
+      "@id" : "http://dbpedia.org/ontology/powerOutput",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "canton" : {
+      "@id" : "http://dbpedia.org/ontology/canton",
+      "@type" : "@id"
+    },
+    "functionEndYear" : {
+      "@id" : "http://dbpedia.org/ontology/functionEndYear",
+      "@type" : "http://www.w3.org/2001/XMLSchema#gYear"
+    },
+    "district" : {
+      "@id" : "http://dbpedia.org/ontology/district",
+      "@type" : "@id"
+    },
+    "throws" : {
+      "@id" : "http://dbpedia.org/ontology/throws",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "usingcountry" : {
+      "@id" : "http://dbpedia.org/ontology/usingcountry",
+      "@type" : "@id"
+    },
+    "releaseDate" : {
+      "@id" : "http://dbpedia.org/ontology/releaseDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "smiles" : {
+      "@id" : "http://bioschemas.org/smiles",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "mainOrgan" : {
+      "@id" : "http://dbpedia.org/ontology/mainOrgan",
+      "@type" : "@id"
+    },
+    "E35_Title" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E35_Title"
+    },
+    "E67_Birth" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E67_Birth"
+    },
+    "administrativeCollectivity" : {
+      "@id" : "http://dbpedia.org/ontology/administrativeCollectivity",
+      "@type" : "@id"
+    },
+    "governmentPlace" : {
+      "@id" : "http://dbpedia.org/ontology/governmentPlace",
+      "@type" : "@id"
+    },
+    "hasMaterialCategory" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasMaterialCategory",
+      "@type" : "@id"
+    },
+    "unknownOutcomes" : {
+      "@id" : "http://dbpedia.org/ontology/unknownOutcomes",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "broughtIntoLife" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#broughtIntoLife",
+      "@type" : "@id"
+    },
+    "E58_Measurement_Unit" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E58_Measurement_Unit"
+    },
+    "lieutenant" : {
+      "@id" : "http://dbpedia.org/ontology/lieutenant",
+      "@type" : "@id"
+    },
+    "E44_Place_Appellation" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E44_Place_Appellation"
+    },
+    "countryWithFirstAstronaut" : {
+      "@id" : "http://dbpedia.org/ontology/countryWithFirstAstronaut",
+      "@type" : "@id"
+    },
+    "coverArtist" : {
+      "@id" : "http://dbpedia.org/ontology/coverArtist",
+      "@type" : "@id"
+    },
+    "provider" : {
+      "@id" : "http://schema.org/provider",
+      "@type" : "@id"
+    },
+    "itemMeasurement" : {
+      "@id" : "http://kulturarvsdata.se/ksamsok#itemMeasurement"
+    },
+    "rgbCoordinateGreen" : {
+      "@id" : "http://dbpedia.org/ontology/rgbCoordinateGreen",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "hasRepresentation" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasRepresentation",
+      "@type" : "@id"
+    },
+    "numberOfSeasons" : {
+      "@id" : "http://dbpedia.org/ontology/numberOfSeasons",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "product" : {
+      "@id" : "http://dbpedia.org/ontology/product",
+      "@type" : "@id"
+    },
+    "ground" : {
+      "@id" : "http://dbpedia.org/ontology/ground",
+      "@type" : "@id"
+    },
+    "Agent" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Agent"
+    },
+    "P15_was_influenced_by" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#P15_was_influenced_by",
+      "@type" : "@id"
+    },
+    "P129_is_about" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#P129_is_about",
+      "@type" : "@id"
+    },
+    "fourthCommander" : {
+      "@id" : "http://dbpedia.org/ontology/fourthCommander",
+      "@type" : "@id"
+    },
+    "P26_moved_to" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#P26_moved_to",
+      "@type" : "@id"
+    },
+    "lyricist" : {
+      "@id" : "http://schema.org/lyricist",
+      "@type" : "@id"
+    },
+    "distanceToCharingCross" : {
+      "@id" : "http://dbpedia.org/ontology/distanceToCharingCross",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "hasNationality" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasNationality",
+      "@type" : "@id"
+    },
+    "requirement" : {
+      "@id" : "http://dbpedia.org/ontology/requirement",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "locatedInArea" : {
+      "@id" : "http://dbpedia.org/ontology/locatedInArea",
+      "@type" : "@id"
+    },
+    "serviceStartDate" : {
+      "@id" : "http://dbpedia.org/ontology/serviceStartDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "position" : {
+      "@id" : "http://schema.org/position",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "areaUrban" : {
+      "@id" : "http://dbpedia.org/ontology/areaUrban",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "populationMetro" : {
+      "@id" : "http://dbpedia.org/ontology/populationMetro",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "creator" : {
+      "@id" : "http://schema.org/creator",
+      "@type" : "@id"
+    },
+    "shoreLength" : {
+      "@id" : "http://dbpedia.org/ontology/Lake/shoreLength"
+    },
+    "exhibits" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#exhibits",
+      "@type" : "@id"
+    },
+    "GroupPortrait" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#GroupPortrait"
+    },
+    "EducationalInstitution" : {
+      "@id" : "http://dbpedia.org/ontology/EducationalInstitution"
+    },
+    "ObjectName" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#ObjectName"
+    },
+    "lyrics" : {
+      "@id" : "http://dbpedia.org/ontology/lyrics",
+      "@type" : "@id"
+    },
+    "givenName" : {
+      "@id" : "http://schema.org/givenName",
+      "@type" : "@id"
+    },
+    "capitalPlace" : {
+      "@id" : "http://dbpedia.org/ontology/capitalPlace",
+      "@type" : "@id"
+    },
+    "sourcePlace" : {
+      "@id" : "http://dbpedia.org/ontology/sourcePlace",
+      "@type" : "@id"
+    },
+    "hasProduced" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasProduced",
+      "@type" : "@id"
+    },
+    "office" : {
+      "@id" : "http://dbpedia.org/ontology/office",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "postalCode" : {
+      "@id" : "http://dbpedia.org/ontology/postalCode",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "geo" : {
+      "@id" : "http://schema.org/geo",
+      "@type" : "@id"
+    },
+    "E21_Person" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E21_Person"
+    },
+    "periapsis" : {
+      "@id" : "http://dbpedia.org/ontology/periapsis",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "hascoordinates" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hascoordinates",
+      "@type" : "@id"
+    },
+    "regionType" : {
+      "@id" : "http://dbpedia.org/ontology/regionType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "WordSenseId" : {
+      "@id" : "http://spraakbanken.gu.se/saldo/saldoOnto.owl#WordSenseId"
+    },
+    "P103_was_intended_for" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#P103_was_intended_for",
+      "@type" : "@id"
+    },
+    "closed" : {
+      "@id" : "http://dbpedia.org/ontology/closed",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "E47_Spatial_Coordinates" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E47_Spatial_Coordinates"
+    },
+    "eventName" : {
+      "@id" : "http://kulturarvsdata.se/ksamsok#eventName"
+    },
+    "Drawing" : {
+      "@id" : "http://schema.org/Drawing"
+    },
+    "EducationalOrganization" : {
+      "@id" : "http://schema.org/EducationalOrganization"
+    },
+    "baftaAward" : {
+      "@id" : "http://dbpedia.org/ontology/baftaAward",
+      "@type" : "@id"
+    },
+    "Signature" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Signature"
+    },
+    "maximumElevation" : {
+      "@id" : "http://dbpedia.org/ontology/maximumElevation",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "cinematography" : {
+      "@id" : "http://dbpedia.org/ontology/cinematography",
+      "@type" : "@id"
+    },
+    "Article" : {
+      "@id" : "http://schema.org/Article"
+    },
+    "recordLabel" : {
+      "@id" : "http://schema.org/recordLabel",
+      "@type" : "@id"
+    },
+    "bodyDiscovered" : {
+      "@id" : "http://dbpedia.org/ontology/bodyDiscovered",
+      "@type" : "@id"
+    },
+    "hasReference" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasReference",
+      "@type" : "@id"
+    },
+    "copyrightHolder" : {
+      "@id" : "http://schema.org/copyrightHolder",
+      "@type" : "@id"
+    },
+    "TimePeriod" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#TimePeriod"
+    },
+    "hasMaterial" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasMaterial",
+      "@type" : "@id"
+    },
+    "gaelicName" : {
+      "@id" : "http://dbpedia.org/ontology/gaelicName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "incumbent" : {
+      "@id" : "http://dbpedia.org/ontology/incumbent",
+      "@type" : "@id"
+    },
+    "illustrator" : {
+      "@id" : "http://dbpedia.org/ontology/illustrator",
+      "@type" : "@id"
+    },
+    "TransferOfCustody" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#TransferOfCustody"
+    },
+    "translator" : {
+      "@id" : "http://dbpedia.org/ontology/translator",
+      "@type" : "@id"
+    },
+    "capitalRegion" : {
+      "@id" : "http://dbpedia.org/ontology/capitalRegion",
+      "@type" : "@id"
+    },
+    "highestBuildingInYear" : {
+      "@id" : "http://dbpedia.org/ontology/highestBuildingInYear",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "areaCode" : {
+      "@id" : "http://dbpedia.org/ontology/areaCode",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "currentPartner" : {
+      "@id" : "http://dbpedia.org/ontology/currentPartner",
+      "@type" : "@id"
+    },
+    "hasMember" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasMember",
+      "@type" : "@id"
+    },
+    "releaseOf" : {
+      "@id" : "http://schema.org/releaseOf",
+      "@type" : "@id"
+    },
+    "timeInSpace" : {
+      "@id" : "http://dbpedia.org/ontology/timeInSpace",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "personName" : {
+      "@id" : "http://dbpedia.org/ontology/personName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "FrescoPainting" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#FrescoPainting"
+    },
+    "percentageOfAreaWater" : {
+      "@id" : "http://dbpedia.org/ontology/percentageOfAreaWater",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "hasPaintingStyle" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasPaintingStyle",
+      "@type" : "@id"
+    },
+    "PopulatedPlace" : {
+      "@id" : "http://dbpedia.org/ontology/PopulatedPlace"
+    },
+    "numberOfDoctoralStudents" : {
+      "@id" : "http://dbpedia.org/ontology/numberOfDoctoralStudents",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "mouthDistrict" : {
+      "@id" : "http://dbpedia.org/ontology/mouthDistrict",
+      "@type" : "@id"
+    },
+    "twinCity" : {
+      "@id" : "http://dbpedia.org/ontology/twinCity",
+      "@type" : "@id"
+    },
+    "Icon" : {
+      "@id" : "http://reliant.teknowledge.com/DAML/SUMO#Icon"
+    },
+    "character" : {
+      "@id" : "http://schema.org/character",
+      "@type" : "@id"
+    },
+    "itemColor" : {
+      "@id" : "http://kulturarvsdata.se/ksamsok#itemColor"
+    },
+    "restingPlace" : {
+      "@id" : "http://dbpedia.org/ontology/restingPlace",
+      "@type" : "@id"
+    },
+    "currencyValue" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#currencyValue",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "E52_Time-Span" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E52_Time-Span"
+    },
+    "location" : {
+      "@id" : "http://schema.org/location",
+      "@type" : "@id"
+    },
+    "influencedBy" : {
+      "@id" : "http://dbpedia.org/ontology/influencedBy",
+      "@type" : "@id"
+    },
+    "countryWithFirstSatelliteLaunched" : {
+      "@id" : "http://dbpedia.org/ontology/countryWithFirstSatelliteLaunched",
+      "@type" : "@id"
+    },
+    "person" : {
+      "@id" : "http://dbpedia.org/ontology/person",
+      "@type" : "@id"
+    },
+    "CreativeWork" : {
+      "@id" : "http://schema.org/CreativeWork"
+    },
+    "hasStatus" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasStatus",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "PaintingStyle" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#PaintingStyle"
+    },
+    "productionEndDate" : {
+      "@id" : "http://dbpedia.org/ontology/productionEndDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "oclc" : {
+      "@id" : "http://dbpedia.org/ontology/oclc",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "composer" : {
+      "@id" : "http://schema.org/composer",
+      "@type" : "@id"
+    },
+    "mouthRegion" : {
+      "@id" : "http://dbpedia.org/ontology/mouthRegion",
+      "@type" : "@id"
+    },
+    "hasBroaderTerm" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasBroaderTerm",
+      "@type" : "@id"
+    },
+    "foundationOrganisation" : {
+      "@id" : "http://dbpedia.org/ontology/foundationOrganisation",
+      "@type" : "@id"
+    },
+    "hasSense" : {
+      "@id" : "http://spraakbanken.gu.se/saldo/saldoOnto.owl#hasSense",
+      "@type" : "@id"
+    },
+    "P43_has_dimension" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#P43_has_dimension",
+      "@type" : "@id"
+    },
+    "birthYear" : {
+      "@id" : "http://dbpedia.org/ontology/birthYear",
+      "@type" : "http://www.w3.org/2001/XMLSchema#gYear"
+    },
+    "stateDelegate" : {
+      "@id" : "http://dbpedia.org/ontology/stateDelegate",
+      "@type" : "@id"
+    },
+    "photographer" : {
+      "@id" : "http://dbpedia.org/ontology/photographer",
+      "@type" : "@id"
+    },
+    "movedTo" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#movedTo",
+      "@type" : "@id"
+    },
+    "originalEndPoint" : {
+      "@id" : "http://dbpedia.org/ontology/originalEndPoint",
+      "@type" : "@id"
+    },
+    "PlaceAppellation" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#PlaceAppellation"
+    },
+    "hasObjectValue" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasObjectValue",
+      "@type" : "@id"
+    },
+    "openingDate" : {
+      "@id" : "http://dbpedia.org/ontology/openingDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "coach" : {
+      "@id" : "http://dbpedia.org/ontology/coach",
+      "@type" : "@id"
+    },
+    "sheading" : {
+      "@id" : "http://dbpedia.org/ontology/sheading",
+      "@type" : "@id"
+    },
+    "status" : {
+      "@id" : "http://xmlns.com/foaf/0.1/#status"
+    },
+    "dean" : {
+      "@id" : "http://dbpedia.org/ontology/dean",
+      "@type" : "@id"
+    },
+    "currentDomicile" : {
+      "@id" : "http://dbpedia.org/ontology/currentDomicile",
+      "@type" : "@id"
+    },
+    "hasAcronym" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasAcronym",
+      "@type" : "@id"
+    },
+    "editing" : {
+      "@id" : "http://dbpedia.org/ontology/editing",
+      "@type" : "@id"
+    },
+    "field" : {
+      "@id" : "http://dbpedia.org/ontology/field",
+      "@type" : "@id"
+    },
+    "seasonNumber" : {
+      "@id" : "http://dbpedia.org/ontology/seasonNumber",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "firstName" : {
+      "@id" : "http://xmlns.com/foaf/0.1/#firstName"
+    },
+    "cmykCoordinateCyanic" : {
+      "@id" : "http://dbpedia.org/ontology/cmykCoordinateCyanic",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "firstDriverCountry" : {
+      "@id" : "http://dbpedia.org/ontology/firstDriverCountry",
+      "@type" : "@id"
+    },
+    "lowest" : {
+      "@id" : "http://dbpedia.org/ontology/lowest",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "owningCompany" : {
+      "@id" : "http://dbpedia.org/ontology/owningCompany",
+      "@type" : "@id"
+    },
+    "isEvaluationStateOf" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#isEvaluationStateOf",
+      "@type" : "@id"
+    },
+    "distanceToCardiff" : {
+      "@id" : "http://dbpedia.org/ontology/distanceToCardiff",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "isAbout" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#isAbout",
+      "@type" : "@id"
+    },
+    "PrimaryColor" : {
+      "@id" : "http://reliant.teknowledge.com/DAML/SUMO#PrimaryColor"
+    },
+    "PastelPainting" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#PastelPainting"
+    },
+    "producer" : {
+      "@id" : "http://dbpedia.org/ontology/producer",
+      "@type" : "@id"
+    },
+    "areaWater" : {
+      "@id" : "http://dbpedia.org/ontology/areaWater",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "Gallery" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Gallery"
+    },
+    "numberOfPads" : {
+      "@id" : "http://dbpedia.org/ontology/numberOfPads",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Birth" : {
+      "@id" : "http://reliant.teknowledge.com/DAML/SUMO#Birth"
+    },
+    "InternalChange" : {
+      "@id" : "http://reliant.teknowledge.com/DAML/SUMO#InternalChange"
+    },
+    "region" : {
+      "@id" : "http://dbpedia.org/ontology/region",
+      "@type" : "@id"
+    },
+    "identifier" : {
+      "@id" : "http://schema.org/identifier"
+    },
+    "lowestMountain" : {
+      "@id" : "http://dbpedia.org/ontology/lowestMountain",
+      "@type" : "@id"
+    },
+    "inLanguage" : {
+      "@id" : "http://schema.org/inLanguage",
+      "@type" : "@id"
+    },
+    "meetingCity" : {
+      "@id" : "http://dbpedia.org/ontology/meetingCity",
+      "@type" : "@id"
+    },
+    "item" : {
+      "@id" : "http://kulturarvsdata.se/ksamsok#item"
+    },
+    "genre" : {
+      "@id" : "http://schema.org/genre",
+      "@type" : "@id"
+    },
+    "principalArea" : {
+      "@id" : "http://dbpedia.org/ontology/principalArea",
+      "@type" : "@id"
+    },
+    "lowestPlace" : {
+      "@id" : "http://dbpedia.org/ontology/lowestPlace",
+      "@type" : "@id"
+    },
+    "P53_has_former_or_current_location" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#P53_has_former_or_current_location",
+      "@type" : "@id"
+    },
+    "ObjectValue" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#ObjectValue"
+    },
+    "InanimateThing" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#InanimateThing"
+    },
+    "E26_Physical_Feature" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E26_Physical_Feature"
+    },
+    "CivicStructure" : {
+      "@id" : "http://schema.org/CivicStructure"
+    },
+    "officerInCharge" : {
+      "@id" : "http://dbpedia.org/ontology/officerInCharge",
+      "@type" : "@id"
+    },
+    "P90_has_value" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#P90_has_value"
+    },
+    "deputy" : {
+      "@id" : "http://dbpedia.org/ontology/deputy",
+      "@type" : "@id"
+    },
+    "placeOfBurial" : {
+      "@id" : "http://dbpedia.org/ontology/placeOfBurial",
+      "@type" : "@id"
+    },
+    "sourceRegion" : {
+      "@id" : "http://dbpedia.org/ontology/sourceRegion",
+      "@type" : "@id"
+    },
+    "highestState" : {
+      "@id" : "http://dbpedia.org/ontology/highestState",
+      "@type" : "@id"
+    },
+    "presenter" : {
+      "@id" : "http://dbpedia.org/ontology/presenter",
+      "@type" : "@id"
+    },
+    "areaOfSearch" : {
+      "@id" : "http://dbpedia.org/ontology/areaOfSearch",
+      "@type" : "@id"
+    },
+    "irishName" : {
+      "@id" : "http://dbpedia.org/ontology/irishName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "personFunction" : {
+      "@id" : "http://dbpedia.org/ontology/personFunction",
+      "@type" : "@id"
+    },
+    "sponsor" : {
+      "@id" : "http://schema.org/sponsor",
+      "@type" : "@id"
+    },
+    "PlaceCoordinates" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#PlaceCoordinates"
+    },
+    "distanceToDouglas" : {
+      "@id" : "http://dbpedia.org/ontology/distanceToDouglas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "depicts" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#depicts",
+      "@type" : "@id"
+    },
+    "showJudge" : {
+      "@id" : "http://dbpedia.org/ontology/showJudge",
+      "@type" : "@id"
+    },
+    "birthPlace" : {
+      "@id" : "http://dbpedia.org/ontology/birthPlace",
+      "@type" : "@id"
+    },
+    "hasCreationLocation" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCreationLocation",
+      "@type" : "@id"
+    },
+    "nobelLaureates" : {
+      "@id" : "http://dbpedia.org/ontology/nobelLaureates",
+      "@type" : "@id"
+    },
+    "telephone" : {
+      "@id" : "http://schema.org/telephone",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "knowsLanguage" : {
+      "@id" : "http://schema.org/knowsLanguage",
+      "@type" : "@id"
+    },
+    "taoiseach" : {
+      "@id" : "http://dbpedia.org/ontology/taoiseach",
+      "@type" : "@id"
+    },
+    "spouse" : {
+      "@id" : "http://schema.org/spouse",
+      "@type" : "@id"
+    },
+    "hasOccupation" : {
+      "@id" : "http://schema.org/hasOccupation",
+      "@type" : "@id"
+    },
+    "regionServed" : {
+      "@id" : "http://dbpedia.org/ontology/regionServed",
+      "@type" : "@id"
+    },
+    "foundationPlace" : {
+      "@id" : "http://dbpedia.org/ontology/foundationPlace",
+      "@type" : "@id"
+    },
+    "chaplain" : {
+      "@id" : "http://dbpedia.org/ontology/chaplain",
+      "@type" : "@id"
+    },
+    "Place" : {
+      "@id" : "http://schema.org/Place"
+    },
+    "hasAcquisitionMethod" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasAcquisitionMethod",
+      "@type" : "@id"
+    },
+    "facultySize" : {
+      "@id" : "http://dbpedia.org/ontology/facultySize",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "publiclyAccessible" : {
+      "@id" : "http://dbpedia.org/ontology/publiclyAccessible",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "movement" : {
+      "@id" : "http://dbpedia.org/ontology/movement",
+      "@type" : "@id"
+    },
+    "numberOfVisitors" : {
+      "@id" : "http://dbpedia.org/ontology/numberOfVisitors",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "itemTitle" : {
+      "@id" : "http://kulturarvsdata.se/ksamsok#itemTitle"
+    },
+    "territory" : {
+      "@id" : "http://dbpedia.org/ontology/territory",
+      "@type" : "@id"
+    },
+    "Point" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Point"
+    },
+    "E82_Actor_Appellation" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#E82_Actor_Appellation"
+    },
+    "distanceToLondon" : {
+      "@id" : "http://dbpedia.org/ontology/distanceToLondon",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "flagBearer" : {
+      "@id" : "http://dbpedia.org/ontology/flagBearer",
+      "@type" : "@id"
+    },
+    "trainer" : {
+      "@id" : "http://dbpedia.org/ontology/trainer",
+      "@type" : "@id"
+    },
+    "P2_has_type" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#P2_has_type",
+      "@type" : "@id"
+    },
+    "operatingSystem" : {
+      "@id" : "http://schema.org/operatingSystem",
+      "@type" : "@id"
+    },
+    "inverseSingular" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#inverseSingular"
+    },
+    "exampleOfWork" : {
+      "@id" : "http://schema.org/exampleOfWork",
+      "@type" : "@id"
+    },
+    "engineer" : {
+      "@id" : "http://dbpedia.org/ontology/engineer",
+      "@type" : "@id"
+    },
+    "olympicOathSwornByJudge" : {
+      "@id" : "http://dbpedia.org/ontology/olympicOathSwornByJudge",
+      "@type" : "@id"
+    },
+    "CollegeOrUniversity" : {
+      "@id" : "http://schema.org/CollegeOrUniversity"
+    },
+    "secondDriver" : {
+      "@id" : "http://dbpedia.org/ontology/secondDriver",
+      "@type" : "@id"
+    },
+    "partialFailedLaunches" : {
+      "@id" : "http://dbpedia.org/ontology/partialFailedLaunches",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "OrganizationShort" : {
+      "@id" : "http://kulturarvsdata.se/presentation#OrganizationShort"
+    },
+    "E53_Place" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E53_Place"
+    },
+    "Miniaturist" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Miniaturist"
+    },
+    "PaintingTechnique" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#PaintingTechnique"
+    },
+    "UniqueIdentifier" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#UniqueIdentifier"
+    },
+    "P91_has_unit" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#P91_has_unit",
+      "@type" : "@id"
+    },
+    "fastestDriverCountry" : {
+      "@id" : "http://dbpedia.org/ontology/fastestDriverCountry",
+      "@type" : "@id"
+    },
+    "opponent" : {
+      "@id" : "http://dbpedia.org/ontology/opponent",
+      "@type" : "@id"
+    },
+    "refseq" : {
+      "@id" : "http://dbpedia.org/ontology/refseq",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "OrganizationAbbreviation" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#OrganizationAbbreviation"
+    },
+    "writer" : {
+      "@id" : "http://dbpedia.org/ontology/writer",
+      "@type" : "@id"
+    },
+    "foundingDate" : {
+      "@id" : "http://dbpedia.org/ontology/foundingDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "headteacher" : {
+      "@id" : "http://dbpedia.org/ontology/headteacher",
+      "@type" : "@id"
+    },
+    "occupation" : {
+      "@id" : "http://dbpedia.org/ontology/occupation",
+      "@type" : "@id"
+    },
+    "parentOrganization" : {
+      "@id" : "http://schema.org/parentOrganization",
+      "@type" : "@id"
+    },
+    "hasFormerLocation" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasFormerLocation",
+      "@type" : "@id"
+    },
+    "represents" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#represents",
+      "@type" : "@id"
+    },
+    "WordSense" : {
+      "@id" : "http://multiwordnet.fbk.eu/hwnOnto.owl#WordSense"
+    },
+    "head" : {
+      "@id" : "http://dbpedia.org/ontology/head",
+      "@type" : "@id"
+    },
+    "beatifiedBy" : {
+      "@id" : "http://dbpedia.org/ontology/beatifiedBy",
+      "@type" : "@id"
+    },
+    "seniority" : {
+      "@id" : "http://dbpedia.org/ontology/seniority",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "originalMaximumBoatLength" : {
+      "@id" : "http://dbpedia.org/ontology/Canal/originalMaximumBoatLength"
+    },
+    "E45_Address" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E45_Address"
+    },
+    "P44_has_condition" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#P44_has_condition",
+      "@type" : "@id"
+    },
+    "WaterscapePainting" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#WaterscapePainting"
+    },
+    "P131_is_identified_by" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#P131_is_identified_by",
+      "@type" : "@id"
+    },
+    "musicBy" : {
+      "@id" : "http://schema.org/musicBy",
+      "@type" : "@id"
+    },
+    "shareDate" : {
+      "@id" : "http://dbpedia.org/ontology/shareDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "isMediumOf" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#isMediumOf",
+      "@type" : "@id"
+    },
+    "academyAward" : {
+      "@id" : "http://dbpedia.org/ontology/academyAward",
+      "@type" : "@id"
+    },
+    "schoolnumber" : {
+      "@id" : "http://dbpedia.org/ontology/schoolnumber",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "duns" : {
+      "@id" : "http://schema.org/duns",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "AcquisitionType" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#AcquisitionType"
+    },
+    "SurfaceMaterial" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#SurfaceMaterial"
+    },
+    "vicePrincipal" : {
+      "@id" : "http://dbpedia.org/ontology/vicePrincipal",
+      "@type" : "@id"
+    },
+    "ceeb" : {
+      "@id" : "http://dbpedia.org/ontology/ceeb",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "BarkPainting" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#BarkPainting"
+    },
+    "issn" : {
+      "@id" : "http://schema.org/issn",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "locationCreated" : {
+      "@id" : "http://schema.org/locationCreated",
+      "@type" : "@id"
+    },
+    "governmentRegion" : {
+      "@id" : "http://dbpedia.org/ontology/governmentRegion",
+      "@type" : "@id"
+    },
+    "tonyAward" : {
+      "@id" : "http://dbpedia.org/ontology/tonyAward",
+      "@type" : "@id"
+    },
+    "hasUnitOfMeasure" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasUnitOfMeasure",
+      "@type" : "@id"
+    },
+    "documents" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#documents",
+      "@type" : "@id"
+    },
+    "P70_documents" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#P70_documents",
+      "@type" : "@id"
+    },
+    "registration" : {
+      "@id" : "http://dbpedia.org/ontology/registration",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasPhotographyDate" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasPhotographyDate",
+      "@type" : "@id"
+    },
+    "P102_has_title" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#P102_has_title",
+      "@type" : "@id"
+    },
+    "serviceNumber" : {
+      "@id" : "http://dbpedia.org/ontology/serviceNumber",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "award" : {
+      "@id" : "http://dbpedia.org/ontology/award",
+      "@type" : "@id"
+    },
+    "restingPlacePosition" : {
+      "@id" : "http://dbpedia.org/ontology/restingPlacePosition",
+      "@type" : "@id"
+    },
+    "SelfPortrait" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#SelfPortrait"
+    },
+    "type" : {
+      "@id" : "http://kulturarvsdata.se/ksamsok#type"
+    },
+    "executiveProducer" : {
+      "@id" : "http://dbpedia.org/ontology/executiveProducer",
+      "@type" : "@id"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate"
+    },
+    "publisher" : {
+      "@id" : "http://schema.org/publisher",
+      "@type" : "@id"
+    },
+    "numberOfWineries" : {
+      "@id" : "http://dbpedia.org/ontology/numberOfWineries",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "maximumDepth" : {
+      "@id" : "http://dbpedia.org/ontology/maximumDepth",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "displayedAt" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#displayedAt",
+      "@type" : "@id"
+    },
+    "secondCommander" : {
+      "@id" : "http://dbpedia.org/ontology/secondCommander",
+      "@type" : "@id"
+    },
+    "arrondissement" : {
+      "@id" : "http://dbpedia.org/ontology/arrondissement",
+      "@type" : "@id"
+    },
+    "grossDomesticProduct" : {
+      "@id" : "http://dbpedia.org/ontology/grossDomesticProduct",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "scottishName" : {
+      "@id" : "http://dbpedia.org/ontology/scottishName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "datePublished" : {
+      "@id" : "http://schema.org/datePublished"
+    },
+    "E78_Collection" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E78_Collection"
+    },
+    "filmFareAward" : {
+      "@id" : "http://dbpedia.org/ontology/filmFareAward",
+      "@type" : "@id"
+    },
+    "serviceEndDate" : {
+      "@id" : "http://dbpedia.org/ontology/serviceEndDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "mouthCountry" : {
+      "@id" : "http://dbpedia.org/ontology/mouthCountry",
+      "@type" : "@id"
+    },
+    "taxonRank" : {
+      "@id" : "http://bioschemas.org/taxonRank",
+      "@type" : "@id"
+    },
+    "metropolitanBorough" : {
+      "@id" : "http://dbpedia.org/ontology/metropolitanBorough",
+      "@type" : "@id"
+    },
+    "PaintMaterial" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#PaintMaterial"
+    },
+    "Exhibition" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Exhibition"
+    },
+    "twinCountry" : {
+      "@id" : "http://dbpedia.org/ontology/twinCountry",
+      "@type" : "@id"
+    },
+    "managementPlace" : {
+      "@id" : "http://dbpedia.org/ontology/managementPlace",
+      "@type" : "@id"
+    },
+    "state" : {
+      "@id" : "http://dbpedia.org/ontology/state",
+      "@type" : "@id"
+    },
+    "formerHighschool" : {
+      "@id" : "http://dbpedia.org/ontology/formerHighschool",
+      "@type" : "@id"
+    },
+    "mouthPlace" : {
+      "@id" : "http://dbpedia.org/ontology/mouthPlace",
+      "@type" : "@id"
+    },
+    "sourceState" : {
+      "@id" : "http://dbpedia.org/ontology/sourceState",
+      "@type" : "@id"
+    },
+    "depth" : {
+      "@id" : "http://dbpedia.org/ontology/depth",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "P45_consists_of" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#P45_consists_of",
+      "@type" : "@id"
+    },
+    "Museum" : {
+      "@id" : "http://reliant.teknowledge.com/DAML/Mid-level-ontology.owl#Museum"
+    },
+    "placeName" : {
+      "@id" : "http://kulturarvsdata.se/ksamsok#placeName"
+    },
+    "saint" : {
+      "@id" : "http://dbpedia.org/ontology/saint",
+      "@type" : "@id"
+    },
+    "Village" : {
+      "@id" : "http://dbpedia.org/ontology/Village"
+    },
+    "modified" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#modified"
+    },
+    "E16_Measurement" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E16_Measurement"
+    },
+    "notableCommander" : {
+      "@id" : "http://dbpedia.org/ontology/notableCommander",
+      "@type" : "@id"
+    },
+    "intercommunality" : {
+      "@id" : "http://dbpedia.org/ontology/intercommunality",
+      "@type" : "@id"
+    },
+    "upperAge" : {
+      "@id" : "http://dbpedia.org/ontology/upperAge",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Year" : {
+      "@id" : "http://www.w3.org/2006/time#Year"
+    },
+    "other" : {
+      "@id" : "http://dbpedia.org/ontology/other",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "CurrencyMeasure" : {
+      "@id" : "http://reliant.teknowledge.com/DAML/SUMO#CurrencyMeasure"
+    },
+    "shareSource" : {
+      "@id" : "http://dbpedia.org/ontology/shareSource",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "largestSettlement" : {
+      "@id" : "http://dbpedia.org/ontology/largestSettlement",
+      "@type" : "@id"
+    },
+    "torchBearer" : {
+      "@id" : "http://dbpedia.org/ontology/torchBearer",
+      "@type" : "@id"
+    },
+    "officialOpenedBy" : {
+      "@id" : "http://dbpedia.org/ontology/officialOpenedBy",
+      "@type" : "@id"
+    },
+    "Word" : {
+      "@id" : "http://reliant.teknowledge.com/DAML/SUMO#Word"
+    },
+    "P82_at_some_time_within" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#P82_at_some_time_within"
+    },
+    "partOfSeries" : {
+      "@id" : "http://schema.org/partOfSeries",
+      "@type" : "@id"
+    },
+    "capital" : {
+      "@id" : "http://dbpedia.org/ontology/capital",
+      "@type" : "@id"
+    },
+    "viceChancellor" : {
+      "@id" : "http://dbpedia.org/ontology/viceChancellor",
+      "@type" : "@id"
+    },
+    "crownDependency" : {
+      "@id" : "http://dbpedia.org/ontology/crownDependency",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "alumni" : {
+      "@id" : "http://schema.org/alumni",
+      "@type" : "@id"
+    },
+    "distributor" : {
+      "@id" : "http://dbpedia.org/ontology/distributor",
+      "@type" : "@id"
+    },
+    "isLocatedInSubcellularLocation" : {
+      "@id" : "http://bioschemas.org/isLocatedInSubcellularLocation",
+      "@type" : "@id"
+    },
+    "secondDriverCountry" : {
+      "@id" : "http://dbpedia.org/ontology/secondDriverCountry",
+      "@type" : "@id"
+    },
+    "AgentAppellation" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#AgentAppellation"
+    },
+    "OilMedium" : {
+      "@id" : "http://reliant.teknowledge.com/DAML/Mid-level-ontology.owl#OilMedium"
+    },
+    "ranking" : {
+      "@id" : "http://dbpedia.org/ontology/ranking",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "hasColorAttribute" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasColorAttribute",
+      "@type" : "@id"
+    },
+    "OilPainting" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#OilPainting"
+    },
+    "populationMetroDensity" : {
+      "@id" : "http://dbpedia.org/ontology/populationMetroDensity",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "logo" : {
+      "@id" : "http://schema.org/logo",
+      "@type" : "@id"
+    },
+    "originalMaximumBoatBeam" : {
+      "@id" : "http://dbpedia.org/ontology/Canal/originalMaximumBoatBeam"
+    },
+    "hasCurrentCurator" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCurrentCurator",
+      "@type" : "@id"
+    },
+    "colorist" : {
+      "@id" : "http://schema.org/colorist",
+      "@type" : "@id"
+    },
+    "parentTaxon" : {
+      "@id" : "http://bioschemas.org/parentTaxon",
+      "@type" : "@id"
+    },
+    "setupTime" : {
+      "@id" : "http://dbpedia.org/ontology/setupTime",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "hasCreationDate" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCreationDate",
+      "@type" : "@id"
+    },
+    "alumniOf" : {
+      "@id" : "http://schema.org/alumniOf",
+      "@type" : "@id"
+    },
+    "voice" : {
+      "@id" : "http://dbpedia.org/ontology/voice",
+      "@type" : "@id"
+    },
+    "guest" : {
+      "@id" : "http://dbpedia.org/ontology/guest",
+      "@type" : "@id"
+    },
+    "ObjectType" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#ObjectType"
+    },
+    "E12_Production" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E12_Production"
+    },
+    "headquarter" : {
+      "@id" : "http://dbpedia.org/ontology/headquarter",
+      "@type" : "@id"
+    },
+    "ThangkaPainting" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#ThangkaPainting"
+    },
+    "manager" : {
+      "@id" : "http://dbpedia.org/ontology/manager",
+      "@type" : "@id"
+    },
+    "PolymerPainting" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#PolymerPainting"
+    },
+    "numberOfVineyards" : {
+      "@id" : "http://dbpedia.org/ontology/numberOfVineyards",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "tenant" : {
+      "@id" : "http://dbpedia.org/ontology/tenant",
+      "@type" : "@id"
+    },
+    "containedInPlace" : {
+      "@id" : "http://schema.org/containedInPlace",
+      "@type" : "@id"
+    },
+    "architect" : {
+      "@id" : "http://dbpedia.org/ontology/architect",
+      "@type" : "@id"
+    },
+    "countryOfOrigin" : {
+      "@id" : "http://schema.org/countryOfOrigin",
+      "@type" : "@id"
+    },
+    "party" : {
+      "@id" : "http://dbpedia.org/ontology/party",
+      "@type" : "@id"
+    },
+    "City" : {
+      "@id" : "http://schema.org/City"
+    },
+    "State" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#State"
+    },
+    "president" : {
+      "@id" : "http://dbpedia.org/ontology/president",
+      "@type" : "@id"
+    },
+    "mouthState" : {
+      "@id" : "http://dbpedia.org/ontology/mouthState",
+      "@type" : "@id"
+    },
+    "races" : {
+      "@id" : "http://dbpedia.org/ontology/races",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "shipBeam" : {
+      "@id" : "http://dbpedia.org/ontology/shipBeam",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "cmykCoordinateMagenta" : {
+      "@id" : "http://dbpedia.org/ontology/cmykCoordinateMagenta",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "board" : {
+      "@id" : "http://dbpedia.org/ontology/board",
+      "@type" : "@id"
+    },
+    "partner" : {
+      "@id" : "http://dbpedia.org/ontology/partner",
+      "@type" : "@id"
+    },
+    "populationPlace" : {
+      "@id" : "http://dbpedia.org/ontology/populationPlace",
+      "@type" : "@id"
+    },
+    "populationUrban" : {
+      "@id" : "http://dbpedia.org/ontology/populationUrban",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "hsvCoordinateSaturation" : {
+      "@id" : "http://dbpedia.org/ontology/hsvCoordinateSaturation",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "lowestState" : {
+      "@id" : "http://dbpedia.org/ontology/lowestState",
+      "@type" : "@id"
+    },
+    "headquarters" : {
+      "@id" : "http://dbpedia.org/ontology/headquarters",
+      "@type" : "@id"
+    },
+    "endPoint" : {
+      "@id" : "http://dbpedia.org/ontology/endPoint",
+      "@type" : "@id"
+    },
+    "unitaryAuthority" : {
+      "@id" : "http://dbpedia.org/ontology/unitaryAuthority",
+      "@type" : "@id"
+    },
+    "regime" : {
+      "@id" : "http://dbpedia.org/ontology/regime",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "employer" : {
+      "@id" : "http://dbpedia.org/ontology/employer",
+      "@type" : "@id"
+    },
+    "P127_has_broader_term" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#P127_has_broader_term",
+      "@type" : "@id"
+    },
+    "numberOfStaff" : {
+      "@id" : "http://dbpedia.org/ontology/numberOfStaff",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "abbreviation" : {
+      "@id" : "http://dbpedia.org/ontology/abbreviation",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "albumRelease" : {
+      "@id" : "http://schema.org/albumRelease",
+      "@type" : "@id"
+    },
+    "P87_is_identified_by" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#P87_is_identified_by",
+      "@type" : "@id"
+    },
+    "Function" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Function"
+    },
+    "primeMinister" : {
+      "@id" : "http://dbpedia.org/ontology/primeMinister",
+      "@type" : "@id"
+    },
+    "afiAward" : {
+      "@id" : "http://dbpedia.org/ontology/afiAward",
+      "@type" : "@id"
+    },
+    "homeLocation" : {
+      "@id" : "http://schema.org/homeLocation",
+      "@type" : "@id"
+    },
+    "itemName" : {
+      "@id" : "http://kulturarvsdata.se/ksamsok#itemName"
+    },
+    "P14_carried_out_by" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#P14_carried_out_by",
+      "@type" : "@id"
+    },
+    "principalEngineer" : {
+      "@id" : "http://dbpedia.org/ontology/principalEngineer",
+      "@type" : "@id"
+    },
+    "previousEvent" : {
+      "@id" : "http://dbpedia.org/ontology/previousEvent",
+      "@type" : "@id"
+    },
+    "relative" : {
+      "@id" : "http://dbpedia.org/ontology/relative",
+      "@type" : "@id"
+    },
+    "Currency" : {
+      "@id" : "http://dbpedia.org/ontology/Currency"
+    },
+    "municipality" : {
+      "@id" : "http://dbpedia.org/ontology/municipality",
+      "@type" : "@id"
+    },
+    "numberOfSports" : {
+      "@id" : "http://dbpedia.org/ontology/numberOfSports",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "distanceToDublin" : {
+      "@id" : "http://dbpedia.org/ontology/distanceToDublin",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "numberOfGraduateStudents" : {
+      "@id" : "http://dbpedia.org/ontology/numberOfGraduateStudents",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "extinctionYear" : {
+      "@id" : "http://dbpedia.org/ontology/extinctionYear",
+      "@type" : "http://www.w3.org/2001/XMLSchema#gYear"
+    },
+    "E57_Material" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E57_Material"
+    },
+    "productionStartDate" : {
+      "@id" : "http://dbpedia.org/ontology/productionStartDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "hasUniqueIdentifier" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasUniqueIdentifier",
+      "@type" : "@id"
+    },
+    "previousEditor" : {
+      "@id" : "http://dbpedia.org/ontology/previousEditor",
+      "@type" : "@id"
+    },
+    "memberOf" : {
+      "@id" : "http://schema.org/memberOf",
+      "@type" : "@id"
+    },
+    "extinctionDate" : {
+      "@id" : "http://dbpedia.org/ontology/extinctionDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "clubsRecordGoalscorer" : {
+      "@id" : "http://dbpedia.org/ontology/clubsRecordGoalscorer",
+      "@type" : "@id"
+    },
+    "parish" : {
+      "@id" : "http://dbpedia.org/ontology/parish",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "custodian" : {
+      "@id" : "http://dbpedia.org/ontology/custodian",
+      "@type" : "@id"
+    },
+    "hasGeographicLocation" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasGeographicLocation",
+      "@type" : "@id"
+    },
+    "nearestCity" : {
+      "@id" : "http://dbpedia.org/ontology/nearestCity",
+      "@type" : "@id"
+    },
+    "alongside" : {
+      "@id" : "http://dbpedia.org/ontology/alongside",
+      "@type" : "@id"
+    },
+    "Image" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Image"
+    },
+    "E8_Acquisition" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E8_Acquisition"
+    },
+    "day" : {
+      "@id" : "http://dbpedia.org/ontology/day",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "hasRegistrationDate" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasRegistrationDate",
+      "@type" : "@id"
+    },
+    "productionCompany" : {
+      "@id" : "http://schema.org/productionCompany",
+      "@type" : "@id"
+    },
+    "Document" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Document"
+    },
+    "fastestDriver" : {
+      "@id" : "http://dbpedia.org/ontology/fastestDriver",
+      "@type" : "@id"
+    },
+    "numberOfPostgraduateStudents" : {
+      "@id" : "http://dbpedia.org/ontology/numberOfPostgraduateStudents",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "highestRegion" : {
+      "@id" : "http://dbpedia.org/ontology/highestRegion",
+      "@type" : "@id"
+    },
+    "E38_Image" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E38_Image"
+    },
+    "hasDimension" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasDimension",
+      "@type" : "@id"
+    },
+    "IdentifierType" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#IdentifierType"
+    },
+    "highestPlace" : {
+      "@id" : "http://dbpedia.org/ontology/highestPlace",
+      "@type" : "@id"
+    },
+    "jointCommunity" : {
+      "@id" : "http://dbpedia.org/ontology/jointCommunity",
+      "@type" : "@id"
+    },
+    "leaderTitle" : {
+      "@id" : "http://dbpedia.org/ontology/leaderTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "residence" : {
+      "@id" : "http://dbpedia.org/ontology/residence",
+      "@type" : "@id"
+    },
+    "pubchem" : {
+      "@id" : "http://dbpedia.org/ontology/pubchem",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "commander" : {
+      "@id" : "http://dbpedia.org/ontology/commander",
+      "@type" : "@id"
+    },
+    "contributor" : {
+      "@id" : "http://schema.org/contributor",
+      "@type" : "@id"
+    },
+    "workExample" : {
+      "@id" : "http://schema.org/workExample",
+      "@type" : "@id"
+    },
+    "partOfSeason" : {
+      "@id" : "http://schema.org/partOfSeason",
+      "@type" : "@id"
+    },
+    "formationYear" : {
+      "@id" : "http://dbpedia.org/ontology/formationYear",
+      "@type" : "http://www.w3.org/2001/XMLSchema#gYear"
+    },
+    "pdb" : {
+      "@id" : "http://dbpedia.org/ontology/pdb",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "training" : {
+      "@id" : "http://dbpedia.org/ontology/training",
+      "@type" : "@id"
+    },
+    "E40_Legal_Body" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E40_Legal_Body"
+    },
+    "Settlement" : {
+      "@id" : "http://dbpedia.org/ontology/Settlement"
+    },
+    "OntologyElement" : {
+      "@id" : "http://spraakbanken.gu.se/LexOnto.owl#OntologyElement"
+    },
+    "beltwayCity" : {
+      "@id" : "http://dbpedia.org/ontology/beltwayCity",
+      "@type" : "@id"
+    },
+    "isBasedOn" : {
+      "@id" : "http://schema.org/isBasedOn",
+      "@type" : "@id"
+    },
+    "rocketStages" : {
+      "@id" : "http://dbpedia.org/ontology/rocketStages",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "lieutenancyArea" : {
+      "@id" : "http://dbpedia.org/ontology/lieutenancyArea",
+      "@type" : "@id"
+    },
+    "numberOfIslands" : {
+      "@id" : "http://dbpedia.org/ontology/numberOfIslands",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "E89_Propositional_Object" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E89_Propositional_Object"
+    },
+    "Color" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Color"
+    },
+    "owns" : {
+      "@id" : "http://schema.org/owns",
+      "@type" : "@id"
+    },
+    "federalState" : {
+      "@id" : "http://dbpedia.org/ontology/federalState",
+      "@type" : "@id"
+    },
+    "locationCity" : {
+      "@id" : "http://dbpedia.org/ontology/locationCity",
+      "@type" : "@id"
+    },
+    "exhibitionOf" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#exhibitionOf",
+      "@type" : "@id"
+    },
+    "influenced" : {
+      "@id" : "http://dbpedia.org/ontology/influenced",
+      "@type" : "@id"
+    },
+    "P138_represents" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#P138_represents",
+      "@type" : "@id"
+    },
+    "sourceConfluenceCountry" : {
+      "@id" : "http://dbpedia.org/ontology/sourceConfluenceCountry",
+      "@type" : "@id"
+    },
+    "isInvolvedInBiologicalProcess" : {
+      "@id" : "http://bioschemas.org/isInvolvedInBiologicalProcess",
+      "@type" : "@id"
+    },
+    "orbitalFlights" : {
+      "@id" : "http://dbpedia.org/ontology/orbitalFlights",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "countryOrigin" : {
+      "@id" : "http://dbpedia.org/ontology/countryOrigin",
+      "@type" : "@id"
+    },
+    "nominee" : {
+      "@id" : "http://dbpedia.org/ontology/nominee",
+      "@type" : "@id"
+    },
+    "numberOfOrbits" : {
+      "@id" : "http://dbpedia.org/ontology/numberOfOrbits",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "YearDuration" : {
+      "@id" : "http://reliant.teknowledge.com/DAML/SUMO#YearDuration"
+    },
+    "citizenship" : {
+      "@id" : "http://dbpedia.org/ontology/citizenship",
+      "@type" : "@id"
+    },
+    "EncausticPainting" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#EncausticPainting"
+    },
+    "numberOfSilverMedalsWon" : {
+      "@id" : "http://dbpedia.org/ontology/numberOfSilverMedalsWon",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "hometown" : {
+      "@id" : "http://dbpedia.org/ontology/hometown",
+      "@type" : "@id"
+    },
+    "broughtIntLife" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#broughtIntLife"
+    },
+    "Device" : {
+      "@id" : "http://reliant.teknowledge.com/DAML/SUMO#Device"
+    },
+    "nationality" : {
+      "@id" : "http://dbpedia.org/ontology/nationality",
+      "@type" : "@id"
+    },
+    "Collector" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Collector"
+    },
+    "ceo" : {
+      "@id" : "http://dbpedia.org/ontology/ceo",
+      "@type" : "@id"
+    },
+    "areaLand" : {
+      "@id" : "http://dbpedia.org/ontology/areaLand",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "rankInFinalMedalCount" : {
+      "@id" : "http://dbpedia.org/ontology/rankInFinalMedalCount",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "populationUrbanDensity" : {
+      "@id" : "http://dbpedia.org/ontology/PopulatedPlace/populationUrbanDensity"
+    },
+    "rector" : {
+      "@id" : "http://dbpedia.org/ontology/rector",
+      "@type" : "@id"
+    },
+    "grammyAward" : {
+      "@id" : "http://dbpedia.org/ontology/grammyAward",
+      "@type" : "@id"
+    },
+    "hasCurrentOwner" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCurrentOwner",
+      "@type" : "@id"
+    },
+    "WatercolorPainting" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#WatercolorPainting"
+    },
+    "endDate" : {
+      "@id" : "http://schema.org/endDate"
+    },
+    "latValue" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#latValue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Move" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Move"
+    },
+    "GeographicArea" : {
+      "@id" : "http://reliant.teknowledge.com/DAML/SUMO#GeographicArea"
+    },
+    "placeOfOrigin" : {
+      "@id" : "http://dbpedia.org/ontology/placeOfOrigin",
+      "@type" : "@id"
+    },
+    "academicAdvisor" : {
+      "@id" : "http://dbpedia.org/ontology/academicAdvisor",
+      "@type" : "@id"
+    },
+    "AdministrativeArea" : {
+      "@id" : "http://schema.org/AdministrativeArea"
+    },
+    "Reference" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Reference"
+    },
+    "ClassificationConcept" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#ClassificationConcept"
+    },
+    "keyPerson" : {
+      "@id" : "http://dbpedia.org/ontology/keyPerson",
+      "@type" : "@id"
+    },
+    "artist" : {
+      "@id" : "http://dbpedia.org/ontology/artist",
+      "@type" : "@id"
+    },
+    "recentWinner" : {
+      "@id" : "http://dbpedia.org/ontology/recentWinner",
+      "@type" : "@id"
+    },
+    "Region" : {
+      "@id" : "http://reliant.teknowledge.com/DAML/SUMO#Region"
+    },
+    "nationalOrigin" : {
+      "@id" : "http://dbpedia.org/ontology/nationalOrigin",
+      "@type" : "@id"
+    },
+    "functionStartDate" : {
+      "@id" : "http://dbpedia.org/ontology/functionStartDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "generalManager" : {
+      "@id" : "http://dbpedia.org/ontology/generalManager",
+      "@type" : "@id"
+    },
+    "E55_Type" : {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E55_Type"
+    },
+    "superintendent" : {
+      "@id" : "http://dbpedia.org/ontology/superintendent",
+      "@type" : "@id"
+    },
+    "vicePrimeMinister" : {
+      "@id" : "http://dbpedia.org/ontology/vicePrimeMinister",
+      "@type" : "@id"
+    },
+    "actor" : {
+      "@id" : "http://schema.org/actor",
+      "@type" : "@id"
+    },
+    "governorGeneral" : {
+      "@id" : "http://dbpedia.org/ontology/governorGeneral",
+      "@type" : "@id"
+    },
+    "coProducer" : {
+      "@id" : "http://dbpedia.org/ontology/coProducer",
+      "@type" : "@id"
+    },
+    "hasIdentifierType" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIdentifierType",
+      "@type" : "@id"
+    },
+    "worksFor" : {
+      "@id" : "http://schema.org/worksFor",
+      "@type" : "@id"
+    },
+    "formationDate" : {
+      "@id" : "http://dbpedia.org/ontology/formationDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "schoolCode" : {
+      "@id" : "http://dbpedia.org/ontology/schoolCode",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "isbn" : {
+      "@id" : "http://schema.org/isbn",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "retired" : {
+      "@id" : "http://dbpedia.org/ontology/retired",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "weight" : {
+      "@id" : "http://schema.org/weight",
+      "@type" : "@id"
+    },
+    "distanceToBelfast" : {
+      "@id" : "http://dbpedia.org/ontology/distanceToBelfast",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "billed" : {
+      "@id" : "http://dbpedia.org/ontology/billed",
+      "@type" : "@id"
+    },
+    "followingEvent" : {
+      "@id" : "http://dbpedia.org/ontology/followingEvent",
+      "@type" : "@id"
+    },
+    "starring" : {
+      "@id" : "http://dbpedia.org/ontology/starring",
+      "@type" : "@id"
+    },
+    "broadcastArea" : {
+      "@id" : "http://dbpedia.org/ontology/broadcastArea",
+      "@type" : "@id"
+    },
+    "AcrylicPainting" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#AcrylicPainting"
+    },
+    "lowestRegion" : {
+      "@id" : "http://dbpedia.org/ontology/lowestRegion",
+      "@type" : "@id"
+    },
+    "podiums" : {
+      "@id" : "http://dbpedia.org/ontology/podiums",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "issueNumber" : {
+      "@id" : "http://schema.org/issueNumber",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "canonizedPlace" : {
+      "@id" : "http://dbpedia.org/ontology/canonizedPlace",
+      "@type" : "@id"
+    },
+    "productionYears" : {
+      "@id" : "http://dbpedia.org/ontology/productionYears",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "hasPresentationDate" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasPresentationDate",
+      "@type" : "@id"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#preferredNamespaceUri"
+    },
+    "governor" : {
+      "@id" : "http://dbpedia.org/ontology/governor",
+      "@type" : "@id"
+    },
+    "ceremonialCounty" : {
+      "@id" : "http://dbpedia.org/ontology/ceremonialCounty",
+      "@type" : "@id"
+    },
+    "unitCode" : {
+      "@id" : "http://schema.org/unitCode",
+      "@type" : "@id"
+    },
+    "share" : {
+      "@id" : "http://dbpedia.org/ontology/share",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "plant" : {
+      "@id" : "http://dbpedia.org/ontology/plant",
+      "@type" : "@id"
+    },
+    "hasCurrentLocation" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCurrentLocation",
+      "@type" : "@id"
+    },
+    "school" : {
+      "@id" : "http://dbpedia.org/ontology/school",
+      "@type" : "@id"
+    },
+    "isIdentifiedByName" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#isIdentifiedByName",
+      "@type" : "@id"
+    },
+    "result" : {
+      "@id" : "http://dbpedia.org/ontology/result",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "isPaintedWith" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#isPaintedWith",
+      "@type" : "@id"
+    },
+    "locationCountry" : {
+      "@id" : "http://dbpedia.org/ontology/locationCountry",
+      "@type" : "@id"
+    },
+    "PencilPainting" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#PencilPainting"
+    },
+    "relation" : {
+      "@id" : "http://dbpedia.org/ontology/relation",
+      "@type" : "@id"
+    },
+    "associateEditor" : {
+      "@id" : "http://dbpedia.org/ontology/associateEditor",
+      "@type" : "@id"
+    },
+    "ProductionEvent" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#ProductionEvent"
+    },
+    "transferredCustodyOf" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#transferredCustodyOf",
+      "@type" : "@id"
+    },
+    "CurrencyUnit" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#CurrencyUnit"
+    },
+    "Collection" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Collection"
+    },
+    "PortraitPainting" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#PortraitPainting"
+    },
+    "managementCountry" : {
+      "@id" : "http://dbpedia.org/ontology/managementCountry",
+      "@type" : "@id"
+    },
+    "volumeNumber" : {
+      "@id" : "http://schema.org/volumeNumber",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "frazioni" : {
+      "@id" : "http://dbpedia.org/ontology/frazioni",
+      "@type" : "@id"
+    },
+    "purpose" : {
+      "@id" : "http://dbpedia.org/ontology/purpose",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "rgbCoordinateRed" : {
+      "@id" : "http://dbpedia.org/ontology/rgbCoordinateRed",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "cityType" : {
+      "@id" : "http://dbpedia.org/ontology/cityType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Painter" : {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Painter"
+    },
+    "actingHeadteacher" : {
+      "@id" : "http://dbpedia.org/ontology/actingHeadteacher",
+      "@type" : "@id"
+    },
+    "railwayPlatforms" : {
+      "@id" : "http://dbpedia.org/ontology/railwayPlatforms",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ruralMunicipality" : {
+      "@id" : "http://dbpedia.org/ontology/ruralMunicipality",
+      "@type" : "@id"
+    },
+    "editor" : {
+      "@id" : "http://dbpedia.org/ontology/editor",
+      "@type" : "@id"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "@id"
+    },
+    "programCost" : {
+      "@id" : "http://dbpedia.org/ontology/programCost",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "contentRating" : {
+      "@id" : "http://schema.org/contentRating",
+      "@type" : "@id"
+    },
+    "administrativeDistrict" : {
+      "@id" : "http://dbpedia.org/ontology/administrativeDistrict",
+      "@type" : "@id"
+    },
+    "governmentCountry" : {
+      "@id" : "http://dbpedia.org/ontology/governmentCountry",
+      "@type" : "@id"
+    }
+  }
+}
