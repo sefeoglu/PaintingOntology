@@ -845,6 +845,8 @@
     
 
 
+
+
     <!-- http://dbpedia.org/ontology/countryWithFirstSatelliteLaunched -->
 
     <owl:ObjectProperty rdf:about="http://dbpedia.org/ontology/countryWithFirstSatelliteLaunched">
