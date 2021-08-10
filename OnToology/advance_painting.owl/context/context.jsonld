@@ -8,10 +8,6 @@
       "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#belongsTo",
       "@type" : "@id"
     },
-    "hasLocalName" : {
-      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasLocalName",
-      "@type" : "@id"
-    },
     "sourceConfluencePlace" : {
       "@id" : "http://dbpedia.org/ontology/sourceConfluencePlace",
       "@type" : "@id"
@@ -27,10 +23,6 @@
       "@id" : "http://dbpedia.org/ontology/olympicOathSwornByAthlete",
       "@type" : "@id"
     },
-    "P109_has_current_or_former_curator" : {
-      "@id" : "http://purl.org/NET/cidoc-crm/core#P109_has_current_or_former_curator",
-      "@type" : "@id"
-    },
     "birthName" : {
       "@id" : "http://dbpedia.org/ontology/birthName",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
@@ -44,10 +36,6 @@
     },
     "isStateOf" : {
       "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#isStateOf",
-      "@type" : "@id"
-    },
-    "hasTitle" : {
-      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasTitle",
       "@type" : "@id"
     },
     "LandscapePainting" : {
@@ -270,10 +258,6 @@
       "@id" : "http://dbpedia.org/ontology/poles",
       "@type" : "http://www.w3.org/2001/XMLSchema#integer"
     },
-    "hasUnitOfCurrency" : {
-      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasUnitOfCurrency",
-      "@type" : "@id"
-    },
     "university" : {
       "@id" : "http://dbpedia.org/ontology/university",
       "@type" : "@id"
@@ -302,10 +286,6 @@
     },
     "width" : {
       "@id" : "http://schema.org/width",
-      "@type" : "@id"
-    },
-    "P27_moved_from" : {
-      "@id" : "http://purl.org/NET/cidoc-crm/core#P27_moved_from",
       "@type" : "@id"
     },
     "itemTechnique" : {
@@ -373,10 +353,6 @@
       "@id" : "http://dbpedia.org/ontology/thirdDriverCountry",
       "@type" : "@id"
     },
-    "P108_has_produced" : {
-      "@id" : "http://purl.org/NET/cidoc-crm/core#P108_has_produced",
-      "@type" : "@id"
-    },
     "playingTime" : {
       "@id" : "http://dbpedia.org/ontology/playingTime",
       "@type" : "http://www.w3.org/2001/XMLSchema#double"
@@ -386,10 +362,6 @@
     },
     "ethnicity" : {
       "@id" : "http://dbpedia.org/ontology/ethnicity",
-      "@type" : "@id"
-    },
-    "P52_has_current_owner" : {
-      "@id" : "http://purl.org/NET/cidoc-crm/core#P52_has_current_owner",
       "@type" : "@id"
     },
     "production" : {
@@ -442,16 +414,8 @@
       "@id" : "http://schema.org/contentLocation",
       "@type" : "@id"
     },
-    "P107_has_current_or_former_member" : {
-      "@id" : "http://purl.org/NET/cidoc-crm/core#P107_has_current_or_former_member",
-      "@type" : "@id"
-    },
     "citation" : {
       "@id" : "http://schema.org/citation",
-      "@type" : "@id"
-    },
-    "isIdentifiedBy" : {
-      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#isIdentifiedBy",
       "@type" : "@id"
     },
     "garrison" : {
@@ -516,10 +480,6 @@
     "Organization" : {
       "@id" : "http://schema.org/Organization"
     },
-    "comprises" : {
-      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#comprises",
-      "@type" : "@id"
-    },
     "stateOfOrigin" : {
       "@id" : "http://dbpedia.org/ontology/stateOfOrigin",
       "@type" : "@id"
@@ -530,10 +490,6 @@
     },
     "photographedBy" : {
       "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#photographedBy",
-      "@type" : "@id"
-    },
-    "P30_transferred_custody_of" : {
-      "@id" : "http://purl.org/NET/cidoc-crm/core#P30_transferred_custody_of",
       "@type" : "@id"
     },
     "E42_Identifier" : {
@@ -566,10 +522,6 @@
     },
     "capitalCountry" : {
       "@id" : "http://dbpedia.org/ontology/capitalCountry",
-      "@type" : "@id"
-    },
-    "hasCondition" : {
-      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCondition",
       "@type" : "@id"
     },
     "associate" : {
@@ -683,10 +635,6 @@
       "@id" : "http://dbpedia.org/ontology/area",
       "@type" : "@id"
     },
-    "bioChemInteraction" : {
-      "@id" : "http://bioschemas.org/bioChemInteraction",
-      "@type" : "@id"
-    },
     "managingEditor" : {
       "@id" : "http://dbpedia.org/ontology/managingEditor",
       "@type" : "@id"
@@ -717,10 +665,6 @@
     "minimumElevation" : {
       "@id" : "http://dbpedia.org/ontology/minimumElevation",
       "@type" : "http://www.w3.org/2001/XMLSchema#double"
-    },
-    "P88_consists_of" : {
-      "@id" : "http://purl.org/NET/cidoc-crm/core#P88_consists_of",
-      "@type" : "@id"
     },
     "hasValue" : {
       "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasValue",
@@ -869,10 +813,6 @@
       "@id" : "http://schema.org/musicReleaseFormat",
       "@type" : "@id"
     },
-    "hasIntendedUse" : {
-      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIntendedUse",
-      "@type" : "@id"
-    },
     "narrator" : {
       "@id" : "http://dbpedia.org/ontology/narrator",
       "@type" : "@id"
@@ -932,10 +872,6 @@
     },
     "AcquisitionActivity" : {
       "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#AcquisitionActivity"
-    },
-    "hasValueType" : {
-      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasValueType",
-      "@type" : "@id"
     },
     "sourceCountry" : {
       "@id" : "http://dbpedia.org/ontology/sourceCountry",
@@ -1055,10 +991,6 @@
       "@id" : "http://dbpedia.org/ontology/percentageOfAreaWaterRound",
       "@type" : "http://www.w3.org/2001/XMLSchema#integer"
     },
-    "hasClassification" : {
-      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasClassification",
-      "@type" : "@id"
-    },
     "about" : {
       "@id" : "http://schema.org/about",
       "@type" : "@id"
@@ -1158,10 +1090,6 @@
       "@id" : "http://dbpedia.org/ontology/riverMouth",
       "@type" : "@id"
     },
-    "carriedOutBy" : {
-      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#carriedOutBy",
-      "@type" : "@id"
-    },
     "AbstractPainting" : {
       "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#AbstractPainting"
     },
@@ -1171,10 +1099,6 @@
     },
     "creativeDirector" : {
       "@id" : "http://dbpedia.org/ontology/creativeDirector",
-      "@type" : "@id"
-    },
-    "P98_brought_into_life" : {
-      "@id" : "http://purl.org/NET/cidoc-crm/core#P98_brought_into_life",
       "@type" : "@id"
     },
     "hasPaintingDescriptor" : {
@@ -1236,10 +1160,6 @@
     "orderInOffice" : {
       "@id" : "http://dbpedia.org/ontology/orderInOffice",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "movedFrom" : {
-      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#movedFrom",
-      "@type" : "@id"
     },
     "numberOfMembers" : {
       "@id" : "http://dbpedia.org/ontology/numberOfMembers",
@@ -1336,10 +1256,6 @@
       "@id" : "http://dbpedia.org/ontology/pseudonym",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
-    "P55_has_current_location" : {
-      "@id" : "http://purl.org/NET/cidoc-crm/core#P55_has_current_location",
-      "@type" : "@id"
-    },
     "firstWinner" : {
       "@id" : "http://dbpedia.org/ontology/firstWinner",
       "@type" : "@id"
@@ -1394,17 +1310,9 @@
       "@id" : "http://dbpedia.org/ontology/governmentPlace",
       "@type" : "@id"
     },
-    "hasMaterialCategory" : {
-      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasMaterialCategory",
-      "@type" : "@id"
-    },
     "unknownOutcomes" : {
       "@id" : "http://dbpedia.org/ontology/unknownOutcomes",
       "@type" : "http://www.w3.org/2001/XMLSchema#integer"
-    },
-    "broughtIntoLife" : {
-      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#broughtIntoLife",
-      "@type" : "@id"
     },
     "E58_Measurement_Unit" : {
       "@id" : "http://purl.org/NET/cidoc-crm/core#E58_Measurement_Unit"
@@ -1454,20 +1362,8 @@
     "Agent" : {
       "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Agent"
     },
-    "P15_was_influenced_by" : {
-      "@id" : "http://purl.org/NET/cidoc-crm/core#P15_was_influenced_by",
-      "@type" : "@id"
-    },
-    "P129_is_about" : {
-      "@id" : "http://purl.org/NET/cidoc-crm/core#P129_is_about",
-      "@type" : "@id"
-    },
     "fourthCommander" : {
       "@id" : "http://dbpedia.org/ontology/fourthCommander",
-      "@type" : "@id"
-    },
-    "P26_moved_to" : {
-      "@id" : "http://purl.org/NET/cidoc-crm/core#P26_moved_to",
       "@type" : "@id"
     },
     "lyricist" : {
@@ -1542,10 +1438,6 @@
       "@id" : "http://dbpedia.org/ontology/sourcePlace",
       "@type" : "@id"
     },
-    "hasProduced" : {
-      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasProduced",
-      "@type" : "@id"
-    },
     "office" : {
       "@id" : "http://dbpedia.org/ontology/office",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
@@ -1575,10 +1467,6 @@
     },
     "WordSenseId" : {
       "@id" : "http://spraakbanken.gu.se/saldo/saldoOnto.owl#WordSenseId"
-    },
-    "P103_was_intended_for" : {
-      "@id" : "http://purl.org/NET/cidoc-crm/core#P103_was_intended_for",
-      "@type" : "@id"
     },
     "closed" : {
       "@id" : "http://dbpedia.org/ontology/closed",
@@ -1670,10 +1558,6 @@
     },
     "currentPartner" : {
       "@id" : "http://dbpedia.org/ontology/currentPartner",
-      "@type" : "@id"
-    },
-    "hasMember" : {
-      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasMember",
       "@type" : "@id"
     },
     "releaseOf" : {
@@ -1789,10 +1673,6 @@
       "@id" : "http://spraakbanken.gu.se/saldo/saldoOnto.owl#hasSense",
       "@type" : "@id"
     },
-    "P43_has_dimension" : {
-      "@id" : "http://purl.org/NET/cidoc-crm/core#P43_has_dimension",
-      "@type" : "@id"
-    },
     "birthYear" : {
       "@id" : "http://dbpedia.org/ontology/birthYear",
       "@type" : "http://www.w3.org/2001/XMLSchema#gYear"
@@ -1803,10 +1683,6 @@
     },
     "photographer" : {
       "@id" : "http://dbpedia.org/ontology/photographer",
-      "@type" : "@id"
-    },
-    "movedTo" : {
-      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#movedTo",
       "@type" : "@id"
     },
     "originalEndPoint" : {
@@ -1886,10 +1762,6 @@
       "@id" : "http://dbpedia.org/ontology/distanceToCardiff",
       "@type" : "http://www.w3.org/2001/XMLSchema#double"
     },
-    "isAbout" : {
-      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#isAbout",
-      "@type" : "@id"
-    },
     "PrimaryColor" : {
       "@id" : "http://reliant.teknowledge.com/DAML/SUMO#PrimaryColor"
     },
@@ -1949,10 +1821,6 @@
     },
     "lowestPlace" : {
       "@id" : "http://dbpedia.org/ontology/lowestPlace",
-      "@type" : "@id"
-    },
-    "P53_has_former_or_current_location" : {
-      "@id" : "http://purl.org/NET/cidoc-crm/core#P53_has_former_or_current_location",
       "@type" : "@id"
     },
     "ObjectValue" : {
@@ -2072,10 +1940,6 @@
     "Place" : {
       "@id" : "http://schema.org/Place"
     },
-    "hasAcquisitionMethod" : {
-      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasAcquisitionMethod",
-      "@type" : "@id"
-    },
     "facultySize" : {
       "@id" : "http://dbpedia.org/ontology/facultySize",
       "@type" : "http://www.w3.org/2001/XMLSchema#integer"
@@ -2115,10 +1979,6 @@
     },
     "trainer" : {
       "@id" : "http://dbpedia.org/ontology/trainer",
-      "@type" : "@id"
-    },
-    "P2_has_type" : {
-      "@id" : "http://purl.org/NET/cidoc-crm/core#P2_has_type",
       "@type" : "@id"
     },
     "operatingSystem" : {
@@ -2205,10 +2065,6 @@
       "@id" : "http://schema.org/parentOrganization",
       "@type" : "@id"
     },
-    "hasFormerLocation" : {
-      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasFormerLocation",
-      "@type" : "@id"
-    },
     "represents" : {
       "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#represents",
       "@type" : "@id"
@@ -2234,16 +2090,8 @@
     "E45_Address" : {
       "@id" : "http://purl.org/NET/cidoc-crm/core#E45_Address"
     },
-    "P44_has_condition" : {
-      "@id" : "http://purl.org/NET/cidoc-crm/core#P44_has_condition",
-      "@type" : "@id"
-    },
     "WaterscapePainting" : {
       "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#WaterscapePainting"
-    },
-    "P131_is_identified_by" : {
-      "@id" : "http://purl.org/NET/cidoc-crm/core#P131_is_identified_by",
-      "@type" : "@id"
     },
     "musicBy" : {
       "@id" : "http://schema.org/musicBy",
@@ -2320,10 +2168,6 @@
     },
     "hasPhotographyDate" : {
       "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasPhotographyDate",
-      "@type" : "@id"
-    },
-    "P102_has_title" : {
-      "@id" : "http://purl.org/NET/cidoc-crm/core#P102_has_title",
       "@type" : "@id"
     },
     "serviceNumber" : {
@@ -2534,10 +2378,6 @@
       "@id" : "http://dbpedia.org/ontology/distributor",
       "@type" : "@id"
     },
-    "isLocatedInSubcellularLocation" : {
-      "@id" : "http://bioschemas.org/isLocatedInSubcellularLocation",
-      "@type" : "@id"
-    },
     "secondDriverCountry" : {
       "@id" : "http://dbpedia.org/ontology/secondDriverCountry",
       "@type" : "@id"
@@ -2570,21 +2410,16 @@
     "originalMaximumBoatBeam" : {
       "@id" : "http://dbpedia.org/ontology/Canal/originalMaximumBoatBeam"
     },
-    "hasCurrentCurator" : {
-      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCurrentCurator",
-      "@type" : "@id"
-    },
     "colorist" : {
       "@id" : "http://schema.org/colorist",
-      "@type" : "@id"
-    },
-    "parentTaxon" : {
-      "@id" : "http://bioschemas.org/parentTaxon",
       "@type" : "@id"
     },
     "setupTime" : {
       "@id" : "http://dbpedia.org/ontology/setupTime",
       "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "date" : {
+      "@id" : "http://www.semanticweb.org/sefika/ontologies/2021/7/advance_painting.owl#date"
     },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
@@ -2735,10 +2570,6 @@
       "@id" : "http://schema.org/albumRelease",
       "@type" : "@id"
     },
-    "P87_is_identified_by" : {
-      "@id" : "http://purl.org/NET/cidoc-crm/core#P87_is_identified_by",
-      "@type" : "@id"
-    },
     "Function" : {
       "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Function"
     },
@@ -2756,10 +2587,6 @@
     },
     "itemName" : {
       "@id" : "http://kulturarvsdata.se/ksamsok#itemName"
-    },
-    "P14_carried_out_by" : {
-      "@id" : "http://purl.org/NET/cidoc-crm/core#P14_carried_out_by",
-      "@type" : "@id"
     },
     "principalEngineer" : {
       "@id" : "http://dbpedia.org/ontology/principalEngineer",
@@ -2834,10 +2661,6 @@
       "@id" : "http://dbpedia.org/ontology/custodian",
       "@type" : "@id"
     },
-    "hasGeographicLocation" : {
-      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasGeographicLocation",
-      "@type" : "@id"
-    },
     "nearestCity" : {
       "@id" : "http://dbpedia.org/ontology/nearestCity",
       "@type" : "@id"
@@ -2881,10 +2704,6 @@
     },
     "E38_Image" : {
       "@id" : "http://purl.org/NET/cidoc-crm/core#E38_Image"
-    },
-    "hasDimension" : {
-      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasDimension",
-      "@type" : "@id"
     },
     "IdentifierType" : {
       "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#IdentifierType"
@@ -3000,10 +2819,6 @@
       "@id" : "http://dbpedia.org/ontology/sourceConfluenceCountry",
       "@type" : "@id"
     },
-    "isInvolvedInBiologicalProcess" : {
-      "@id" : "http://bioschemas.org/isInvolvedInBiologicalProcess",
-      "@type" : "@id"
-    },
     "orbitalFlights" : {
       "@id" : "http://dbpedia.org/ontology/orbitalFlights",
       "@type" : "http://www.w3.org/2001/XMLSchema#integer"
@@ -3072,10 +2887,6 @@
     },
     "grammyAward" : {
       "@id" : "http://dbpedia.org/ontology/grammyAward",
-      "@type" : "@id"
-    },
-    "hasCurrentOwner" : {
-      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCurrentOwner",
       "@type" : "@id"
     },
     "WatercolorPainting" : {
@@ -3159,10 +2970,6 @@
     },
     "coProducer" : {
       "@id" : "http://dbpedia.org/ontology/coProducer",
-      "@type" : "@id"
-    },
-    "hasIdentifierType" : {
-      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIdentifierType",
       "@type" : "@id"
     },
     "worksFor" : {
@@ -3259,16 +3066,8 @@
       "@id" : "http://dbpedia.org/ontology/plant",
       "@type" : "@id"
     },
-    "hasCurrentLocation" : {
-      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCurrentLocation",
-      "@type" : "@id"
-    },
     "school" : {
       "@id" : "http://dbpedia.org/ontology/school",
-      "@type" : "@id"
-    },
-    "isIdentifiedByName" : {
-      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#isIdentifiedByName",
       "@type" : "@id"
     },
     "result" : {
@@ -3297,9 +3096,8 @@
     "ProductionEvent" : {
       "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#ProductionEvent"
     },
-    "transferredCustodyOf" : {
-      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#transferredCustodyOf",
-      "@type" : "@id"
+    "portrait" : {
+      "@id" : "http://www.semanticweb.org/sefika/ontologies/2021/7/advance_painting.owl#portrait"
     },
     "CurrencyUnit" : {
       "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#CurrencyUnit"

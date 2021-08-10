@@ -87,10 +87,6 @@ xsd:integer rdf:type rdfs:Datatype .
 #    Object Properties
 #################################################################
 
-###  http://bioschemas.org/bioChemInteraction
-<http://bioschemas.org/bioChemInteraction> rdf:type owl:ObjectProperty .
-
-
 ###  http://bioschemas.org/encodesBioChemEntity
 <http://bioschemas.org/encodesBioChemEntity> rdf:type owl:ObjectProperty ;
                                              owl:inverseOf <http://bioschemas.org/isEncodedByBioChemEntity> .
@@ -106,18 +102,6 @@ xsd:integer rdf:type rdfs:Datatype .
 
 ###  http://bioschemas.org/isEncodedByBioChemEntity
 <http://bioschemas.org/isEncodedByBioChemEntity> rdf:type owl:ObjectProperty .
-
-
-###  http://bioschemas.org/isInvolvedInBiologicalProcess
-<http://bioschemas.org/isInvolvedInBiologicalProcess> rdf:type owl:ObjectProperty .
-
-
-###  http://bioschemas.org/isLocatedInSubcellularLocation
-<http://bioschemas.org/isLocatedInSubcellularLocation> rdf:type owl:ObjectProperty .
-
-
-###  http://bioschemas.org/parentTaxon
-<http://bioschemas.org/parentTaxon> rdf:type owl:ObjectProperty .
 
 
 ###  http://bioschemas.org/taxonRank
@@ -2115,73 +2099,13 @@ xsd:integer rdf:type rdfs:Datatype .
                                                   rdfs:range <http://multiwordnet.fbk.eu/hwnOnto.owl#WordSense> .
 
 
-###  http://purl.org/NET/cidoc-crm/core#P102_has_title
-<http://purl.org/NET/cidoc-crm/core#P102_has_title> rdf:type owl:ObjectProperty .
-
-
-###  http://purl.org/NET/cidoc-crm/core#P103_was_intended_for
-<http://purl.org/NET/cidoc-crm/core#P103_was_intended_for> rdf:type owl:ObjectProperty .
-
-
-###  http://purl.org/NET/cidoc-crm/core#P107_has_current_or_former_member
-<http://purl.org/NET/cidoc-crm/core#P107_has_current_or_former_member> rdf:type owl:ObjectProperty .
-
-
-###  http://purl.org/NET/cidoc-crm/core#P108_has_produced
-<http://purl.org/NET/cidoc-crm/core#P108_has_produced> rdf:type owl:ObjectProperty .
-
-
-###  http://purl.org/NET/cidoc-crm/core#P109_has_current_or_former_curator
-<http://purl.org/NET/cidoc-crm/core#P109_has_current_or_former_curator> rdf:type owl:ObjectProperty .
-
-
 ###  http://purl.org/NET/cidoc-crm/core#P127_has_broader_term
 <http://purl.org/NET/cidoc-crm/core#P127_has_broader_term> rdf:type owl:ObjectProperty ;
                                                            rdfs:comment "SingularInverse: crm:has_narrow_term" .
 
 
-###  http://purl.org/NET/cidoc-crm/core#P129_is_about
-<http://purl.org/NET/cidoc-crm/core#P129_is_about> rdf:type owl:ObjectProperty .
-
-
-###  http://purl.org/NET/cidoc-crm/core#P131_is_identified_by
-<http://purl.org/NET/cidoc-crm/core#P131_is_identified_by> rdf:type owl:ObjectProperty .
-
-
 ###  http://purl.org/NET/cidoc-crm/core#P138_represents
 <http://purl.org/NET/cidoc-crm/core#P138_represents> rdf:type owl:ObjectProperty .
-
-
-###  http://purl.org/NET/cidoc-crm/core#P14_carried_out_by
-<http://purl.org/NET/cidoc-crm/core#P14_carried_out_by> rdf:type owl:ObjectProperty .
-
-
-###  http://purl.org/NET/cidoc-crm/core#P15_was_influenced_by
-<http://purl.org/NET/cidoc-crm/core#P15_was_influenced_by> rdf:type owl:ObjectProperty .
-
-
-###  http://purl.org/NET/cidoc-crm/core#P26_moved_to
-<http://purl.org/NET/cidoc-crm/core#P26_moved_to> rdf:type owl:ObjectProperty .
-
-
-###  http://purl.org/NET/cidoc-crm/core#P27_moved_from
-<http://purl.org/NET/cidoc-crm/core#P27_moved_from> rdf:type owl:ObjectProperty .
-
-
-###  http://purl.org/NET/cidoc-crm/core#P2_has_type
-<http://purl.org/NET/cidoc-crm/core#P2_has_type> rdf:type owl:ObjectProperty .
-
-
-###  http://purl.org/NET/cidoc-crm/core#P30_transferred_custody_of
-<http://purl.org/NET/cidoc-crm/core#P30_transferred_custody_of> rdf:type owl:ObjectProperty .
-
-
-###  http://purl.org/NET/cidoc-crm/core#P43_has_dimension
-<http://purl.org/NET/cidoc-crm/core#P43_has_dimension> rdf:type owl:ObjectProperty .
-
-
-###  http://purl.org/NET/cidoc-crm/core#P44_has_condition
-<http://purl.org/NET/cidoc-crm/core#P44_has_condition> rdf:type owl:ObjectProperty .
 
 
 ###  http://purl.org/NET/cidoc-crm/core#P45_consists_of
@@ -2193,36 +2117,12 @@ xsd:integer rdf:type rdfs:Datatype .
 <http://purl.org/NET/cidoc-crm/core#P48_has_preferred_identifier> rdf:type owl:ObjectProperty .
 
 
-###  http://purl.org/NET/cidoc-crm/core#P52_has_current_owner
-<http://purl.org/NET/cidoc-crm/core#P52_has_current_owner> rdf:type owl:ObjectProperty .
-
-
-###  http://purl.org/NET/cidoc-crm/core#P53_has_former_or_current_location
-<http://purl.org/NET/cidoc-crm/core#P53_has_former_or_current_location> rdf:type owl:ObjectProperty .
-
-
-###  http://purl.org/NET/cidoc-crm/core#P55_has_current_location
-<http://purl.org/NET/cidoc-crm/core#P55_has_current_location> rdf:type owl:ObjectProperty .
-
-
 ###  http://purl.org/NET/cidoc-crm/core#P70_documents
 <http://purl.org/NET/cidoc-crm/core#P70_documents> rdf:type owl:ObjectProperty .
 
 
-###  http://purl.org/NET/cidoc-crm/core#P87_is_identified_by
-<http://purl.org/NET/cidoc-crm/core#P87_is_identified_by> rdf:type owl:ObjectProperty .
-
-
-###  http://purl.org/NET/cidoc-crm/core#P88_consists_of
-<http://purl.org/NET/cidoc-crm/core#P88_consists_of> rdf:type owl:ObjectProperty .
-
-
 ###  http://purl.org/NET/cidoc-crm/core#P91_has_unit
 <http://purl.org/NET/cidoc-crm/core#P91_has_unit> rdf:type owl:ObjectProperty .
-
-
-###  http://purl.org/NET/cidoc-crm/core#P98_brought_into_life
-<http://purl.org/NET/cidoc-crm/core#P98_brought_into_life> rdf:type owl:ObjectProperty .
 
 
 ###  http://schema.org/about
@@ -2903,29 +2803,6 @@ xsd:integer rdf:type rdfs:Datatype .
                                                            rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#Collection> .
 
 
-###  http://spraakbanken.gu.se/rdf/owl/painting.owl#broughtIntoLife
-<http://spraakbanken.gu.se/rdf/owl/painting.owl#broughtIntoLife> rdf:type owl:ObjectProperty ;
-                                                                 rdfs:subPropertyOf <http://purl.org/NET/cidoc-crm/core#P98_brought_into_life> ;
-                                                                 rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#Birth> ;
-                                                                 rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#Human> .
-
-
-###  http://spraakbanken.gu.se/rdf/owl/painting.owl#carriedOutBy
-<http://spraakbanken.gu.se/rdf/owl/painting.owl#carriedOutBy> rdf:type owl:ObjectProperty ;
-                                                              rdfs:subPropertyOf <http://purl.org/NET/cidoc-crm/core#P14_carried_out_by> ;
-                                                              rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#AcquisitionActivity> ;
-                                                              rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#Agent> .
-
-
-###  http://spraakbanken.gu.se/rdf/owl/painting.owl#comprises
-<http://spraakbanken.gu.se/rdf/owl/painting.owl#comprises> rdf:type owl:ObjectProperty ;
-                                                           rdfs:subPropertyOf <http://purl.org/NET/cidoc-crm/core#P88_consists_of> ;
-                                                           rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#Place> ;
-                                                           rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#Place> ;
-                                                           rdfs:comment "Inverse: is located in; forms part of" ,
-                                                                        "This property identifies an E53 Place that forms part of another Place." .
-
-
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#createdBy
 <http://spraakbanken.gu.se/rdf/owl/painting.owl#createdBy> rdf:type owl:ObjectProperty ;
                                                            rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting> ;
@@ -2986,13 +2863,6 @@ xsd:integer rdf:type rdfs:Datatype .
                                                                     rdfs:comment "sometimes is equivalent to registrationDate" .
 
 
-###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasAcquisitionMethod
-<http://spraakbanken.gu.se/rdf/owl/painting.owl#hasAcquisitionMethod> rdf:type owl:ObjectProperty ;
-                                                                      rdfs:subPropertyOf <http://purl.org/NET/cidoc-crm/core#P2_has_type> ;
-                                                                      rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#AcquisitionActivity> ;
-                                                                      rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#AcquisitionType> .
-
-
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasAcronym
 <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasAcronym> rdf:type owl:ObjectProperty ;
                                                             rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#Organization> ;
@@ -3015,13 +2885,6 @@ xsd:integer rdf:type rdfs:Datatype .
                                                                 rdfs:comment "Inverse: painting: hasNarrowTerm" .
 
 
-###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasClassification
-<http://spraakbanken.gu.se/rdf/owl/painting.owl#hasClassification> rdf:type owl:ObjectProperty ;
-                                                                   rdfs:subPropertyOf <http://purl.org/NET/cidoc-crm/core#P2_has_type> ;
-                                                                   rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting> ;
-                                                                   rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#ClassificationConcept> .
-
-
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasColor
 <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasColor> rdf:type owl:ObjectProperty ;
                                                           rdfs:subPropertyOf <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasPaintingDescriptor> ;
@@ -3034,14 +2897,6 @@ xsd:integer rdf:type rdfs:Datatype .
                                                                    rdfs:subPropertyOf <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasAssignedAttribute> ;
                                                                    rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#Color> ;
                                                                    rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#ColorAttribute> .
-
-
-###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCondition
-<http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCondition> rdf:type owl:ObjectProperty ;
-                                                              rdfs:subPropertyOf <http://purl.org/NET/cidoc-crm/core#P44_has_condition> ;
-                                                              rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting> ;
-                                                              rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#StateOfObject> ;
-                                                              <http://spraakbanken.gu.se/rdf/owl/painting.owl#inverseSingular> "isEvaluationStateOf" .
 
 
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCreationDate
@@ -3058,54 +2913,11 @@ xsd:integer rdf:type rdfs:Datatype .
                                                                      rdfs:comment "made in" .
 
 
-###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCurrentCurator
-<http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCurrentCurator> rdf:type owl:ObjectProperty ;
-                                                                   rdfs:subPropertyOf <http://purl.org/NET/cidoc-crm/core#P109_has_current_or_former_curator> ;
-                                                                   rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#Collection> ;
-                                                                   rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#Agent> .
-
-
-###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCurrentLocation
-<http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCurrentLocation> rdf:type owl:ObjectProperty ;
-                                                                    rdfs:subPropertyOf <http://purl.org/NET/cidoc-crm/core#P55_has_current_location> ;
-                                                                    rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting> ;
-                                                                    rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#PlaceAppellation> ;
-                                                                    rdfs:label """EngWN
-store 02282506
-display 02144506"""@eng ,
-                                                                               """HebWN 
-אִחְסֵן  01025171
-01464775 !הִפְגִּין, !הִצִּיג"""@heb ,
-                                                                               """förvara..1
-återfinna..1"""@swe .
-
-
-###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCurrentOwner
-<http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCurrentOwner> rdf:type owl:ObjectProperty ;
-                                                                 rdfs:subPropertyOf <http://purl.org/NET/cidoc-crm/core#P52_has_current_owner> ;
-                                                                 rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting> ;
-                                                                 rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#Agent> .
-
-
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasDesignPattern
 <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasDesignPattern> rdf:type owl:ObjectProperty ;
                                                                   rdfs:subPropertyOf <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasPaintingDescriptor> ;
                                                                   rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting> ;
                                                                   rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#DesignPattern> .
-
-
-###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasDimension
-<http://spraakbanken.gu.se/rdf/owl/painting.owl#hasDimension> rdf:type owl:ObjectProperty ;
-                                                              rdfs:subPropertyOf <http://purl.org/NET/cidoc-crm/core#P43_has_dimension> ;
-                                                              rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting> ;
-                                                              rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#Dimension> .
-
-
-###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasFormerLocation
-<http://spraakbanken.gu.se/rdf/owl/painting.owl#hasFormerLocation> rdf:type owl:ObjectProperty ;
-                                                                   rdfs:subPropertyOf <http://purl.org/NET/cidoc-crm/core#P53_has_former_or_current_location> ;
-                                                                   rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting> ;
-                                                                   rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#PlaceAppellation> .
 
 
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasGeoPos
@@ -3114,39 +2926,11 @@ display 02144506"""@eng ,
                                                            rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#Point> .
 
 
-###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasGeographicLocation
-<http://spraakbanken.gu.se/rdf/owl/painting.owl#hasGeographicLocation> rdf:type owl:ObjectProperty ;
-                                                                       rdfs:subPropertyOf <http://spraakbanken.gu.se/rdf/owl/painting.owl#isIdentifiedBy> ;
-                                                                       rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#Place> ;
-                                                                       rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#Region> .
-
-
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasHistoricalContext
 <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasHistoricalContext> rdf:type owl:ObjectProperty ;
                                                                       rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting> ;
                                                                       rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#ObjectDescription> ;
                                                                       rdfs:comment "A description can be a sentence, phrase or a text" .
-
-
-###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIdentifierType
-<http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIdentifierType> rdf:type owl:ObjectProperty ;
-                                                                   rdfs:subPropertyOf <http://purl.org/NET/cidoc-crm/core#P2_has_type> ;
-                                                                   rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#UniqueIdentifier> ;
-                                                                   rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#IdentifierType> .
-
-
-###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIntendedUse
-<http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIntendedUse> rdf:type owl:ObjectProperty ;
-                                                                rdfs:subPropertyOf <http://purl.org/NET/cidoc-crm/core#P103_was_intended_for> ;
-                                                                rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting> ;
-                                                                rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#Function> .
-
-
-###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasLocalName
-<http://spraakbanken.gu.se/rdf/owl/painting.owl#hasLocalName> rdf:type owl:ObjectProperty ;
-                                                              rdfs:subPropertyOf <http://purl.org/NET/cidoc-crm/core#P2_has_type> ;
-                                                              rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting> ;
-                                                              rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#ObjectName> .
 
 
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasMaterial
@@ -3157,25 +2941,11 @@ display 02144506"""@eng ,
                                                              rdfs:comment "made of" .
 
 
-###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasMaterialCategory
-<http://spraakbanken.gu.se/rdf/owl/painting.owl#hasMaterialCategory> rdf:type owl:ObjectProperty ;
-                                                                     rdfs:subPropertyOf <http://purl.org/NET/cidoc-crm/core#P2_has_type> ;
-                                                                     rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#Material> ;
-                                                                     rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#MaterialType> .
-
-
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasMedium
 <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasMedium> rdf:type owl:ObjectProperty ;
                                                            rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#Material> ;
                                                            rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#Medium> ;
                                                            <http://spraakbanken.gu.se/rdf/owl/painting.owl#inverseSingular> "isMediumOf"@en .
-
-
-###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasMember
-<http://spraakbanken.gu.se/rdf/owl/painting.owl#hasMember> rdf:type owl:ObjectProperty ;
-                                                           rdfs:subPropertyOf <http://purl.org/NET/cidoc-crm/core#P107_has_current_or_former_member> ;
-                                                           rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#Organization> ;
-                                                           rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#Human> .
 
 
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasNarrowerTerm
@@ -3242,13 +3012,6 @@ display 02144506"""@eng ,
                                                                          rdfs:comment "presented in " .
 
 
-###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasProduced
-<http://spraakbanken.gu.se/rdf/owl/painting.owl#hasProduced> rdf:type owl:ObjectProperty ;
-                                                             rdfs:subPropertyOf <http://purl.org/NET/cidoc-crm/core#P108_has_produced> ;
-                                                             rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#ProductionEvent> ;
-                                                             rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting> .
-
-
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasReference
 <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasReference> rdf:type owl:ObjectProperty ;
                                                               rdfs:subPropertyOf <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasPaintingDescriptor> ;
@@ -3270,25 +3033,11 @@ display 02144506"""@eng ,
                                                                    rdfs:comment "Inverse of crm:P.138 represents" .
 
 
-###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasTitle
-<http://spraakbanken.gu.se/rdf/owl/painting.owl#hasTitle> rdf:type owl:ObjectProperty ;
-                                                          rdfs:subPropertyOf <http://purl.org/NET/cidoc-crm/core#P102_has_title> ;
-                                                          rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting> ;
-                                                          rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#Title> .
-
-
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasUniqueIdentifier
 <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasUniqueIdentifier> rdf:type owl:ObjectProperty ;
                                                                      rdfs:subPropertyOf <http://purl.org/NET/cidoc-crm/core#P48_has_preferred_identifier> ;
                                                                      rdfs:domain owl:Thing ;
                                                                      rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#UniqueIdentifier> .
-
-
-###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasUnitOfCurrency
-<http://spraakbanken.gu.se/rdf/owl/painting.owl#hasUnitOfCurrency> rdf:type owl:ObjectProperty ;
-                                                                   rdfs:subPropertyOf <http://purl.org/NET/cidoc-crm/core#P2_has_type> ;
-                                                                   rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#ObjectValue> ;
-                                                                   rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#CurrencyUnit> .
 
 
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasUnitOfMeasure
@@ -3298,33 +3047,10 @@ display 02144506"""@eng ,
                                                                   rdfs:range <http://reliant.teknowledge.com/DAML/SUMO#UnitOfMeasure> .
 
 
-###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasValueType
-<http://spraakbanken.gu.se/rdf/owl/painting.owl#hasValueType> rdf:type owl:ObjectProperty ;
-                                                              rdfs:subPropertyOf <http://purl.org/NET/cidoc-crm/core#P2_has_type> ;
-                                                              rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting> ;
-                                                              rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#ObjectType> ;
-                                                              rdfs:comment "consider data property with boolean value" .
-
-
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hascoordinates
 <http://spraakbanken.gu.se/rdf/owl/painting.owl#hascoordinates> rdf:type owl:ObjectProperty ;
                                                                 rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#Place> ;
                                                                 rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#PlaceCoordinates> .
-
-
-###  http://spraakbanken.gu.se/rdf/owl/painting.owl#influencedBy
-<http://spraakbanken.gu.se/rdf/owl/painting.owl#influencedBy> rdf:type owl:ObjectProperty ;
-                                                              rdfs:subPropertyOf <http://purl.org/NET/cidoc-crm/core#P15_was_influenced_by> ;
-                                                              rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#ProductionEvent> ;
-                                                              rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#ClassificationConcept> .
-
-
-###  http://spraakbanken.gu.se/rdf/owl/painting.owl#isAbout
-<http://spraakbanken.gu.se/rdf/owl/painting.owl#isAbout> rdf:type owl:ObjectProperty ;
-                                                         rdfs:subPropertyOf <http://purl.org/NET/cidoc-crm/core#P129_is_about> ;
-                                                         rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#ObjectDescription> ;
-                                                         rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting> ;
-                                                         rdfs:comment "Inverse hasDescription" .
 
 
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#isCreatorOf
@@ -3337,20 +3063,6 @@ display 02144506"""@eng ,
 <http://spraakbanken.gu.se/rdf/owl/painting.owl#isEvaluationStateOf> rdf:type owl:ObjectProperty ;
                                                                      rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#StateOfObject> ;
                                                                      rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting> .
-
-
-###  http://spraakbanken.gu.se/rdf/owl/painting.owl#isIdentifiedBy
-<http://spraakbanken.gu.se/rdf/owl/painting.owl#isIdentifiedBy> rdf:type owl:ObjectProperty ;
-                                                                rdfs:subPropertyOf <http://purl.org/NET/cidoc-crm/core#P87_is_identified_by> ;
-                                                                rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#Place> ;
-                                                                rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#PlaceAppellation> .
-
-
-###  http://spraakbanken.gu.se/rdf/owl/painting.owl#isIdentifiedByName
-<http://spraakbanken.gu.se/rdf/owl/painting.owl#isIdentifiedByName> rdf:type owl:ObjectProperty ;
-                                                                    rdfs:subPropertyOf <http://purl.org/NET/cidoc-crm/core#P131_is_identified_by> ;
-                                                                    rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#Agent> ;
-                                                                    rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#AgentAppellation> .
 
 
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#isKnownFor
@@ -3376,20 +3088,6 @@ display 02144506"""@eng ,
                                                            rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#StateOfObject> ;
                                                            rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#RepresentedThing> ;
                                                            <http://spraakbanken.gu.se/rdf/owl/painting.owl#inverseSingular> "hasRepresentedState"@en .
-
-
-###  http://spraakbanken.gu.se/rdf/owl/painting.owl#movedFrom
-<http://spraakbanken.gu.se/rdf/owl/painting.owl#movedFrom> rdf:type owl:ObjectProperty ;
-                                                           rdfs:subPropertyOf <http://purl.org/NET/cidoc-crm/core#P27_moved_from> ;
-                                                           rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#Move> ;
-                                                           rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#Place> .
-
-
-###  http://spraakbanken.gu.se/rdf/owl/painting.owl#movedTo
-<http://spraakbanken.gu.se/rdf/owl/painting.owl#movedTo> rdf:type owl:ObjectProperty ;
-                                                         rdfs:subPropertyOf <http://purl.org/NET/cidoc-crm/core#P26_moved_to> ;
-                                                         rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#Move> ;
-                                                         rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#Place> .
 
 
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#occurredDuring
@@ -3418,13 +3116,6 @@ display 02144506"""@eng ,
                                                             rdfs:comment "Inverse of hasRepresentation" .
 
 
-###  http://spraakbanken.gu.se/rdf/owl/painting.owl#transferredCustodyOf
-<http://spraakbanken.gu.se/rdf/owl/painting.owl#transferredCustodyOf> rdf:type owl:ObjectProperty ;
-                                                                      rdfs:subPropertyOf <http://purl.org/NET/cidoc-crm/core#P30_transferred_custody_of> ;
-                                                                      rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#TransferOfCustody> ;
-                                                                      rdfs:range <http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting> .
-
-
 ###  http://spraakbanken.gu.se/saldo/saldoOnto.owl#hasSense
 <http://spraakbanken.gu.se/saldo/saldoOnto.owl#hasSense> rdf:type owl:ObjectProperty ;
                                                          rdfs:domain <http://spraakbanken.gu.se/LexOnto.owl#OntologyElement> ;
@@ -3451,11 +3142,13 @@ display 02144506"""@eng ,
 
 ###  http://bioschemas.org/smiles
 <http://bioschemas.org/smiles> rdf:type owl:DatatypeProperty ;
+                               rdfs:subPropertyOf <http://schema.org/identifier> ;
                                rdfs:range xsd:string .
 
 
 ###  http://dbpedia.org/ontology/abbreviation
 <http://dbpedia.org/ontology/abbreviation> rdf:type owl:DatatypeProperty ;
+                                           rdfs:subPropertyOf <http://schema.org/identifier> ;
                                            rdfs:domain <http://dbpedia.org/ontology/Organisation> ;
                                            rdfs:range xsd:string ;
                                            rdfs:label "abbreviation"@en .
@@ -3463,6 +3156,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/areaCode
 <http://dbpedia.org/ontology/areaCode> rdf:type owl:DatatypeProperty ;
+                                       rdfs:subPropertyOf <http://schema.org/identifier> ;
                                        rdfs:domain <http://dbpedia.org/ontology/PopulatedPlace> ;
                                        rdfs:range xsd:string ;
                                        rdfs:label "area code"@en .
@@ -3470,6 +3164,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/areaLand
 <http://dbpedia.org/ontology/areaLand> rdf:type owl:DatatypeProperty ;
+                                       rdfs:subPropertyOf <http://schema.org/identifier> ;
                                        rdfs:domain <http://dbpedia.org/ontology/Place> ;
                                        rdfs:range xsd:double ;
                                        rdfs:label "area land (m2)"@en .
@@ -3477,6 +3172,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/areaUrban
 <http://dbpedia.org/ontology/areaUrban> rdf:type owl:DatatypeProperty ;
+                                        rdfs:subPropertyOf <http://schema.org/identifier> ;
                                         rdfs:domain <http://dbpedia.org/ontology/PopulatedPlace> ;
                                         rdfs:range xsd:double ;
                                         rdfs:label "area urban (m2)"@en .
@@ -3484,6 +3180,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/areaWater
 <http://dbpedia.org/ontology/areaWater> rdf:type owl:DatatypeProperty ;
+                                        rdfs:subPropertyOf <http://schema.org/identifier> ;
                                         rdfs:domain <http://dbpedia.org/ontology/Place> ;
                                         rdfs:range xsd:double ;
                                         rdfs:label "area water (m2)"@en .
@@ -3491,6 +3188,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/birthDate
 <http://dbpedia.org/ontology/birthDate> rdf:type owl:DatatypeProperty ;
+                                        rdfs:subPropertyOf <http://schema.org/identifier> ;
                                         rdfs:domain <http://dbpedia.org/ontology/Person> ;
                                         rdfs:range xsd:date ;
                                         rdfs:label "birth date"@en .
@@ -3498,6 +3196,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/birthName
 <http://dbpedia.org/ontology/birthName> rdf:type owl:DatatypeProperty ;
+                                        rdfs:subPropertyOf <http://schema.org/identifier> ;
                                         rdfs:domain <http://dbpedia.org/ontology/Person> ;
                                         rdfs:range xsd:string ;
                                         rdfs:label "birth name"@en .
@@ -3505,6 +3204,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/birthYear
 <http://dbpedia.org/ontology/birthYear> rdf:type owl:DatatypeProperty ;
+                                        rdfs:subPropertyOf <http://schema.org/identifier> ;
                                         rdfs:domain <http://dbpedia.org/ontology/Person> ;
                                         rdfs:range xsd:gYear ;
                                         rdfs:label "birth year"@en .
@@ -3512,12 +3212,14 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/ceeb
 <http://dbpedia.org/ontology/ceeb> rdf:type owl:DatatypeProperty ;
+                                   rdfs:subPropertyOf <http://schema.org/identifier> ;
                                    rdfs:range xsd:string ;
                                    rdfs:label "ceeb"@en .
 
 
 ###  http://dbpedia.org/ontology/cityType
 <http://dbpedia.org/ontology/cityType> rdf:type owl:DatatypeProperty ;
+                                       rdfs:subPropertyOf <http://schema.org/identifier> ;
                                        rdfs:domain <http://dbpedia.org/ontology/PopulatedPlace> ;
                                        rdfs:range xsd:string ;
                                        rdfs:label "city type"@en .
@@ -3525,6 +3227,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/closed
 <http://dbpedia.org/ontology/closed> rdf:type owl:DatatypeProperty ;
+                                     rdfs:subPropertyOf <http://schema.org/identifier> ;
                                      rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
                                      rdfs:range xsd:date ;
                                      rdfs:label "closed"@en .
@@ -3532,6 +3235,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/cmykCoordinateCyanic
 <http://dbpedia.org/ontology/cmykCoordinateCyanic> rdf:type owl:DatatypeProperty ;
+                                                   rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                    rdfs:domain <http://dbpedia.org/ontology/Colour> ;
                                                    rdfs:range xsd:integer ;
                                                    rdfs:label "cyanic coordinate in the CMYK space"@en .
@@ -3539,6 +3243,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/cmykCoordinateMagenta
 <http://dbpedia.org/ontology/cmykCoordinateMagenta> rdf:type owl:DatatypeProperty ;
+                                                    rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                     rdfs:domain <http://dbpedia.org/ontology/Colour> ;
                                                     rdfs:range xsd:integer ;
                                                     rdfs:label "magenta coordinate in the CMYK space"@en .
@@ -3546,6 +3251,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/crownDependency
 <http://dbpedia.org/ontology/crownDependency> rdf:type owl:DatatypeProperty ;
+                                              rdfs:subPropertyOf <http://schema.org/identifier> ;
                                               rdfs:domain <http://dbpedia.org/ontology/City> ;
                                               rdfs:range xsd:string ;
                                               rdfs:label "crown dependency"@en .
@@ -3553,12 +3259,14 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/day
 <http://dbpedia.org/ontology/day> rdf:type owl:DatatypeProperty ;
+                                  rdfs:subPropertyOf <http://schema.org/identifier> ;
                                   rdfs:domain <http://dbpedia.org/ontology/Settlement> ;
                                   rdfs:range xsd:date .
 
 
 ###  http://dbpedia.org/ontology/depth
 <http://dbpedia.org/ontology/depth> rdf:type owl:DatatypeProperty ;
+                                    rdfs:subPropertyOf <http://schema.org/identifier> ;
                                     rdfs:domain <http://dbpedia.org/ontology/Place> ;
                                     rdfs:range xsd:double ;
                                     rdfs:label "depth (m)"@en .
@@ -3566,6 +3274,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/dissolutionDate
 <http://dbpedia.org/ontology/dissolutionDate> rdf:type owl:DatatypeProperty ;
+                                              rdfs:subPropertyOf <http://schema.org/identifier> ;
                                               rdfs:domain <http://dbpedia.org/ontology/PopulatedPlace> ;
                                               rdfs:range xsd:date ;
                                               rdfs:label "dissolution date"@en .
@@ -3573,6 +3282,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/dissolutionYear
 <http://dbpedia.org/ontology/dissolutionYear> rdf:type owl:DatatypeProperty ;
+                                              rdfs:subPropertyOf <http://schema.org/identifier> ;
                                               rdfs:domain <http://dbpedia.org/ontology/PopulatedPlace> ;
                                               rdfs:range xsd:gYear ;
                                               rdfs:label "dissolution year"@en .
@@ -3580,6 +3290,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/distanceToBelfast
 <http://dbpedia.org/ontology/distanceToBelfast> rdf:type owl:DatatypeProperty ;
+                                                rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                 rdfs:domain <http://dbpedia.org/ontology/Settlement> ;
                                                 rdfs:range xsd:double ;
                                                 rdfs:label "distance to Belfast (m)"@en .
@@ -3587,6 +3298,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/distanceToCardiff
 <http://dbpedia.org/ontology/distanceToCardiff> rdf:type owl:DatatypeProperty ;
+                                                rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                 rdfs:domain <http://dbpedia.org/ontology/Settlement> ;
                                                 rdfs:range xsd:double ;
                                                 rdfs:label "distance to Cardiff (m)"@en .
@@ -3594,6 +3306,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/distanceToCharingCross
 <http://dbpedia.org/ontology/distanceToCharingCross> rdf:type owl:DatatypeProperty ;
+                                                     rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                      rdfs:domain <http://dbpedia.org/ontology/Settlement> ;
                                                      rdfs:range xsd:double ;
                                                      rdfs:label "distance to Charing Cross (m)"@en .
@@ -3601,6 +3314,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/distanceToDouglas
 <http://dbpedia.org/ontology/distanceToDouglas> rdf:type owl:DatatypeProperty ;
+                                                rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                 rdfs:domain <http://dbpedia.org/ontology/Settlement> ;
                                                 rdfs:range xsd:double ;
                                                 rdfs:label "distance to Douglas (m)"@en .
@@ -3608,6 +3322,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/distanceToDublin
 <http://dbpedia.org/ontology/distanceToDublin> rdf:type owl:DatatypeProperty ;
+                                               rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                rdfs:domain <http://dbpedia.org/ontology/Settlement> ;
                                                rdfs:range xsd:double ;
                                                rdfs:label "distance to Dublin (m)"@en .
@@ -3615,6 +3330,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/distanceToEdinburgh
 <http://dbpedia.org/ontology/distanceToEdinburgh> rdf:type owl:DatatypeProperty ;
+                                                  rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                   rdfs:domain <http://dbpedia.org/ontology/Settlement> ;
                                                   rdfs:range xsd:double ;
                                                   rdfs:label "distance to Edinburgh (m)"@en .
@@ -3622,6 +3338,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/distanceToLondon
 <http://dbpedia.org/ontology/distanceToLondon> rdf:type owl:DatatypeProperty ;
+                                               rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                rdfs:domain <http://dbpedia.org/ontology/Settlement> ;
                                                rdfs:range xsd:double ;
                                                rdfs:label "distance to London (m)"@en .
@@ -3629,6 +3346,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/endDate
 <http://dbpedia.org/ontology/endDate> rdf:type owl:DatatypeProperty ;
+                                      rdfs:subPropertyOf <http://schema.org/identifier> ;
                                       rdfs:domain <http://dbpedia.org/ontology/Event> ;
                                       rdfs:range xsd:date ;
                                       rdfs:label "end date"@en .
@@ -3636,6 +3354,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/extinctionDate
 <http://dbpedia.org/ontology/extinctionDate> rdf:type owl:DatatypeProperty ;
+                                             rdfs:subPropertyOf <http://schema.org/identifier> ;
                                              rdfs:domain <http://dbpedia.org/ontology/Organisation> ;
                                              rdfs:range xsd:date ;
                                              rdfs:label "extinction date"@en .
@@ -3643,6 +3362,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/extinctionYear
 <http://dbpedia.org/ontology/extinctionYear> rdf:type owl:DatatypeProperty ;
+                                             rdfs:subPropertyOf <http://schema.org/identifier> ;
                                              rdfs:domain <http://dbpedia.org/ontology/Organisation> ;
                                              rdfs:range xsd:gYear ;
                                              rdfs:label "extinction year"@en .
@@ -3650,6 +3370,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/facultySize
 <http://dbpedia.org/ontology/facultySize> rdf:type owl:DatatypeProperty ;
+                                          rdfs:subPropertyOf <http://schema.org/identifier> ;
                                           rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
                                           rdfs:range xsd:integer ;
                                           rdfs:comment "number of faculty members"@en ;
@@ -3658,6 +3379,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/formationDate
 <http://dbpedia.org/ontology/formationDate> rdf:type owl:DatatypeProperty ;
+                                            rdfs:subPropertyOf <http://schema.org/identifier> ;
                                             rdfs:domain <http://dbpedia.org/ontology/Organisation> ;
                                             rdfs:range xsd:date ;
                                             rdfs:label "formation date"@en .
@@ -3665,6 +3387,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/formationYear
 <http://dbpedia.org/ontology/formationYear> rdf:type owl:DatatypeProperty ;
+                                            rdfs:subPropertyOf <http://schema.org/identifier> ;
                                             rdfs:domain <http://dbpedia.org/ontology/Organisation> ;
                                             rdfs:range xsd:gYear ;
                                             rdfs:label "formation year"@en .
@@ -3672,6 +3395,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/foundingDate
 <http://dbpedia.org/ontology/foundingDate> rdf:type owl:DatatypeProperty ;
+                                           rdfs:subPropertyOf <http://schema.org/identifier> ;
                                            rdfs:domain <http://dbpedia.org/ontology/PopulatedPlace> ;
                                            rdfs:range xsd:date ;
                                            rdfs:label "founding date"@en .
@@ -3679,6 +3403,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/foundingYear
 <http://dbpedia.org/ontology/foundingYear> rdf:type owl:DatatypeProperty ;
+                                           rdfs:subPropertyOf <http://schema.org/identifier> ;
                                            rdfs:domain <http://dbpedia.org/ontology/PopulatedPlace> ;
                                            rdfs:range xsd:gYear ;
                                            rdfs:label "founding year"@en .
@@ -3686,6 +3411,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/functionEndDate
 <http://dbpedia.org/ontology/functionEndDate> rdf:type owl:DatatypeProperty ;
+                                              rdfs:subPropertyOf <http://schema.org/identifier> ;
                                               rdfs:domain <http://dbpedia.org/ontology/PersonFunction> ;
                                               rdfs:range xsd:date ;
                                               rdfs:label "function end date"@en .
@@ -3693,6 +3419,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/functionEndYear
 <http://dbpedia.org/ontology/functionEndYear> rdf:type owl:DatatypeProperty ;
+                                              rdfs:subPropertyOf <http://schema.org/identifier> ;
                                               rdfs:domain <http://dbpedia.org/ontology/PersonFunction> ;
                                               rdfs:range xsd:gYear ;
                                               rdfs:label "function end year"@en .
@@ -3700,6 +3427,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/functionStartDate
 <http://dbpedia.org/ontology/functionStartDate> rdf:type owl:DatatypeProperty ;
+                                                rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                 rdfs:domain <http://dbpedia.org/ontology/PersonFunction> ;
                                                 rdfs:range xsd:date ;
                                                 rdfs:label "function start date"@en .
@@ -3707,6 +3435,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/functionStartYear
 <http://dbpedia.org/ontology/functionStartYear> rdf:type owl:DatatypeProperty ;
+                                                rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                 rdfs:domain <http://dbpedia.org/ontology/PersonFunction> ;
                                                 rdfs:range xsd:gYear ;
                                                 rdfs:label "function start year"@en .
@@ -3714,6 +3443,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/gaelicName
 <http://dbpedia.org/ontology/gaelicName> rdf:type owl:DatatypeProperty ;
+                                         rdfs:subPropertyOf <http://schema.org/identifier> ;
                                          rdfs:domain <http://dbpedia.org/ontology/Settlement> ;
                                          rdfs:range xsd:string ;
                                          rdfs:label "gaelic name"@en .
@@ -3721,6 +3451,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/geologicPeriod
 <http://dbpedia.org/ontology/geologicPeriod> rdf:type owl:DatatypeProperty ;
+                                             rdfs:subPropertyOf <http://schema.org/identifier> ;
                                              rdfs:domain <http://dbpedia.org/ontology/Place> ;
                                              rdfs:range xsd:string ;
                                              rdfs:label "geologic period"@en .
@@ -3728,6 +3459,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/grossDomesticProduct
 <http://dbpedia.org/ontology/grossDomesticProduct> rdf:type owl:DatatypeProperty ;
+                                                   rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                    rdfs:domain <http://dbpedia.org/ontology/PopulatedPlace> ;
                                                    rdfs:range xsd:double ;
                                                    rdfs:label "gross domestic product (GDP) ($)"@en .
@@ -3735,12 +3467,14 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/highestBuildingInYear
 <http://dbpedia.org/ontology/highestBuildingInYear> rdf:type owl:DatatypeProperty ;
+                                                    rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                     rdfs:range xsd:date ;
                                                     rdfs:label "highest building in year"@en .
 
 
 ###  http://dbpedia.org/ontology/hsvCoordinateSaturation
 <http://dbpedia.org/ontology/hsvCoordinateSaturation> rdf:type owl:DatatypeProperty ;
+                                                      rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                       rdfs:domain <http://dbpedia.org/ontology/Colour> ;
                                                       rdfs:range xsd:integer ;
                                                       rdfs:label "saturation coordinate in the HSV colour space"@en .
@@ -3755,6 +3489,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/irishName
 <http://dbpedia.org/ontology/irishName> rdf:type owl:DatatypeProperty ;
+                                        rdfs:subPropertyOf <http://schema.org/identifier> ;
                                         rdfs:domain <http://dbpedia.org/ontology/Settlement> ;
                                         rdfs:range xsd:string ;
                                         rdfs:label "irish name"@en .
@@ -3762,6 +3497,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/leaderTitle
 <http://dbpedia.org/ontology/leaderTitle> rdf:type owl:DatatypeProperty ;
+                                          rdfs:subPropertyOf <http://schema.org/identifier> ;
                                           rdfs:domain <http://dbpedia.org/ontology/PopulatedPlace> ;
                                           rdfs:range xsd:string ;
                                           rdfs:label "leader title"@en .
@@ -3769,6 +3505,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/lowest
 <http://dbpedia.org/ontology/lowest> rdf:type owl:DatatypeProperty ;
+                                     rdfs:subPropertyOf <http://schema.org/identifier> ;
                                      rdfs:domain <http://dbpedia.org/ontology/Place> ;
                                      rdfs:range xsd:string ;
                                      rdfs:label "lowest"@en .
@@ -3776,6 +3513,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/manxName
 <http://dbpedia.org/ontology/manxName> rdf:type owl:DatatypeProperty ;
+                                       rdfs:subPropertyOf <http://schema.org/identifier> ;
                                        rdfs:domain <http://dbpedia.org/ontology/Settlement> ;
                                        rdfs:range xsd:string ;
                                        rdfs:label "manx name"@en .
@@ -3783,6 +3521,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/maximumDepth
 <http://dbpedia.org/ontology/maximumDepth> rdf:type owl:DatatypeProperty ;
+                                           rdfs:subPropertyOf <http://schema.org/identifier> ;
                                            rdfs:domain <http://dbpedia.org/ontology/Place> ;
                                            rdfs:range xsd:double ;
                                            rdfs:label "maximum depth (m)"@en .
@@ -3790,6 +3529,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/maximumElevation
 <http://dbpedia.org/ontology/maximumElevation> rdf:type owl:DatatypeProperty ;
+                                               rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                rdfs:domain <http://dbpedia.org/ontology/Place> ;
                                                rdfs:range xsd:double ;
                                                rdfs:comment "maximum elevation above the sea level"@en ;
@@ -3798,6 +3538,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/meaning
 <http://dbpedia.org/ontology/meaning> rdf:type owl:DatatypeProperty ;
+                                      rdfs:subPropertyOf <http://schema.org/identifier> ;
                                       rdfs:domain <http://dbpedia.org/ontology/Settlement> ;
                                       rdfs:range xsd:string ;
                                       rdfs:label "meaning"@en .
@@ -3805,6 +3546,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/membership
 <http://dbpedia.org/ontology/membership> rdf:type owl:DatatypeProperty ;
+                                         rdfs:subPropertyOf <http://schema.org/identifier> ;
                                          rdfs:domain <http://dbpedia.org/ontology/Organisation> ;
                                          rdfs:range xsd:string ;
                                          rdfs:label "membership"@en .
@@ -3812,6 +3554,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/minimumElevation
 <http://dbpedia.org/ontology/minimumElevation> rdf:type owl:DatatypeProperty ;
+                                               rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                rdfs:domain <http://dbpedia.org/ontology/Place> ;
                                                rdfs:range xsd:double ;
                                                rdfs:comment "minimum elevation above the sea level"@en ;
@@ -3820,6 +3563,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/networth
 <http://dbpedia.org/ontology/networth> rdf:type owl:DatatypeProperty ;
+                                       rdfs:subPropertyOf <http://schema.org/identifier> ;
                                        rdfs:domain <http://dbpedia.org/ontology/Person> ;
                                        rdfs:range xsd:double ;
                                        rdfs:label "networth ($)"@en .
@@ -3827,6 +3571,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/numberOfDoctoralStudents
 <http://dbpedia.org/ontology/numberOfDoctoralStudents> rdf:type owl:DatatypeProperty ;
+                                                       rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                        rdfs:domain <http://dbpedia.org/ontology/University> ;
                                                        rdfs:range xsd:integer ;
                                                        rdfs:label "number of doctoral students"@en .
@@ -3834,6 +3579,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/numberOfGraduateStudents
 <http://dbpedia.org/ontology/numberOfGraduateStudents> rdf:type owl:DatatypeProperty ;
+                                                       rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                        rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
                                                        rdfs:range xsd:integer ;
                                                        rdfs:label "number of graduate students"@en .
@@ -3841,48 +3587,56 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/numberOfIslands
 <http://dbpedia.org/ontology/numberOfIslands> rdf:type owl:DatatypeProperty ;
+                                              rdfs:subPropertyOf <http://schema.org/identifier> ;
                                               rdfs:range xsd:integer ;
                                               rdfs:label "number of islands"@en .
 
 
 ###  http://dbpedia.org/ontology/numberOfMembers
 <http://dbpedia.org/ontology/numberOfMembers> rdf:type owl:DatatypeProperty ;
+                                              rdfs:subPropertyOf <http://schema.org/identifier> ;
                                               rdfs:range xsd:integer ;
                                               rdfs:label "number of members"@en .
 
 
 ###  http://dbpedia.org/ontology/numberOfOfficials
 <http://dbpedia.org/ontology/numberOfOfficials> rdf:type owl:DatatypeProperty ;
+                                                rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                 rdfs:range xsd:integer ;
                                                 rdfs:label "number of officials"@en .
 
 
 ###  http://dbpedia.org/ontology/numberOfOrbits
 <http://dbpedia.org/ontology/numberOfOrbits> rdf:type owl:DatatypeProperty ;
+                                             rdfs:subPropertyOf <http://schema.org/identifier> ;
                                              rdfs:range xsd:integer ;
                                              rdfs:label "number of orbits"@en .
 
 
 ###  http://dbpedia.org/ontology/numberOfPads
 <http://dbpedia.org/ontology/numberOfPads> rdf:type owl:DatatypeProperty ;
+                                           rdfs:subPropertyOf <http://schema.org/identifier> ;
                                            rdfs:range xsd:integer ;
                                            rdfs:label "number of pads"@en .
 
 
 ###  http://dbpedia.org/ontology/numberOfParticipatingAthletes
 <http://dbpedia.org/ontology/numberOfParticipatingAthletes> rdf:type owl:DatatypeProperty ;
+                                                            rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                             rdfs:range xsd:integer ;
                                                             rdfs:label "number of participating athletes"@en .
 
 
 ###  http://dbpedia.org/ontology/numberOfParticipatingNations
 <http://dbpedia.org/ontology/numberOfParticipatingNations> rdf:type owl:DatatypeProperty ;
+                                                           rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                            rdfs:range xsd:integer ;
                                                            rdfs:label "number of participating nations"@en .
 
 
 ###  http://dbpedia.org/ontology/numberOfPostgraduateStudents
 <http://dbpedia.org/ontology/numberOfPostgraduateStudents> rdf:type owl:DatatypeProperty ;
+                                                           rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                            rdfs:domain <http://dbpedia.org/ontology/University> ;
                                                            rdfs:range xsd:integer ;
                                                            rdfs:label "number of postgraduate students"@en .
@@ -3890,24 +3644,28 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/numberOfSeasons
 <http://dbpedia.org/ontology/numberOfSeasons> rdf:type owl:DatatypeProperty ;
+                                              rdfs:subPropertyOf <http://schema.org/identifier> ;
                                               rdfs:range xsd:integer ;
                                               rdfs:label "number of seasons"@en .
 
 
 ###  http://dbpedia.org/ontology/numberOfSilverMedalsWon
 <http://dbpedia.org/ontology/numberOfSilverMedalsWon> rdf:type owl:DatatypeProperty ;
+                                                      rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                       rdfs:range xsd:integer ;
                                                       rdfs:label "number of silver medals won"@en .
 
 
 ###  http://dbpedia.org/ontology/numberOfSports
 <http://dbpedia.org/ontology/numberOfSports> rdf:type owl:DatatypeProperty ;
+                                             rdfs:subPropertyOf <http://schema.org/identifier> ;
                                              rdfs:range xsd:integer ;
                                              rdfs:label "number of sports"@en .
 
 
 ###  http://dbpedia.org/ontology/numberOfStaff
 <http://dbpedia.org/ontology/numberOfStaff> rdf:type owl:DatatypeProperty ;
+                                            rdfs:subPropertyOf <http://schema.org/identifier> ;
                                             rdfs:domain <http://dbpedia.org/ontology/Organisation> ;
                                             rdfs:range xsd:integer ;
                                             rdfs:label "number of staff"@en .
@@ -3915,6 +3673,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/numberOfStudents
 <http://dbpedia.org/ontology/numberOfStudents> rdf:type owl:DatatypeProperty ;
+                                               rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                rdfs:domain <http://dbpedia.org/ontology/University> ;
                                                rdfs:range xsd:integer ;
                                                rdfs:label "number of students"@en .
@@ -3922,6 +3681,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/numberOfUndergraduateStudents
 <http://dbpedia.org/ontology/numberOfUndergraduateStudents> rdf:type owl:DatatypeProperty ;
+                                                            rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                             rdfs:domain <http://dbpedia.org/ontology/EducationalInstitution> ;
                                                             rdfs:range xsd:integer ;
                                                             rdfs:label "number of undergraduate students"@en .
@@ -3929,18 +3689,21 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/numberOfVineyards
 <http://dbpedia.org/ontology/numberOfVineyards> rdf:type owl:DatatypeProperty ;
+                                                rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                 rdfs:range xsd:integer ;
                                                 rdfs:label "number of vineyards"@en .
 
 
 ###  http://dbpedia.org/ontology/numberOfVisitors
 <http://dbpedia.org/ontology/numberOfVisitors> rdf:type owl:DatatypeProperty ;
+                                               rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                rdfs:range xsd:integer ;
                                                rdfs:label "number of visitors"@en .
 
 
 ###  http://dbpedia.org/ontology/numberOfVolunteers
 <http://dbpedia.org/ontology/numberOfVolunteers> rdf:type owl:DatatypeProperty ;
+                                                 rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                  rdfs:domain <http://dbpedia.org/ontology/Organisation> ;
                                                  rdfs:range xsd:integer ;
                                                  rdfs:label "number of volunteers"@en .
@@ -3948,12 +3711,14 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/numberOfWineries
 <http://dbpedia.org/ontology/numberOfWineries> rdf:type owl:DatatypeProperty ;
+                                               rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                rdfs:range xsd:integer ;
                                                rdfs:label "number of wineries"@en .
 
 
 ###  http://dbpedia.org/ontology/nutsRegion
 <http://dbpedia.org/ontology/nutsRegion> rdf:type owl:DatatypeProperty ;
+                                         rdfs:subPropertyOf <http://schema.org/identifier> ;
                                          rdfs:domain <http://dbpedia.org/ontology/Place> ;
                                          rdfs:range xsd:string ;
                                          rdfs:label "Nomenclature of Territorial Units for Statistics (NUTS)"@en .
@@ -3961,6 +3726,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/oclc
 <http://dbpedia.org/ontology/oclc> rdf:type owl:DatatypeProperty ;
+                                   rdfs:subPropertyOf <http://schema.org/identifier> ;
                                    rdfs:range xsd:integer ;
                                    rdfs:comment "Online Computer Library Center number"@en ;
                                    rdfs:label "oclc"@en .
@@ -3968,85 +3734,99 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/offeredClasses
 <http://dbpedia.org/ontology/offeredClasses> rdf:type owl:DatatypeProperty ;
+                                             rdfs:subPropertyOf <http://schema.org/identifier> ;
                                              rdfs:range xsd:string ;
                                              rdfs:label "offered classes"@en .
 
 
 ###  http://dbpedia.org/ontology/office
 <http://dbpedia.org/ontology/office> rdf:type owl:DatatypeProperty ;
+                                     rdfs:subPropertyOf <http://schema.org/identifier> ;
                                      rdfs:range xsd:string ;
                                      rdfs:label "office"@en .
 
 
 ###  http://dbpedia.org/ontology/oldcode
 <http://dbpedia.org/ontology/oldcode> rdf:type owl:DatatypeProperty ;
+                                      rdfs:subPropertyOf <http://schema.org/identifier> ;
                                       rdfs:range xsd:string ;
                                       rdfs:label "oldcode"@en .
 
 
 ###  http://dbpedia.org/ontology/omim
 <http://dbpedia.org/ontology/omim> rdf:type owl:DatatypeProperty ;
+                                   rdfs:subPropertyOf <http://schema.org/identifier> ;
                                    rdfs:range xsd:integer ;
                                    rdfs:label "OMIM id"@en .
 
 
 ###  http://dbpedia.org/ontology/openingDate
 <http://dbpedia.org/ontology/openingDate> rdf:type owl:DatatypeProperty ;
+                                          rdfs:subPropertyOf <http://schema.org/identifier> ;
                                           rdfs:range xsd:date ;
                                           rdfs:label "opening date"@en .
 
 
 ###  http://dbpedia.org/ontology/operatingIncome
-<http://dbpedia.org/ontology/operatingIncome> rdf:type owl:DatatypeProperty ,
-                                                       owl:FunctionalProperty ;
+<http://dbpedia.org/ontology/operatingIncome> rdf:type owl:DatatypeProperty ;
+                                              rdfs:subPropertyOf <http://schema.org/identifier> ;
+                                              rdf:type owl:FunctionalProperty ;
                                               rdfs:range xsd:double ;
                                               rdfs:label "operating income ($)"@en .
 
 
 ###  http://dbpedia.org/ontology/orbitalFlights
 <http://dbpedia.org/ontology/orbitalFlights> rdf:type owl:DatatypeProperty ;
+                                             rdfs:subPropertyOf <http://schema.org/identifier> ;
                                              rdfs:range xsd:integer ;
                                              rdfs:label "orbital flights"@en .
 
 
 ###  http://dbpedia.org/ontology/orbitalInclination
 <http://dbpedia.org/ontology/orbitalInclination> rdf:type owl:DatatypeProperty ;
+                                                 rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                  rdfs:range xsd:float ;
                                                  rdfs:label "orbital inclination"@en .
 
 
 ###  http://dbpedia.org/ontology/orbitalPeriod
 <http://dbpedia.org/ontology/orbitalPeriod> rdf:type owl:DatatypeProperty ;
+                                            rdfs:subPropertyOf <http://schema.org/identifier> ;
                                             rdfs:range xsd:double ;
                                             rdfs:label "orbital period (s)"@en .
 
 
 ###  http://dbpedia.org/ontology/orbits
 <http://dbpedia.org/ontology/orbits> rdf:type owl:DatatypeProperty ;
+                                     rdfs:subPropertyOf <http://schema.org/identifier> ;
                                      rdfs:range xsd:integer ;
                                      rdfs:label "orbits"@en .
 
 
 ###  http://dbpedia.org/ontology/orderInOffice
 <http://dbpedia.org/ontology/orderInOffice> rdf:type owl:DatatypeProperty ;
+                                            rdfs:subPropertyOf <http://schema.org/identifier> ;
                                             rdfs:range xsd:string ;
                                             rdfs:label "order in office"@en .
 
 
 ###  http://dbpedia.org/ontology/originalMaximumBoatBeam
 <http://dbpedia.org/ontology/originalMaximumBoatBeam> rdf:type owl:DatatypeProperty ;
+                                                      rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                       rdfs:range xsd:double ;
                                                       rdfs:label "original maximum boat beam (m)"@en .
 
 
 ###  http://dbpedia.org/ontology/originalMaximumBoatLength
 <http://dbpedia.org/ontology/originalMaximumBoatLength> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                         rdfs:range xsd:double ;
                                                         rdfs:label "original maximum boat length (m)"@en .
 
 
 ###  http://dbpedia.org/ontology/other
 <http://dbpedia.org/ontology/other> rdf:type owl:DatatypeProperty ;
+                                    rdfs:subPropertyOf <http://schema.org/identifier> ;
                                     rdfs:domain <http://dbpedia.org/ontology/University> ;
                                     rdfs:range xsd:integer ;
                                     rdfs:label "other"@en .
@@ -4054,18 +3834,21 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/overallRecord
 <http://dbpedia.org/ontology/overallRecord> rdf:type owl:DatatypeProperty ;
+                                            rdfs:subPropertyOf <http://schema.org/identifier> ;
                                             rdfs:range xsd:string ;
                                             rdfs:label "overall record"@en .
 
 
 ###  http://dbpedia.org/ontology/oversight
 <http://dbpedia.org/ontology/oversight> rdf:type owl:DatatypeProperty ;
+                                        rdfs:subPropertyOf <http://schema.org/identifier> ;
                                         rdfs:range xsd:string ;
                                         rdfs:label "oversight"@en .
 
 
 ###  http://dbpedia.org/ontology/pages
 <http://dbpedia.org/ontology/pages> rdf:type owl:DatatypeProperty ;
+                                    rdfs:subPropertyOf <http://schema.org/identifier> ;
                                     rdfs:range xsd:integer ;
                                     rdfs:comment "number of pages"@en ;
                                     rdfs:label "pages"@en .
@@ -4073,6 +3856,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/partialFailedLaunches
 <http://dbpedia.org/ontology/partialFailedLaunches> rdf:type owl:DatatypeProperty ;
+                                                    rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                     rdfs:range xsd:integer ;
                                                     rdfs:comment "total number of launches resulting in partial failure"@en ;
                                                     rdfs:label "partial failed launches"@en .
@@ -4080,18 +3864,21 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/pdb
 <http://dbpedia.org/ontology/pdb> rdf:type owl:DatatypeProperty ;
+                                  rdfs:subPropertyOf <http://schema.org/identifier> ;
                                   rdfs:range xsd:string ;
                                   rdfs:label "PDB"@en .
 
 
 ###  http://dbpedia.org/ontology/percentageOfAreaWater
 <http://dbpedia.org/ontology/percentageOfAreaWater> rdf:type owl:DatatypeProperty ;
+                                                    rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                     rdfs:range xsd:float ;
                                                     rdfs:label "percentage of area water"@en .
 
 
 ###  http://dbpedia.org/ontology/percentageOfAreaWaterRound
 <http://dbpedia.org/ontology/percentageOfAreaWaterRound> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                          rdfs:domain <http://dbpedia.org/ontology/Place> ;
                                                          rdfs:range xsd:integer ;
                                                          rdfs:label "percentage of area water round"@en .
@@ -4099,12 +3886,14 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/periapsis
 <http://dbpedia.org/ontology/periapsis> rdf:type owl:DatatypeProperty ;
+                                        rdfs:subPropertyOf <http://schema.org/identifier> ;
                                         rdfs:range xsd:double ;
                                         rdfs:label "periapsis (m)"@en .
 
 
 ###  http://dbpedia.org/ontology/personName
 <http://dbpedia.org/ontology/personName> rdf:type owl:DatatypeProperty ;
+                                         rdfs:subPropertyOf <http://schema.org/identifier> ;
                                          rdfs:domain <http://dbpedia.org/ontology/PersonFunction> ;
                                          rdfs:range xsd:string ;
                                          rdfs:label "personName"@en .
@@ -4112,36 +3901,42 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/pistonStroke
 <http://dbpedia.org/ontology/pistonStroke> rdf:type owl:DatatypeProperty ;
+                                           rdfs:subPropertyOf <http://schema.org/identifier> ;
                                            rdfs:range xsd:double ;
                                            rdfs:label "piston stroke (m)"@en .
 
 
 ###  http://dbpedia.org/ontology/playingTime
 <http://dbpedia.org/ontology/playingTime> rdf:type owl:DatatypeProperty ;
+                                          rdfs:subPropertyOf <http://schema.org/identifier> ;
                                           rdfs:range xsd:double ;
                                           rdfs:label "playing time (s)"@en .
 
 
 ###  http://dbpedia.org/ontology/plays
 <http://dbpedia.org/ontology/plays> rdf:type owl:DatatypeProperty ;
+                                    rdfs:subPropertyOf <http://schema.org/identifier> ;
                                     rdfs:range xsd:string ;
                                     rdfs:label "plays"@en .
 
 
 ###  http://dbpedia.org/ontology/podiums
 <http://dbpedia.org/ontology/podiums> rdf:type owl:DatatypeProperty ;
+                                      rdfs:subPropertyOf <http://schema.org/identifier> ;
                                       rdfs:range xsd:integer ;
                                       rdfs:label "podiums"@en .
 
 
 ###  http://dbpedia.org/ontology/poles
 <http://dbpedia.org/ontology/poles> rdf:type owl:DatatypeProperty ;
+                                    rdfs:subPropertyOf <http://schema.org/identifier> ;
                                     rdfs:range xsd:integer ;
                                     rdfs:label "poles"@en .
 
 
 ###  http://dbpedia.org/ontology/populationAsOf
 <http://dbpedia.org/ontology/populationAsOf> rdf:type owl:DatatypeProperty ;
+                                             rdfs:subPropertyOf <http://schema.org/identifier> ;
                                              rdfs:domain <http://dbpedia.org/ontology/PopulatedPlace> ;
                                              rdfs:range xsd:date ;
                                              rdfs:label "population as of"@en .
@@ -4149,12 +3944,14 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/populationDensity
 <http://dbpedia.org/ontology/populationDensity> rdf:type owl:DatatypeProperty ;
+                                                rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                 rdfs:range xsd:double ;
                                                 rdfs:label "population density (/sqkm)"@en .
 
 
 ###  http://dbpedia.org/ontology/populationMetro
 <http://dbpedia.org/ontology/populationMetro> rdf:type owl:DatatypeProperty ;
+                                              rdfs:subPropertyOf <http://schema.org/identifier> ;
                                               rdfs:domain <http://dbpedia.org/ontology/PopulatedPlace> ;
                                               rdfs:range xsd:integer ;
                                               rdfs:label "population metro"@en .
@@ -4162,6 +3959,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/populationMetroDensity
 <http://dbpedia.org/ontology/populationMetroDensity> rdf:type owl:DatatypeProperty ;
+                                                     rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                      rdfs:domain <http://dbpedia.org/ontology/PopulatedPlace> ;
                                                      rdfs:range xsd:double ;
                                                      rdfs:label "population metro density (/sqkm)"@en .
@@ -4169,6 +3967,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/populationTotal
 <http://dbpedia.org/ontology/populationTotal> rdf:type owl:DatatypeProperty ;
+                                              rdfs:subPropertyOf <http://schema.org/identifier> ;
                                               rdfs:domain <http://dbpedia.org/ontology/PopulatedPlace> ;
                                               rdfs:range xsd:integer ;
                                               rdfs:label "population total"@en .
@@ -4176,6 +3975,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/populationUrban
 <http://dbpedia.org/ontology/populationUrban> rdf:type owl:DatatypeProperty ;
+                                              rdfs:subPropertyOf <http://schema.org/identifier> ;
                                               rdfs:domain <http://dbpedia.org/ontology/PopulatedPlace> ;
                                               rdfs:range xsd:integer ;
                                               rdfs:label "population urban"@en .
@@ -4183,6 +3983,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/populationUrbanDensity
 <http://dbpedia.org/ontology/populationUrbanDensity> rdf:type owl:DatatypeProperty ;
+                                                     rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                      rdfs:domain <http://dbpedia.org/ontology/PopulatedPlace> ;
                                                      rdfs:range xsd:double ;
                                                      rdfs:label "population urban density (/sqkm)"@en .
@@ -4190,73 +3991,85 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/postalCode
 <http://dbpedia.org/ontology/postalCode> rdf:type owl:DatatypeProperty ;
+                                         rdfs:subPropertyOf <http://schema.org/identifier> ;
                                          rdfs:range xsd:string ;
                                          rdfs:label "postal code"@en .
 
 
 ###  http://dbpedia.org/ontology/powerOutput
-<http://dbpedia.org/ontology/powerOutput> rdf:type owl:DatatypeProperty ,
-                                                   owl:FunctionalProperty ;
+<http://dbpedia.org/ontology/powerOutput> rdf:type owl:DatatypeProperty ;
+                                          rdfs:subPropertyOf <http://schema.org/identifier> ;
+                                          rdf:type owl:FunctionalProperty ;
                                           rdfs:range xsd:double ;
                                           rdfs:label "power output (W)"@en .
 
 
 ###  http://dbpedia.org/ontology/production
 <http://dbpedia.org/ontology/production> rdf:type owl:DatatypeProperty ;
+                                         rdfs:subPropertyOf <http://schema.org/identifier> ;
                                          rdfs:range xsd:integer ;
                                          rdfs:label "production"@en .
 
 
 ###  http://dbpedia.org/ontology/productionEndDate
 <http://dbpedia.org/ontology/productionEndDate> rdf:type owl:DatatypeProperty ;
+                                                rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                 rdfs:range xsd:date ;
                                                 rdfs:label "production end date"@en .
 
 
 ###  http://dbpedia.org/ontology/productionEndYear
 <http://dbpedia.org/ontology/productionEndYear> rdf:type owl:DatatypeProperty ;
+                                                rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                 rdfs:range xsd:gYear ;
                                                 rdfs:label "production end year"@en .
 
 
 ###  http://dbpedia.org/ontology/productionStartDate
 <http://dbpedia.org/ontology/productionStartDate> rdf:type owl:DatatypeProperty ;
+                                                  rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                   rdfs:range xsd:date ;
                                                   rdfs:label "production start date"@en .
 
 
 ###  http://dbpedia.org/ontology/productionStartYear
 <http://dbpedia.org/ontology/productionStartYear> rdf:type owl:DatatypeProperty ;
+                                                  rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                   rdfs:range xsd:gYear ;
                                                   rdfs:label "production start year"@en .
 
 
 ###  http://dbpedia.org/ontology/productionYears
 <http://dbpedia.org/ontology/productionYears> rdf:type owl:DatatypeProperty ;
+                                              rdfs:subPropertyOf <http://schema.org/identifier> ;
                                               rdfs:range xsd:date ;
                                               rdfs:label "production years"@en .
 
 
 ###  http://dbpedia.org/ontology/programCost
 <http://dbpedia.org/ontology/programCost> rdf:type owl:DatatypeProperty ;
+                                          rdfs:subPropertyOf <http://schema.org/identifier> ;
                                           rdfs:range xsd:double ;
                                           rdfs:label "program cost ($)"@en .
 
 
 ###  http://dbpedia.org/ontology/prominence
 <http://dbpedia.org/ontology/prominence> rdf:type owl:DatatypeProperty ;
+                                         rdfs:subPropertyOf <http://schema.org/identifier> ;
                                          rdfs:range xsd:double ;
                                          rdfs:label "prominence (m)"@en .
 
 
 ###  http://dbpedia.org/ontology/prospectLeague
 <http://dbpedia.org/ontology/prospectLeague> rdf:type owl:DatatypeProperty ;
+                                             rdfs:subPropertyOf <http://schema.org/identifier> ;
                                              rdfs:range xsd:string ;
                                              rdfs:label "prospect league"@en .
 
 
 ###  http://dbpedia.org/ontology/pseudonym
 <http://dbpedia.org/ontology/pseudonym> rdf:type owl:DatatypeProperty ;
+                                        rdfs:subPropertyOf <http://schema.org/identifier> ;
                                         rdfs:domain <http://dbpedia.org/ontology/Person> ;
                                         rdfs:range xsd:string ;
                                         rdfs:label "pseudonym"@en .
@@ -4264,18 +4077,21 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/pubchem
 <http://dbpedia.org/ontology/pubchem> rdf:type owl:DatatypeProperty ;
+                                      rdfs:subPropertyOf <http://schema.org/identifier> ;
                                       rdfs:range xsd:string ;
                                       rdfs:label "PubChem"@en .
 
 
 ###  http://dbpedia.org/ontology/publicationDate
 <http://dbpedia.org/ontology/publicationDate> rdf:type owl:DatatypeProperty ;
+                                              rdfs:subPropertyOf <http://schema.org/identifier> ;
                                               rdfs:range xsd:date ;
                                               rdfs:label "publication date"@en .
 
 
 ###  http://dbpedia.org/ontology/publiclyAccessible
 <http://dbpedia.org/ontology/publiclyAccessible> rdf:type owl:DatatypeProperty ;
+                                                 rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                  rdfs:range xsd:string ;
                                                  rdfs:comment "describes in what way this site is accessible for public"@en ;
                                                  rdfs:label "publicly accessible"@en .
@@ -4283,6 +4099,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/purpose
 <http://dbpedia.org/ontology/purpose> rdf:type owl:DatatypeProperty ;
+                                      rdfs:subPropertyOf <http://schema.org/identifier> ;
                                       rdfs:domain <http://dbpedia.org/ontology/Organisation> ;
                                       rdfs:range xsd:string ;
                                       rdfs:label "purpose"@en .
@@ -4290,121 +4107,141 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/races
 <http://dbpedia.org/ontology/races> rdf:type owl:DatatypeProperty ;
+                                    rdfs:subPropertyOf <http://schema.org/identifier> ;
                                     rdfs:range xsd:integer ;
                                     rdfs:label "races"@en .
 
 
 ###  http://dbpedia.org/ontology/railwayPlatforms
 <http://dbpedia.org/ontology/railwayPlatforms> rdf:type owl:DatatypeProperty ;
+                                               rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                rdfs:range xsd:string ;
                                                rdfs:label "railway platforms"@en .
 
 
 ###  http://dbpedia.org/ontology/range
 <http://dbpedia.org/ontology/range> rdf:type owl:DatatypeProperty ;
+                                    rdfs:subPropertyOf <http://schema.org/identifier> ;
                                     rdfs:range xsd:string ;
                                     rdfs:label "range"@en .
 
 
 ###  http://dbpedia.org/ontology/rankInFinalMedalCount
 <http://dbpedia.org/ontology/rankInFinalMedalCount> rdf:type owl:DatatypeProperty ;
+                                                    rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                     rdfs:range xsd:integer ;
                                                     rdfs:label "rank in final medal count"@en .
 
 
 ###  http://dbpedia.org/ontology/ranking
 <http://dbpedia.org/ontology/ranking> rdf:type owl:DatatypeProperty ;
+                                      rdfs:subPropertyOf <http://schema.org/identifier> ;
                                       rdfs:range xsd:integer ;
                                       rdfs:label "ranking"@en .
 
 
 ###  http://dbpedia.org/ontology/ratio
 <http://dbpedia.org/ontology/ratio> rdf:type owl:DatatypeProperty ;
+                                    rdfs:subPropertyOf <http://schema.org/identifier> ;
                                     rdfs:range xsd:string ;
                                     rdfs:label "ratio"@en .
 
 
 ###  http://dbpedia.org/ontology/rebuildingDate
 <http://dbpedia.org/ontology/rebuildingDate> rdf:type owl:DatatypeProperty ;
+                                             rdfs:subPropertyOf <http://schema.org/identifier> ;
                                              rdfs:range xsd:date ;
                                              rdfs:label "rebuilding date"@en .
 
 
 ###  http://dbpedia.org/ontology/recordDate
 <http://dbpedia.org/ontology/recordDate> rdf:type owl:DatatypeProperty ;
+                                         rdfs:subPropertyOf <http://schema.org/identifier> ;
                                          rdfs:range xsd:date ;
                                          rdfs:label "record date"@en .
 
 
 ###  http://dbpedia.org/ontology/redline
-<http://dbpedia.org/ontology/redline> rdf:type owl:DatatypeProperty ,
-                                               owl:FunctionalProperty ;
+<http://dbpedia.org/ontology/redline> rdf:type owl:DatatypeProperty ;
+                                      rdfs:subPropertyOf <http://schema.org/identifier> ;
+                                      rdf:type owl:FunctionalProperty ;
                                       rdfs:range xsd:integer ;
                                       rdfs:label "redline"@en .
 
 
 ###  http://dbpedia.org/ontology/refseq
 <http://dbpedia.org/ontology/refseq> rdf:type owl:DatatypeProperty ;
+                                     rdfs:subPropertyOf <http://schema.org/identifier> ;
                                      rdfs:range xsd:string ;
                                      rdfs:label "RefSeq"@en .
 
 
 ###  http://dbpedia.org/ontology/regime
 <http://dbpedia.org/ontology/regime> rdf:type owl:DatatypeProperty ;
+                                     rdfs:subPropertyOf <http://schema.org/identifier> ;
                                      rdfs:range xsd:string ;
                                      rdfs:label "regime"@en .
 
 
 ###  http://dbpedia.org/ontology/regionType
 <http://dbpedia.org/ontology/regionType> rdf:type owl:DatatypeProperty ;
+                                         rdfs:subPropertyOf <http://schema.org/identifier> ;
                                          rdfs:range xsd:string ;
                                          rdfs:label "region type"@en .
 
 
 ###  http://dbpedia.org/ontology/registration
 <http://dbpedia.org/ontology/registration> rdf:type owl:DatatypeProperty ;
+                                           rdfs:subPropertyOf <http://schema.org/identifier> ;
                                            rdfs:range xsd:string ;
                                            rdfs:label "registration"@en .
 
 
 ###  http://dbpedia.org/ontology/releaseDate
 <http://dbpedia.org/ontology/releaseDate> rdf:type owl:DatatypeProperty ;
+                                          rdfs:subPropertyOf <http://schema.org/identifier> ;
                                           rdfs:range xsd:date ;
                                           rdfs:label "release date"@en .
 
 
 ###  http://dbpedia.org/ontology/reopened
 <http://dbpedia.org/ontology/reopened> rdf:type owl:DatatypeProperty ;
+                                       rdfs:subPropertyOf <http://schema.org/identifier> ;
                                        rdfs:range xsd:date ;
                                        rdfs:label "reopened"@en .
 
 
 ###  http://dbpedia.org/ontology/requirement
 <http://dbpedia.org/ontology/requirement> rdf:type owl:DatatypeProperty ;
+                                          rdfs:subPropertyOf <http://schema.org/identifier> ;
                                           rdfs:range xsd:string ;
                                           rdfs:label "Requirement"@en .
 
 
 ###  http://dbpedia.org/ontology/result
 <http://dbpedia.org/ontology/result> rdf:type owl:DatatypeProperty ;
+                                     rdfs:subPropertyOf <http://schema.org/identifier> ;
                                      rdfs:range xsd:string ;
                                      rdfs:label "result"@en .
 
 
 ###  http://dbpedia.org/ontology/retired
 <http://dbpedia.org/ontology/retired> rdf:type owl:DatatypeProperty ;
+                                      rdfs:subPropertyOf <http://schema.org/identifier> ;
                                       rdfs:range xsd:date ;
                                       rdfs:label "retired"@en .
 
 
 ###  http://dbpedia.org/ontology/retiredDate
 <http://dbpedia.org/ontology/retiredDate> rdf:type owl:DatatypeProperty ;
+                                          rdfs:subPropertyOf <http://schema.org/identifier> ;
                                           rdfs:range xsd:date ;
                                           rdfs:label "retired date"@en .
 
 
 ###  http://dbpedia.org/ontology/revenue
 <http://dbpedia.org/ontology/revenue> rdf:type owl:DatatypeProperty ;
+                                      rdfs:subPropertyOf <http://schema.org/identifier> ;
                                       rdfs:domain <http://dbpedia.org/ontology/Organisation> ;
                                       rdfs:range xsd:double ;
                                       rdfs:label "revenue ($)"@en .
@@ -4412,12 +4249,14 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/review
 <http://dbpedia.org/ontology/review> rdf:type owl:DatatypeProperty ;
+                                     rdfs:subPropertyOf <http://schema.org/identifier> ;
                                      rdfs:range xsd:anyURI ;
                                      rdfs:label "review"@en .
 
 
 ###  http://dbpedia.org/ontology/rgbCoordinateGreen
 <http://dbpedia.org/ontology/rgbCoordinateGreen> rdf:type owl:DatatypeProperty ;
+                                                 rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                  rdfs:domain <http://dbpedia.org/ontology/Colour> ;
                                                  rdfs:range xsd:integer ;
                                                  rdfs:label "green coordinate in the RGB space"@en .
@@ -4425,6 +4264,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/rgbCoordinateRed
 <http://dbpedia.org/ontology/rgbCoordinateRed> rdf:type owl:DatatypeProperty ;
+                                               rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                rdfs:domain <http://dbpedia.org/ontology/Colour> ;
                                                rdfs:range xsd:integer ;
                                                rdfs:label "red coordinate in the RGB space"@en .
@@ -4432,6 +4272,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/rocketStages
 <http://dbpedia.org/ontology/rocketStages> rdf:type owl:DatatypeProperty ;
+                                           rdfs:subPropertyOf <http://schema.org/identifier> ;
                                            rdfs:range xsd:integer ;
                                            rdfs:comment "number of stages, not including boosters"@en ;
                                            rdfs:label "number of rocket stages"@en .
@@ -4439,18 +4280,21 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/role
 <http://dbpedia.org/ontology/role> rdf:type owl:DatatypeProperty ;
+                                   rdfs:subPropertyOf <http://schema.org/identifier> ;
                                    rdfs:range xsd:string ;
                                    rdfs:label "role"@en .
 
 
 ###  http://dbpedia.org/ontology/runtime
 <http://dbpedia.org/ontology/runtime> rdf:type owl:DatatypeProperty ;
+                                      rdfs:subPropertyOf <http://schema.org/identifier> ;
                                       rdfs:range xsd:double ;
                                       rdfs:label "runtime (s)"@en .
 
 
 ###  http://dbpedia.org/ontology/salary
 <http://dbpedia.org/ontology/salary> rdf:type owl:DatatypeProperty ;
+                                     rdfs:subPropertyOf <http://schema.org/identifier> ;
                                      rdfs:domain <http://dbpedia.org/ontology/Person> ;
                                      rdfs:range xsd:double ;
                                      rdfs:label "salary ($)"@en .
@@ -4458,24 +4302,28 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/satellitesDeployed
 <http://dbpedia.org/ontology/satellitesDeployed> rdf:type owl:DatatypeProperty ;
+                                                 rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                  rdfs:range xsd:integer ;
                                                  rdfs:label "satellites deployed"@en .
 
 
 ###  http://dbpedia.org/ontology/schoolCode
 <http://dbpedia.org/ontology/schoolCode> rdf:type owl:DatatypeProperty ;
+                                         rdfs:subPropertyOf <http://schema.org/identifier> ;
                                          rdfs:range xsd:string ;
                                          rdfs:label "school code"@en .
 
 
 ###  http://dbpedia.org/ontology/schoolnumber
 <http://dbpedia.org/ontology/schoolnumber> rdf:type owl:DatatypeProperty ;
+                                           rdfs:subPropertyOf <http://schema.org/identifier> ;
                                            rdfs:range xsd:string ;
                                            rdfs:label "schoolnumber"@en .
 
 
 ###  http://dbpedia.org/ontology/scottishName
 <http://dbpedia.org/ontology/scottishName> rdf:type owl:DatatypeProperty ;
+                                           rdfs:subPropertyOf <http://schema.org/identifier> ;
                                            rdfs:domain <http://dbpedia.org/ontology/Settlement> ;
                                            rdfs:range xsd:string ;
                                            rdfs:label "scottish name"@en .
@@ -4483,42 +4331,49 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/season
 <http://dbpedia.org/ontology/season> rdf:type owl:DatatypeProperty ;
+                                     rdfs:subPropertyOf <http://schema.org/identifier> ;
                                      rdfs:range xsd:date ;
                                      rdfs:label "season"@en .
 
 
 ###  http://dbpedia.org/ontology/seasonNumber
 <http://dbpedia.org/ontology/seasonNumber> rdf:type owl:DatatypeProperty ;
+                                           rdfs:subPropertyOf <http://schema.org/identifier> ;
                                            rdfs:range xsd:integer ;
                                            rdfs:label "season number"@en .
 
 
 ###  http://dbpedia.org/ontology/seniority
 <http://dbpedia.org/ontology/seniority> rdf:type owl:DatatypeProperty ;
+                                        rdfs:subPropertyOf <http://schema.org/identifier> ;
                                         rdfs:range xsd:string ;
                                         rdfs:label "seniority"@en .
 
 
 ###  http://dbpedia.org/ontology/serviceEndDate
 <http://dbpedia.org/ontology/serviceEndDate> rdf:type owl:DatatypeProperty ;
+                                             rdfs:subPropertyOf <http://schema.org/identifier> ;
                                              rdfs:range xsd:date ;
                                              rdfs:label "service end date"@en .
 
 
 ###  http://dbpedia.org/ontology/serviceEndYear
 <http://dbpedia.org/ontology/serviceEndYear> rdf:type owl:DatatypeProperty ;
+                                             rdfs:subPropertyOf <http://schema.org/identifier> ;
                                              rdfs:range xsd:gYear ;
                                              rdfs:label "service end year"@en .
 
 
 ###  http://dbpedia.org/ontology/serviceModule
 <http://dbpedia.org/ontology/serviceModule> rdf:type owl:DatatypeProperty ;
+                                            rdfs:subPropertyOf <http://schema.org/identifier> ;
                                             rdfs:range xsd:string ;
                                             rdfs:label "service module"@en .
 
 
 ###  http://dbpedia.org/ontology/serviceNumber
 <http://dbpedia.org/ontology/serviceNumber> rdf:type owl:DatatypeProperty ;
+                                            rdfs:subPropertyOf <http://schema.org/identifier> ;
                                             rdfs:range xsd:string ;
                                             rdfs:comment "The service number held by the individual during military service."@en ;
                                             rdfs:label "service number"@en .
@@ -4526,42 +4381,49 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/serviceStartDate
 <http://dbpedia.org/ontology/serviceStartDate> rdf:type owl:DatatypeProperty ;
+                                               rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                rdfs:range xsd:date ;
                                                rdfs:label "service start date"@en .
 
 
 ###  http://dbpedia.org/ontology/serviceStartYear
 <http://dbpedia.org/ontology/serviceStartYear> rdf:type owl:DatatypeProperty ;
+                                               rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                rdfs:range xsd:gYear ;
                                                rdfs:label "service start year"@en .
 
 
 ###  http://dbpedia.org/ontology/setupTime
 <http://dbpedia.org/ontology/setupTime> rdf:type owl:DatatypeProperty ;
+                                        rdfs:subPropertyOf <http://schema.org/identifier> ;
                                         rdfs:range xsd:double ;
                                         rdfs:label "setup time (s)"@en .
 
 
 ###  http://dbpedia.org/ontology/share
 <http://dbpedia.org/ontology/share> rdf:type owl:DatatypeProperty ;
+                                    rdfs:subPropertyOf <http://schema.org/identifier> ;
                                     rdfs:range xsd:float ;
                                     rdfs:label "share"@en .
 
 
 ###  http://dbpedia.org/ontology/shareDate
 <http://dbpedia.org/ontology/shareDate> rdf:type owl:DatatypeProperty ;
+                                        rdfs:subPropertyOf <http://schema.org/identifier> ;
                                         rdfs:range xsd:date ;
                                         rdfs:label "share date"@en .
 
 
 ###  http://dbpedia.org/ontology/shareSource
 <http://dbpedia.org/ontology/shareSource> rdf:type owl:DatatypeProperty ;
+                                          rdfs:subPropertyOf <http://schema.org/identifier> ;
                                           rdfs:range xsd:string ;
                                           rdfs:label "share source"@en .
 
 
 ###  http://dbpedia.org/ontology/shipBeam
 <http://dbpedia.org/ontology/shipBeam> rdf:type owl:DatatypeProperty ;
+                                       rdfs:subPropertyOf <http://schema.org/identifier> ;
                                        rdfs:range xsd:double ;
                                        rdfs:comment "The beam of a ship is its width at the widest point."@en ;
                                        rdfs:label "ship beam (m)"@en .
@@ -4569,6 +4431,7 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/shipDraft
 <http://dbpedia.org/ontology/shipDraft> rdf:type owl:DatatypeProperty ;
+                                        rdfs:subPropertyOf <http://schema.org/identifier> ;
                                         rdfs:range xsd:double ;
                                         rdfs:comment "The draft (or draught) of a ship's hull is the vertical distance between the waterline and the bottom of the hull (keel), with the thickness of the hull included; in the case of not being included the draft outline would be obtained."@en ;
                                         rdfs:label "ship draft (m)"@en .
@@ -4576,30 +4439,35 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/shoots
 <http://dbpedia.org/ontology/shoots> rdf:type owl:DatatypeProperty ;
+                                     rdfs:subPropertyOf <http://schema.org/identifier> ;
                                      rdfs:range xsd:string ;
                                      rdfs:label "shoots"@en .
 
 
 ###  http://dbpedia.org/ontology/shoreLength
 <http://dbpedia.org/ontology/shoreLength> rdf:type owl:DatatypeProperty ;
+                                          rdfs:subPropertyOf <http://schema.org/identifier> ;
                                           rdfs:range xsd:double ;
                                           rdfs:label "shore length (m)"@en .
 
 
 ###  http://dbpedia.org/ontology/throws
 <http://dbpedia.org/ontology/throws> rdf:type owl:DatatypeProperty ;
+                                     rdfs:subPropertyOf <http://schema.org/identifier> ;
                                      rdfs:range xsd:integer ;
                                      rdfs:label "throws"@en .
 
 
 ###  http://dbpedia.org/ontology/timeInSpace
 <http://dbpedia.org/ontology/timeInSpace> rdf:type owl:DatatypeProperty ;
+                                          rdfs:subPropertyOf <http://schema.org/identifier> ;
                                           rdfs:range xsd:double ;
                                           rdfs:label "time in space (s)"@en .
 
 
 ###  http://dbpedia.org/ontology/unknownOutcomes
 <http://dbpedia.org/ontology/unknownOutcomes> rdf:type owl:DatatypeProperty ;
+                                              rdfs:subPropertyOf <http://schema.org/identifier> ;
                                               rdfs:range xsd:integer ;
                                               rdfs:comment "number of launches with unknown outcomes (or in progress)"@en ;
                                               rdfs:label "unknown outcomes"@en .
@@ -4607,100 +4475,120 @@ display 02144506"""@eng ,
 
 ###  http://dbpedia.org/ontology/upperAge
 <http://dbpedia.org/ontology/upperAge> rdf:type owl:DatatypeProperty ;
+                                       rdfs:subPropertyOf <http://schema.org/identifier> ;
                                        rdfs:range xsd:integer ;
                                        rdfs:label "upper age"@en .
 
 
 ###  http://dbpedia.org/ontology/Astronaut/timeInSpace
 <http://dbpedia.org/ontology/Astronaut/timeInSpace> rdf:type owl:DatatypeProperty ;
+                                                    rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                     rdfs:label "time in space (m)"@en .
 
 
 ###  http://dbpedia.org/ontology/AutomobileEngine/pistonStroke
 <http://dbpedia.org/ontology/AutomobileEngine/pistonStroke> rdf:type owl:DatatypeProperty ;
+                                                            rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                             rdfs:label "piston stroke (mm)"@en .
 
 
 ###  http://dbpedia.org/ontology/AutomobileEngine/powerOutput
 <http://dbpedia.org/ontology/AutomobileEngine/powerOutput> rdf:type owl:DatatypeProperty ;
+                                                           rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                            rdfs:label "power output (kW)"@en .
 
 
 ###  http://dbpedia.org/ontology/Canal/originalMaximumBoatBeam
 <http://dbpedia.org/ontology/Canal/originalMaximumBoatBeam> rdf:type owl:DatatypeProperty ;
+                                                            rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                             rdfs:label "original maximum boat beam (m)"@en .
 
 
 ###  http://dbpedia.org/ontology/Canal/originalMaximumBoatLength
 <http://dbpedia.org/ontology/Canal/originalMaximumBoatLength> rdf:type owl:DatatypeProperty ;
+                                                              rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                               rdfs:label "original maximum boat length (m)"@en .
 
 
 ###  http://dbpedia.org/ontology/GeopoliticalOrganisation/populationDensity
 <http://dbpedia.org/ontology/GeopoliticalOrganisation/populationDensity> rdf:type owl:DatatypeProperty ;
+                                                                         rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                                          rdfs:label "population density (/sqkm)"@en .
 
 
 ###  http://dbpedia.org/ontology/Lake/shoreLength
 <http://dbpedia.org/ontology/Lake/shoreLength> rdf:type owl:DatatypeProperty ;
+                                               rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                rdfs:label "shore length (km)"@en .
 
 
 ###  http://dbpedia.org/ontology/Mountain/prominence
 <http://dbpedia.org/ontology/Mountain/prominence> rdf:type owl:DatatypeProperty ;
+                                                  rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                   rdfs:label "prominence (m)"@en .
 
 
 ###  http://dbpedia.org/ontology/Planet/orbitalPeriod
 <http://dbpedia.org/ontology/Planet/orbitalPeriod> rdf:type owl:DatatypeProperty ;
+                                                   rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                    rdfs:range <http://dbpedia.org/ontology/day> ;
                                                    rdfs:label "orbital period (d)"@en .
 
 
 ###  http://dbpedia.org/ontology/Planet/periapsis
 <http://dbpedia.org/ontology/Planet/periapsis> rdf:type owl:DatatypeProperty ;
+                                               rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                rdfs:label "periapsis (km)"@en .
 
 
 ###  http://dbpedia.org/ontology/PopulatedPlace/populationDensity
-<http://dbpedia.org/ontology/PopulatedPlace/populationDensity> rdf:type owl:DatatypeProperty .
+<http://dbpedia.org/ontology/PopulatedPlace/populationDensity> rdf:type owl:DatatypeProperty ;
+                                                               rdfs:subPropertyOf <http://schema.org/identifier> .
 
 
 ###  http://dbpedia.org/ontology/PopulatedPlace/populationMetroDensity
-<http://dbpedia.org/ontology/PopulatedPlace/populationMetroDensity> rdf:type owl:DatatypeProperty .
+<http://dbpedia.org/ontology/PopulatedPlace/populationMetroDensity> rdf:type owl:DatatypeProperty ;
+                                                                    rdfs:subPropertyOf <http://schema.org/identifier> .
 
 
 ###  http://dbpedia.org/ontology/PopulatedPlace/populationUrbanDensity
-<http://dbpedia.org/ontology/PopulatedPlace/populationUrbanDensity> rdf:type owl:DatatypeProperty .
+<http://dbpedia.org/ontology/PopulatedPlace/populationUrbanDensity> rdf:type owl:DatatypeProperty ;
+                                                                    rdfs:subPropertyOf <http://schema.org/identifier> .
 
 
 ###  http://dbpedia.org/ontology/SpaceShuttle/timeInSpace
 <http://dbpedia.org/ontology/SpaceShuttle/timeInSpace> rdf:type owl:DatatypeProperty ;
+                                                       rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                        rdfs:range <http://dbpedia.org/ontology/day> ;
                                                        rdfs:label "time in space (d)"@en .
 
 
 ###  http://dbpedia.org/ontology/Spacecraft/periapsis
 <http://dbpedia.org/ontology/Spacecraft/periapsis> rdf:type owl:DatatypeProperty ;
+                                                   rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                    rdfs:label "periapsis (km)"@en .
 
 
 ###  http://dbpedia.org/ontology/Work/runtime
 <http://dbpedia.org/ontology/Work/runtime> rdf:type owl:DatatypeProperty ;
+                                           rdfs:subPropertyOf <http://schema.org/identifier> ;
                                            rdfs:label "runtime (m)"@en .
 
 
 ###  http://purl.org/NET/cidoc-crm/core#P82_at_some_time_within
-<http://purl.org/NET/cidoc-crm/core#P82_at_some_time_within> rdf:type owl:DatatypeProperty .
+<http://purl.org/NET/cidoc-crm/core#P82_at_some_time_within> rdf:type owl:DatatypeProperty ;
+                                                             rdfs:subPropertyOf <http://schema.org/identifier> .
 
 
 ###  http://purl.org/NET/cidoc-crm/core#P90_has_value
-<http://purl.org/NET/cidoc-crm/core#P90_has_value> rdf:type owl:DatatypeProperty .
+<http://purl.org/NET/cidoc-crm/core#P90_has_value> rdf:type owl:DatatypeProperty ;
+                                                   rdfs:subPropertyOf <http://schema.org/identifier> .
 
 
 ###  http://schema.org/birthDate
-<http://schema.org/birthDate> rdf:type owl:DatatypeProperty ,
-                                       owl:FunctionalProperty ;
+<http://schema.org/birthDate> rdf:type owl:DatatypeProperty ;
+                              rdfs:subPropertyOf <http://schema.org/identifier> ;
+                              rdf:type owl:FunctionalProperty ;
                               rdfs:domain <http://schema.org/Person> ;
                               rdfs:range [ rdf:type rdfs:Datatype ;
                                            owl:unionOf ( xsd:date
@@ -4714,8 +4602,9 @@ display 02144506"""@eng ,
 
 
 ###  http://schema.org/dateCreated
-<http://schema.org/dateCreated> rdf:type owl:DatatypeProperty ,
-                                         owl:FunctionalProperty ;
+<http://schema.org/dateCreated> rdf:type owl:DatatypeProperty ;
+                                rdfs:subPropertyOf <http://schema.org/identifier> ;
+                                rdf:type owl:FunctionalProperty ;
                                 rdfs:domain <http://schema.org/CreativeWork> ;
                                 rdfs:range [ rdf:type rdfs:Datatype ;
                                              owl:unionOf ( xsd:date
@@ -4729,8 +4618,9 @@ display 02144506"""@eng ,
 
 
 ###  http://schema.org/datePublished
-<http://schema.org/datePublished> rdf:type owl:DatatypeProperty ,
-                                           owl:FunctionalProperty ;
+<http://schema.org/datePublished> rdf:type owl:DatatypeProperty ;
+                                  rdfs:subPropertyOf <http://schema.org/identifier> ;
+                                  rdf:type owl:FunctionalProperty ;
                                   rdfs:domain <http://schema.org/CreativeWork> ;
                                   rdfs:range [ rdf:type rdfs:Datatype ;
                                                owl:unionOf ( xsd:date
@@ -4744,8 +4634,9 @@ display 02144506"""@eng ,
 
 
 ###  http://schema.org/deathDate
-<http://schema.org/deathDate> rdf:type owl:DatatypeProperty ,
-                                       owl:FunctionalProperty ;
+<http://schema.org/deathDate> rdf:type owl:DatatypeProperty ;
+                              rdfs:subPropertyOf <http://schema.org/identifier> ;
+                              rdf:type owl:FunctionalProperty ;
                               rdfs:domain <http://schema.org/Person> ;
                               rdfs:range [ rdf:type rdfs:Datatype ;
                                            owl:unionOf ( xsd:date
@@ -4759,8 +4650,9 @@ display 02144506"""@eng ,
 
 
 ###  http://schema.org/dissolutionDate
-<http://schema.org/dissolutionDate> rdf:type owl:DatatypeProperty ,
-                                             owl:FunctionalProperty ;
+<http://schema.org/dissolutionDate> rdf:type owl:DatatypeProperty ;
+                                    rdfs:subPropertyOf <http://schema.org/identifier> ;
+                                    rdf:type owl:FunctionalProperty ;
                                     rdfs:domain <http://schema.org/Organization> ;
                                     rdfs:range [ rdf:type rdfs:Datatype ;
                                                  owl:unionOf ( xsd:date
@@ -4784,8 +4676,9 @@ display 02144506"""@eng ,
 
 
 ###  http://schema.org/encodingFormat
-<http://schema.org/encodingFormat> rdf:type owl:DatatypeProperty ,
-                                            owl:FunctionalProperty ;
+<http://schema.org/encodingFormat> rdf:type owl:DatatypeProperty ;
+                                   rdfs:subPropertyOf <http://schema.org/identifier> ;
+                                   rdf:type owl:FunctionalProperty ;
                                    rdfs:domain <http://schema.org/CreativeWork> ;
                                    rdfs:range xsd:string ;
                                    rdfs:comment """Media type typically expressed using a MIME format (see <a href=\"http://www.iana.org/assignments/media-types/media-types.xhtml\">IANA site</a> and <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types\">MDN reference</a>) e.g. application/zip for a SoftwareApplication binary, audio/mpeg for .mp3 etc.).<br/><br/>
@@ -4797,8 +4690,9 @@ Unregistered or niche encoding and file formats can be indicated instead via the
 
 
 ###  http://schema.org/endDate
-<http://schema.org/endDate> rdf:type owl:DatatypeProperty ,
-                                     owl:FunctionalProperty ;
+<http://schema.org/endDate> rdf:type owl:DatatypeProperty ;
+                            rdfs:subPropertyOf <http://schema.org/identifier> ;
+                            rdf:type owl:FunctionalProperty ;
                             rdfs:domain <http://schema.org/Event> ;
                             rdfs:range [ rdf:type rdfs:Datatype ;
                                          owl:unionOf ( xsd:date
@@ -4813,6 +4707,7 @@ Unregistered or niche encoding and file formats can be indicated instead via the
 
 ###  http://schema.org/faxNumber
 <http://schema.org/faxNumber> rdf:type owl:DatatypeProperty ;
+                              rdfs:subPropertyOf <http://schema.org/identifier> ;
                               rdfs:domain [ rdf:type owl:Class ;
                                             owl:unionOf ( <http://schema.org/Organization>
                                                           <http://schema.org/Person>
@@ -4825,8 +4720,9 @@ Unregistered or niche encoding and file formats can be indicated instead via the
 
 
 ###  http://schema.org/foundingDate
-<http://schema.org/foundingDate> rdf:type owl:DatatypeProperty ,
-                                          owl:FunctionalProperty ;
+<http://schema.org/foundingDate> rdf:type owl:DatatypeProperty ;
+                                 rdfs:subPropertyOf <http://schema.org/identifier> ;
+                                 rdf:type owl:FunctionalProperty ;
                                  rdfs:domain <http://schema.org/Organization> ;
                                  rdfs:range [ rdf:type rdfs:Datatype ;
                                               owl:unionOf ( xsd:date
@@ -4888,8 +4784,9 @@ Unregistered or niche encoding and file formats can be indicated instead via the
 
 
 ###  http://schema.org/position
-<http://schema.org/position> rdf:type owl:DatatypeProperty ,
-                                      owl:FunctionalProperty ;
+<http://schema.org/position> rdf:type owl:DatatypeProperty ;
+                             rdfs:subPropertyOf <http://schema.org/identifier> ;
+                             rdf:type owl:FunctionalProperty ;
                              rdfs:domain <http://schema.org/CreativeWork> ;
                              rdfs:range xsd:integer ;
                              rdfs:comment "The position of an item in a series or sequence of items." ;
@@ -4897,8 +4794,9 @@ Unregistered or niche encoding and file formats can be indicated instead via the
 
 
 ###  http://schema.org/startDate
-<http://schema.org/startDate> rdf:type owl:DatatypeProperty ,
-                                       owl:FunctionalProperty ;
+<http://schema.org/startDate> rdf:type owl:DatatypeProperty ;
+                              rdfs:subPropertyOf <http://schema.org/identifier> ;
+                              rdf:type owl:FunctionalProperty ;
                               rdfs:domain <http://schema.org/Event> ;
                               rdfs:range [ rdf:type rdfs:Datatype ;
                                            owl:unionOf ( xsd:date
@@ -4913,6 +4811,7 @@ Unregistered or niche encoding and file formats can be indicated instead via the
 
 ###  http://schema.org/telephone
 <http://schema.org/telephone> rdf:type owl:DatatypeProperty ;
+                              rdfs:subPropertyOf <http://schema.org/identifier> ;
                               rdfs:domain [ rdf:type owl:Class ;
                                             owl:unionOf ( <http://schema.org/Organization>
                                                           <http://schema.org/Person>
@@ -4942,12 +4841,14 @@ Unregistered or niche encoding and file formats can be indicated instead via the
 
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#currencyValue
 <http://spraakbanken.gu.se/rdf/owl/painting.owl#currencyValue> rdf:type owl:DatatypeProperty ;
+                                                               rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                                rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#ObjectValue> ;
                                                                rdfs:range rdfs:Literal .
 
 
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#descriptionString
 <http://spraakbanken.gu.se/rdf/owl/painting.owl#descriptionString> rdf:type owl:DatatypeProperty ;
+                                                                   rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                                    rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#ObjectDescription> .
 
 
@@ -4960,12 +4861,14 @@ Unregistered or niche encoding and file formats can be indicated instead via the
 
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIdentifierValue
 <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIdentifierValue> rdf:type owl:DatatypeProperty ;
+                                                                    rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                                     rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#UniqueIdentifier> ;
                                                                     rdfs:range rdfs:Literal .
 
 
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#hasPopularityValue
 <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasPopularityValue> rdf:type owl:DatatypeProperty ;
+                                                                    rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                                     rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting> ;
                                                                     rdfs:range rdfs:Literal .
 
@@ -4986,18 +4889,21 @@ Unregistered or niche encoding and file formats can be indicated instead via the
 
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#latValue
 <http://spraakbanken.gu.se/rdf/owl/painting.owl#latValue> rdf:type owl:DatatypeProperty ;
+                                                          rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                           rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#Point> ;
                                                           rdfs:range xsd:string .
 
 
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#longValue
 <http://spraakbanken.gu.se/rdf/owl/painting.owl#longValue> rdf:type owl:DatatypeProperty ;
+                                                           rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                            rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#Point> ;
                                                            rdfs:range xsd:string .
 
 
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#titleString
 <http://spraakbanken.gu.se/rdf/owl/painting.owl#titleString> rdf:type owl:DatatypeProperty ;
+                                                             rdfs:subPropertyOf <http://schema.org/identifier> ;
                                                              rdfs:domain <http://spraakbanken.gu.se/rdf/owl/painting.owl#Title> ;
                                                              rdfs:range xsd:string .
 
@@ -5010,15 +4916,18 @@ Unregistered or niche encoding and file formats can be indicated instead via the
 
 
 ###  http://xmlns.com/foaf/0.1/#familyName
-<http://xmlns.com/foaf/0.1/#familyName> rdf:type owl:DatatypeProperty .
+<http://xmlns.com/foaf/0.1/#familyName> rdf:type owl:DatatypeProperty ;
+                                        rdfs:subPropertyOf <http://schema.org/identifier> .
 
 
 ###  http://xmlns.com/foaf/0.1/#firstName
-<http://xmlns.com/foaf/0.1/#firstName> rdf:type owl:DatatypeProperty .
+<http://xmlns.com/foaf/0.1/#firstName> rdf:type owl:DatatypeProperty ;
+                                       rdfs:subPropertyOf <http://schema.org/identifier> .
 
 
 ###  http://xmlns.com/foaf/0.1/#status
-<http://xmlns.com/foaf/0.1/#status> rdf:type owl:DatatypeProperty .
+<http://xmlns.com/foaf/0.1/#status> rdf:type owl:DatatypeProperty ;
+                                    rdfs:subPropertyOf <http://schema.org/identifier> .
 
 
 #################################################################
@@ -5987,26 +5896,7 @@ See also <a href=\"http://blog.schema.org/2014/09/schemaorg-support-for-bibliogr
 
 
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#MiniaturePainting
-<http://spraakbanken.gu.se/rdf/owl/painting.owl#MiniaturePainting> rdf:type owl:Class ;
-                                                                   owl:equivalentClass [ owl:intersectionOf ( <http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting>
-                                                                                                              [ rdf:type owl:Class ;
-                                                                                                                owl:unionOf ( [ rdf:type owl:Restriction ;
-                                                                                                                                owl:onProperty <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasDimension> ;
-                                                                                                                                owl:hasValue <http://spraakbanken.gu.se/rdf/owl/painting.owl#MiniaturePaintingDiameter>
-                                                                                                                              ]
-                                                                                                                              [ rdf:type owl:Restriction ;
-                                                                                                                                owl:onProperty <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasDimension> ;
-                                                                                                                                owl:hasValue <http://spraakbanken.gu.se/rdf/owl/painting.owl#MiniaturePaintingWidth>
-                                                                                                                              ]
-                                                                                                                            )
-                                                                                                              ]
-                                                                                                              [ rdf:type owl:Restriction ;
-                                                                                                                owl:onProperty <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasDimension> ;
-                                                                                                                owl:hasValue <http://spraakbanken.gu.se/rdf/owl/painting.owl#MiniaturePaintingHeight>
-                                                                                                              ]
-                                                                                                            ) ;
-                                                                                         rdf:type owl:Class
-                                                                                       ] .
+<http://spraakbanken.gu.se/rdf/owl/painting.owl#MiniaturePainting> rdf:type owl:Class .
 
 
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#Miniaturist
@@ -6451,6 +6341,15 @@ See also <a href=\"http://blog.schema.org/2014/09/schemaorg-support-for-bibliogr
 <http://www.mindswap.org/2003/owl/geo/geoFeatures20040307.owl#municipality> rdf:type owl:Class .
 
 
+###  http://www.semanticweb.org/sefika/ontologies/2021/7/advance_painting.owl#date
+:date rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/sefika/ontologies/2021/7/advance_painting.owl#portrait
+:portrait rdf:type owl:Class ;
+          rdfs:subClassOf <http://schema.org/CreativeWork> .
+
+
 ###  http://www.w3.org/2006/time#Year
 <http://www.w3.org/2006/time#Year> rdf:type owl:Class .
 
@@ -6554,7 +6453,6 @@ See also <a href=\"http://blog.schema.org/2014/09/schemaorg-support-for-bibliogr
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#B19760
 <http://spraakbanken.gu.se/rdf/owl/painting.owl#B19760> rdf:type owl:NamedIndividual ,
                                                                  <http://spraakbanken.gu.se/rdf/owl/painting.owl#UniqueIdentifier> ;
-                                                        <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIdentifierType> <http://spraakbanken.gu.se/rdf/owl/painting.owl#NegativeNr> ;
                                                         <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIdentifierValue> "B 19760"^^rdfs:Literal .
 
 
@@ -6896,21 +6794,18 @@ See also <a href=\"http://blog.schema.org/2014/09/schemaorg-support-for-bibliogr
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#GSM920051Value
 <http://spraakbanken.gu.se/rdf/owl/painting.owl#GSM920051Value> rdf:type owl:NamedIndividual ,
                                                                          <http://spraakbanken.gu.se/rdf/owl/painting.owl#ObjectValue> ;
-                                                                <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasUnitOfCurrency> <http://spraakbanken.gu.se/rdf/owl/painting.owl#SwedishKrona> ;
                                                                 <http://spraakbanken.gu.se/rdf/owl/painting.owl#currencyValue> "5,000"^^rdfs:Literal .
 
 
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#GSM9226
 <http://spraakbanken.gu.se/rdf/owl/painting.owl#GSM9226> rdf:type owl:NamedIndividual ,
                                                                   <http://spraakbanken.gu.se/rdf/owl/painting.owl#UniqueIdentifier> ;
-                                                         <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIdentifierType> <http://spraakbanken.gu.se/rdf/owl/painting.owl#InventoryNr> ;
                                                          <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIdentifierValue> "GSM9226"^^rdfs:Literal .
 
 
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#GSM940051Acquisition
 <http://spraakbanken.gu.se/rdf/owl/painting.owl#GSM940051Acquisition> rdf:type owl:NamedIndividual ,
-                                                                               <http://spraakbanken.gu.se/rdf/owl/painting.owl#AcquisitionActivity> ;
-                                                                      <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasAcquisitionMethod> <http://spraakbanken.gu.se/rdf/owl/painting.owl#Present> .
+                                                                               <http://spraakbanken.gu.se/rdf/owl/painting.owl#AcquisitionActivity> .
 
 
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#GSM940051AcquisitionDate
@@ -6953,12 +6848,7 @@ See also <a href=\"http://blog.schema.org/2014/09/schemaorg-support-for-bibliogr
                                                               <http://spraakbanken.gu.se/rdf/owl/painting.owl#createdBy> <http://spraakbanken.gu.se/rdf/owl/painting.owl#BrynolfWennerberg> ;
                                                               <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasAcquisitionDate> <http://spraakbanken.gu.se/rdf/owl/painting.owl#GSM940051AcquisitionDate> ;
                                                               <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasAssignedAttribute> <http://spraakbanken.gu.se/rdf/owl/painting.owl#Good> ;
-                                                              <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasClassification> <http://spraakbanken.gu.se/rdf/owl/painting.owl#GothenburgMotive> ,
-                                                                                                                                 <http://spraakbanken.gu.se/rdf/owl/painting.owl#Paintings> ;
                                                               <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCreationDate> <http://spraakbanken.gu.se/rdf/owl/painting.owl#GSM940051CreationDate> ;
-                                                              <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCurrentLocation> <http://spraakbanken.gu.se/rdf/owl/painting.owl#HuvudmagasinetGårda> ;
-                                                              <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasDimension> <http://spraakbanken.gu.se/rdf/owl/painting.owl#GSM940051ImageHeight> ,
-                                                                                                                            <http://spraakbanken.gu.se/rdf/owl/painting.owl#GSM940051ImageWidth> ;
                                                               <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasHistoricalContext> <http://spraakbanken.gu.se/rdf/owl/painting.owl#GSM940051History> ;
                                                               <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasMaterial> <http://spraakbanken.gu.se/rdf/owl/painting.owl#Linen> ,
                                                                                                                            <http://spraakbanken.gu.se/rdf/owl/painting.owl#Wood> ;
@@ -7068,12 +6958,8 @@ See also <a href=\"http://blog.schema.org/2014/09/schemaorg-support-for-bibliogr
                                                                                                                        <http://spraakbanken.gu.se/rdf/owl/painting.owl#Gray> ,
                                                                                                                        <http://spraakbanken.gu.se/rdf/owl/painting.owl#White> ;
                                                              <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCreationDate> <http://spraakbanken.gu.se/rdf/owl/painting.owl#GuernicaCreationDate> ;
-                                                             <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCurrentLocation> <http://spraakbanken.gu.se/rdf/owl/painting.owl#MuseoReinaSofía> ;
-                                                             <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasDimension> <http://spraakbanken.gu.se/rdf/owl/painting.owl#GuernicaHeight> ;
-                                                             <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIntendedUse> <http://spraakbanken.gu.se/rdf/owl/painting.owl#Attention> ;
                                                              <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasPaintType> <http://spraakbanken.gu.se/rdf/owl/painting.owl#StandOil> ;
-                                                             <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasRepresentation> <http://spraakbanken.gu.se/rdf/owl/painting.owl#GuernicaJPG> ;
-                                                             <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasTitle> <http://spraakbanken.gu.se/rdf/owl/painting.owl#GuernicaTitle> .
+                                                             <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasRepresentation> <http://spraakbanken.gu.se/rdf/owl/painting.owl#GuernicaJPG> .
 
 
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#GuernicaPresentationDate
@@ -7121,8 +7007,7 @@ See also <a href=\"http://blog.schema.org/2014/09/schemaorg-support-for-bibliogr
 
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#IberianPeninsula
 <http://spraakbanken.gu.se/rdf/owl/painting.owl#IberianPeninsula> rdf:type owl:NamedIndividual ,
-                                                                           <http://spraakbanken.gu.se/rdf/owl/painting.owl#Place> ;
-                                                                  <http://spraakbanken.gu.se/rdf/owl/painting.owl#comprises> <http://spraakbanken.gu.se/rdf/owl/painting.owl#Spain> .
+                                                                           <http://spraakbanken.gu.se/rdf/owl/painting.owl#Place> .
 
 
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#IdNr
@@ -7237,7 +7122,6 @@ See also <a href=\"http://blog.schema.org/2014/09/schemaorg-support-for-bibliogr
 <http://spraakbanken.gu.se/rdf/owl/painting.owl#MandrianCompositionObj> rdf:type owl:NamedIndividual ,
                                                                                  <http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting> ;
                                                                         <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasBroaderTerm> <http://spraakbanken.gu.se/rdf/owl/painting.owl#ModernEuropeanFineArt> ;
-                                                                        <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasLocalName> <http://spraakbanken.gu.se/rdf/owl/painting.owl#MondrianComposition> ;
                                                                         <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasNarrowerTerm> <http://spraakbanken.gu.se/rdf/owl/painting.owl#GeometricAbstraction> .
 
 
@@ -7369,7 +7253,6 @@ See also <a href=\"http://blog.schema.org/2014/09/schemaorg-support-for-bibliogr
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#NicoHvanHeekCollection
 <http://spraakbanken.gu.se/rdf/owl/painting.owl#NicoHvanHeekCollection> rdf:type owl:NamedIndividual ,
                                                                                  <http://spraakbanken.gu.se/rdf/owl/painting.owl#Collection> ;
-                                                                        <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCurrentCurator> <http://spraakbanken.gu.se/rdf/owl/painting.owl#NicoHvanHeek> ;
                                                                         <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasPresentationDate> <http://spraakbanken.gu.se/rdf/owl/painting.owl#HeekCollectionPresentationDate> ;
                                                                         <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasPresentationLocation> <http://spraakbanken.gu.se/rdf/owl/painting.owl#Enschede> .
 
@@ -7518,7 +7401,6 @@ See also <a href=\"http://blog.schema.org/2014/09/schemaorg-support-for-bibliogr
                                                                   <http://spraakbanken.gu.se/rdf/owl/painting.owl#belongsTo> <http://spraakbanken.gu.se/rdf/owl/painting.owl#NicoHvanHeekCollection> ;
                                                                   <http://spraakbanken.gu.se/rdf/owl/painting.owl#createdBy> <http://spraakbanken.gu.se/rdf/owl/painting.owl#TerBorch> ;
                                                                   <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCreationDate> <http://spraakbanken.gu.se/rdf/owl/painting.owl#HeekCollectionPresentationDate> ;
-                                                                  <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIntendedUse> <http://spraakbanken.gu.se/rdf/owl/painting.owl#Copy> ;
                                                                   rdfs:label "Familjebild"@swe ,
                                                                              "Portrait of a Family"@eng .
 
@@ -7612,8 +7494,7 @@ See also <a href=\"http://blog.schema.org/2014/09/schemaorg-support-for-bibliogr
 
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#Spain
 <http://spraakbanken.gu.se/rdf/owl/painting.owl#Spain> rdf:type owl:NamedIndividual ,
-                                                                <http://spraakbanken.gu.se/rdf/owl/painting.owl#Country> ;
-                                                       <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasGeographicLocation> <http://spraakbanken.gu.se/rdf/owl/painting.owl#Europe> .
+                                                                <http://spraakbanken.gu.se/rdf/owl/painting.owl#Country> .
 
 
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#SprayPaint
@@ -7644,7 +7525,6 @@ See also <a href=\"http://blog.schema.org/2014/09/schemaorg-support-for-bibliogr
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#Sweden
 <http://spraakbanken.gu.se/rdf/owl/painting.owl#Sweden> rdf:type owl:NamedIndividual ,
                                                                  <http://spraakbanken.gu.se/rdf/owl/painting.owl#Country> ;
-                                                        <http://spraakbanken.gu.se/rdf/owl/painting.owl#isIdentifiedBy> <http://spraakbanken.gu.se/rdf/owl/painting.owl#IberianPeninsula> ;
                                                         rdfs:label "Sweden"@eng .
 
 
@@ -7872,14 +7752,12 @@ See also <a href=\"http://blog.schema.org/2014/09/schemaorg-support-for-bibliogr
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#795-361
 <http://spraakbanken.gu.se/rdf/owl/painting.owl#795-361> rdf:type owl:NamedIndividual ,
                                                                   <http://spraakbanken.gu.se/rdf/owl/painting.owl#UniqueIdentifier> ;
-                                                         <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIdentifierType> <http://spraakbanken.gu.se/rdf/owl/painting.owl#ClassificationNr> ;
                                                          <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIdentifierValue> "795;361"^^rdfs:Literal .
 
 
 ###  http://spraakbanken.gu.se/rdf/owl/painting.owl#940051
 <http://spraakbanken.gu.se/rdf/owl/painting.owl#940051> rdf:type owl:NamedIndividual ,
                                                                  <http://spraakbanken.gu.se/rdf/owl/painting.owl#UniqueIdentifier> ;
-                                                        <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIdentifierType> <http://spraakbanken.gu.se/rdf/owl/painting.owl#IdNr> ;
                                                         <http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIdentifierValue> "940051"^^rdfs:Literal .
 
 
