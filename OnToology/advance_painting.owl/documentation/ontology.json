@@ -375,30 +375,19 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting"
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E40_Legal_Body"
     }, {
-      "@id" : "_:genid188"
-    }, {
-      "@id" : "_:genid186"
+      "@id" : "http://reliant.teknowledge.com/DAML/Mid-level-ontology.owl#Museum"
     } ]
   } ]
 }, {
-  "@id" : "_:genid186",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#MiniaturePaintingHeight"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasDimension"
-  } ]
-}, {
-  "@id" : "_:genid188",
+  "@id" : "_:genid187",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "_:genid192"
+      "@id" : "http://kulturarvsdata.se/ksamsok#itemDescription"
     }, {
-      "@id" : "_:genid190"
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E89_Propositional_Object"
     } ]
   } ]
 }, {
@@ -413,44 +402,6 @@
   } ]
 }, {
   "@id" : "_:genid190",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#MiniaturePaintingWidth"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasDimension"
-  } ]
-}, {
-  "@id" : "_:genid192",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#MiniaturePaintingDiameter"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasDimension"
-  } ]
-}, {
-  "@id" : "_:genid194",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://purl.org/NET/cidoc-crm/core#E40_Legal_Body"
-    }, {
-      "@id" : "http://reliant.teknowledge.com/DAML/Mid-level-ontology.owl#Museum"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid197",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://kulturarvsdata.se/ksamsok#itemDescription"
-    }, {
-      "@id" : "http://purl.org/NET/cidoc-crm/core#E89_Propositional_Object"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid200",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
@@ -462,7 +413,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid204",
+  "@id" : "_:genid194",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
@@ -472,17 +423,17 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid207",
+  "@id" : "_:genid197",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
       "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting"
     }, {
-      "@id" : "_:genid209"
+      "@id" : "_:genid199"
     } ]
   } ]
 }, {
-  "@id" : "_:genid209",
+  "@id" : "_:genid199",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#hasValue" : [ {
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#OilPaint"
@@ -491,7 +442,7 @@
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasPaintType"
   } ]
 }, {
-  "@id" : "_:genid211",
+  "@id" : "_:genid201",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
@@ -501,7 +452,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid214",
+  "@id" : "_:genid204",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
@@ -511,23 +462,71 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid217",
+  "@id" : "_:genid207",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
       "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Artist"
     }, {
-      "@id" : "_:genid219"
+      "@id" : "_:genid209"
     } ]
   } ]
 }, {
-  "@id" : "_:genid219",
+  "@id" : "_:genid209",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#isCreatorOf"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting"
+  } ]
+}, {
+  "@id" : "_:genid211",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://kulturarvsdata.se/ksamsok#item"
+    }, {
+      "@id" : "http://reliant.teknowledge.com/DAML/Mid-level-ontology.owl#PaintedPicture"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid214",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#proclaims"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#TimePeriod"
+  } ]
+}, {
+  "@id" : "_:genid215",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting"
+    }, {
+      "@id" : "_:genid217"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid217",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Pastel"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasMaterial"
+  } ]
+}, {
+  "@id" : "_:genid219",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting"
+    }, {
+      "@id" : "_:genid221"
+    } ]
   } ]
 }, {
   "@id" : "_:genid22",
@@ -541,54 +540,6 @@
   } ]
 }, {
   "@id" : "_:genid221",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://kulturarvsdata.se/ksamsok#item"
-    }, {
-      "@id" : "http://reliant.teknowledge.com/DAML/Mid-level-ontology.owl#PaintedPicture"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid224",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#proclaims"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#TimePeriod"
-  } ]
-}, {
-  "@id" : "_:genid225",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting"
-    }, {
-      "@id" : "_:genid227"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid227",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Pastel"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasMaterial"
-  } ]
-}, {
-  "@id" : "_:genid229",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting"
-    }, {
-      "@id" : "_:genid231"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid231",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#hasValue" : [ {
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Pencil"
@@ -597,7 +548,7 @@
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#isPaintedWith"
   } ]
 }, {
-  "@id" : "_:genid233",
+  "@id" : "_:genid223",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
@@ -607,7 +558,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid236",
+  "@id" : "_:genid226",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
@@ -619,7 +570,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid240",
+  "@id" : "_:genid230",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
@@ -629,17 +580,17 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid243",
+  "@id" : "_:genid233",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
       "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting"
     }, {
-      "@id" : "_:genid245"
+      "@id" : "_:genid235"
     } ]
   } ]
 }, {
-  "@id" : "_:genid245",
+  "@id" : "_:genid235",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#hasValue" : [ {
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#PolymerPaint"
@@ -648,23 +599,63 @@
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasPaintType"
   } ]
 }, {
-  "@id" : "_:genid247",
+  "@id" : "_:genid237",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
       "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting"
     }, {
-      "@id" : "_:genid249"
+      "@id" : "_:genid239"
     } ]
   } ]
 }, {
-  "@id" : "_:genid249",
+  "@id" : "_:genid239",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
-      "@id" : "_:genid253"
+      "@id" : "_:genid243"
     }, {
-      "@id" : "_:genid251"
+      "@id" : "_:genid241"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid241",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Human"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#depicts"
+  } ]
+}, {
+  "@id" : "_:genid243",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#AnimateThing"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#depicts"
+  } ]
+}, {
+  "@id" : "_:genid245",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://kulturarvsdata.se/ksamsok#eventName"
+    }, {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E12_Production"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid248",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#PortraitPainting"
+    }, {
+      "@id" : "_:genid252"
+    }, {
+      "@id" : "_:genid250"
     } ]
   } ]
 }, {
@@ -678,47 +669,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid251",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Human"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#depicts"
-  } ]
-}, {
-  "@id" : "_:genid253",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#AnimateThing"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#depicts"
-  } ]
-}, {
-  "@id" : "_:genid255",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://kulturarvsdata.se/ksamsok#eventName"
-    }, {
-      "@id" : "http://purl.org/NET/cidoc-crm/core#E12_Production"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid258",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#PortraitPainting"
-    }, {
-      "@id" : "_:genid262"
-    }, {
-      "@id" : "_:genid260"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid260",
+  "@id" : "_:genid250",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#depicts"
@@ -727,7 +678,7 @@
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Artist"
   } ]
 }, {
-  "@id" : "_:genid262",
+  "@id" : "_:genid252",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#createdBy"
@@ -736,7 +687,7 @@
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Artist"
   } ]
 }, {
-  "@id" : "_:genid264",
+  "@id" : "_:genid254",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
@@ -748,7 +699,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid268",
+  "@id" : "_:genid258",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
@@ -758,17 +709,17 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid271",
+  "@id" : "_:genid261",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
       "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting"
     }, {
-      "@id" : "_:genid273"
+      "@id" : "_:genid263"
     } ]
   } ]
 }, {
-  "@id" : "_:genid273",
+  "@id" : "_:genid263",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#depicts"
@@ -777,19 +728,19 @@
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#InanimateThing"
   } ]
 }, {
-  "@id" : "_:genid275",
+  "@id" : "_:genid265",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
       "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting"
     }, {
-      "@id" : "_:genid279"
+      "@id" : "_:genid269"
     }, {
-      "@id" : "_:genid277"
+      "@id" : "_:genid267"
     } ]
   } ]
 }, {
-  "@id" : "_:genid277",
+  "@id" : "_:genid267",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#hasValue" : [ {
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#TibetanSilk"
@@ -798,13 +749,45 @@
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasMaterial"
   } ]
 }, {
-  "@id" : "_:genid279",
+  "@id" : "_:genid269",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#depicts"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#AnimateThing"
+  } ]
+}, {
+  "@id" : "_:genid271",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E52_Time-Span"
+    }, {
+      "@id" : "http://reliant.teknowledge.com/DAML/SUMO#YearDuration"
+    }, {
+      "@id" : "http://www.w3.org/2006/time#Year"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid275",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://kulturarvsdata.se/ksamsok#itemTitle"
+    }, {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E35_Title"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid278",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://kulturarvsdata.se/ksamsok#itemNumber"
+    }, {
+      "@id" : "http://purl.org/NET/cidoc-crm/core#E42_Identifier"
+    } ]
   } ]
 }, {
   "@id" : "_:genid28",
@@ -821,55 +804,23 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "http://purl.org/NET/cidoc-crm/core#E52_Time-Span"
-    }, {
-      "@id" : "http://reliant.teknowledge.com/DAML/SUMO#YearDuration"
-    }, {
-      "@id" : "http://www.w3.org/2006/time#Year"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid285",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://kulturarvsdata.se/ksamsok#itemTitle"
-    }, {
-      "@id" : "http://purl.org/NET/cidoc-crm/core#E35_Title"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid288",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://kulturarvsdata.se/ksamsok#itemNumber"
-    }, {
-      "@id" : "http://purl.org/NET/cidoc-crm/core#E42_Identifier"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid291",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
       "@id" : "http://purl.org/NET/cidoc-crm/core#E58_Measurement_Unit"
     }, {
       "@id" : "http://reliant.teknowledge.com/DAML/SUMO#UnitOfMeasure"
     } ]
   } ]
 }, {
-  "@id" : "_:genid294",
+  "@id" : "_:genid284",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
       "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting"
     }, {
-      "@id" : "_:genid296"
+      "@id" : "_:genid286"
     } ]
   } ]
 }, {
-  "@id" : "_:genid296",
+  "@id" : "_:genid286",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#hasValue" : [ {
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#WatercolorPaint"
@@ -878,7 +829,7 @@
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasPaintType"
   } ]
 }, {
-  "@id" : "_:genid298",
+  "@id" : "_:genid288",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#hasValue" : [ {
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#DryBrush"
@@ -887,17 +838,17 @@
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasPaintingTechnique"
   } ]
 }, {
-  "@id" : "_:genid299",
+  "@id" : "_:genid289",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
       "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting"
     }, {
-      "@id" : "_:genid301"
+      "@id" : "_:genid291"
     } ]
   } ]
 }, {
-  "@id" : "_:genid301",
+  "@id" : "_:genid291",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://reliant.teknowledge.com/DAML/SUMO#WaterArea"
@@ -1134,9 +1085,6 @@
     } ]
   } ]
 }, {
-  "@id" : "http://bioschemas.org/bioChemInteraction",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
   "@id" : "http://bioschemas.org/encodesBioChemEntity",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
@@ -1152,19 +1100,13 @@
   "@id" : "http://bioschemas.org/isEncodedByBioChemEntity",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "http://bioschemas.org/isInvolvedInBiologicalProcess",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "http://bioschemas.org/isLocatedInSubcellularLocation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "http://bioschemas.org/parentTaxon",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
   "@id" : "http://bioschemas.org/smiles",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://bioschemas.org/taxonRank",
@@ -1204,6 +1146,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "time in space (m)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/AutomobileEngine/pistonStroke",
@@ -1211,6 +1156,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "piston stroke (mm)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/AutomobileEngine/powerOutput",
@@ -1218,6 +1166,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "power output (kW)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/BodyOfWater",
@@ -1238,6 +1189,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "original maximum boat beam (m)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/Canal/originalMaximumBoatLength",
@@ -1245,6 +1199,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "original maximum boat length (m)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/City",
@@ -1345,6 +1302,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "population density (/sqkm)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/Lake/shoreLength",
@@ -1352,6 +1312,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "shore length (km)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/Mountain/prominence",
@@ -1359,6 +1322,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "prominence (m)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/Organisation",
@@ -1431,6 +1397,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://dbpedia.org/ontology/day"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/Planet/periapsis",
@@ -1438,6 +1407,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "periapsis (km)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/PopulatedPlace",
@@ -1470,6 +1442,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "population density (/sqkm)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/PopulatedPlace/populationMetroDensity",
@@ -1480,6 +1455,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "population metro density (/sqkm)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/PopulatedPlace/populationUrbanDensity",
@@ -1490,6 +1468,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "population urban density (/sqkm)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/Settlement",
@@ -1513,6 +1494,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://dbpedia.org/ontology/day"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/Spacecraft/periapsis",
@@ -1520,6 +1504,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "periapsis (km)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/Town",
@@ -1568,6 +1555,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "runtime (m)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/abbreviation",
@@ -1581,6 +1571,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/academicAdvisor",
@@ -1733,6 +1726,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/areaLand",
@@ -1746,6 +1742,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/areaOfSearch",
@@ -1769,6 +1768,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/areaWater",
@@ -1782,6 +1784,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/arrondissement",
@@ -1944,6 +1949,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/birthName",
@@ -1957,6 +1965,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/birthPlace",
@@ -1980,6 +1991,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#gYear"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/board",
@@ -2139,6 +2153,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/ceo",
@@ -2288,6 +2305,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/closed",
@@ -2301,6 +2321,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/clubsRecordGoalscorer",
@@ -2324,6 +2347,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/cmykCoordinateMagenta",
@@ -2337,6 +2363,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/coExecutiveProducer",
@@ -2560,6 +2589,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/currentDomicile",
@@ -2613,6 +2645,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/daylightSavingTimeZone",
@@ -2682,6 +2717,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/deputy",
@@ -2745,6 +2783,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/dissolutionYear",
@@ -2758,6 +2799,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#gYear"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/distanceToBelfast",
@@ -2771,6 +2815,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/distanceToCardiff",
@@ -2784,6 +2831,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/distanceToCharingCross",
@@ -2797,6 +2847,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/distanceToDouglas",
@@ -2810,6 +2863,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/distanceToDublin",
@@ -2823,6 +2879,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/distanceToEdinburgh",
@@ -2836,6 +2895,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/distanceToLondon",
@@ -2849,6 +2911,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/distributor",
@@ -2955,6 +3020,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/endPoint",
@@ -3028,6 +3096,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/extinctionYear",
@@ -3041,6 +3112,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#gYear"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/facultySize",
@@ -3058,6 +3132,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/fastestDriver",
@@ -3190,6 +3267,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/formationYear",
@@ -3203,6 +3283,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#gYear"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/formerChoreographer",
@@ -3292,6 +3375,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/foundingPerson",
@@ -3318,6 +3404,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#gYear"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/fourthCommander",
@@ -3354,6 +3443,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/functionEndYear",
@@ -3367,6 +3459,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#gYear"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/functionStartDate",
@@ -3380,6 +3475,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/functionStartYear",
@@ -3393,6 +3491,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#gYear"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/gaelicName",
@@ -3406,6 +3507,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/garrison",
@@ -3439,6 +3543,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/governmentCountry",
@@ -3522,6 +3629,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/ground",
@@ -3605,6 +3715,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/highestPlace",
@@ -3658,6 +3771,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/hsvCoordinateValue",
@@ -3758,6 +3874,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/jointCommunity",
@@ -3873,6 +3992,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/lieutenancyArea",
@@ -3949,6 +4071,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/lowestMountain",
@@ -4079,6 +4204,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/maximumDepth",
@@ -4092,6 +4220,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/maximumElevation",
@@ -4109,6 +4240,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/mayor",
@@ -4135,6 +4269,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/meetingCity",
@@ -4168,6 +4305,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/metropolitanBorough",
@@ -4198,6 +4338,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/monarch",
@@ -4380,6 +4523,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/nobelLaureates",
@@ -4433,6 +4579,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/numberOfGraduateStudents",
@@ -4446,6 +4595,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/numberOfIslands",
@@ -4456,6 +4608,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/numberOfMembers",
@@ -4466,6 +4621,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/numberOfOfficials",
@@ -4476,6 +4634,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/numberOfOrbits",
@@ -4486,6 +4647,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/numberOfPads",
@@ -4496,6 +4660,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/numberOfParticipatingAthletes",
@@ -4506,6 +4673,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/numberOfParticipatingNations",
@@ -4516,6 +4686,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/numberOfPostgraduateStudents",
@@ -4529,6 +4702,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/numberOfSeasons",
@@ -4539,6 +4715,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/numberOfSilverMedalsWon",
@@ -4549,6 +4728,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/numberOfSports",
@@ -4559,6 +4741,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/numberOfStaff",
@@ -4572,6 +4757,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/numberOfStudents",
@@ -4585,6 +4773,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/numberOfUndergraduateStudents",
@@ -4598,6 +4789,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/numberOfVineyards",
@@ -4608,6 +4802,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/numberOfVisitors",
@@ -4618,6 +4815,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/numberOfVolunteers",
@@ -4631,6 +4831,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/numberOfWineries",
@@ -4641,6 +4844,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/nutsRegion",
@@ -4654,6 +4860,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/occupation",
@@ -4681,6 +4890,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/offeredClasses",
@@ -4691,6 +4903,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/office",
@@ -4701,6 +4916,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/officerInCharge",
@@ -4734,6 +4952,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/olympicOathSwornByAthlete",
@@ -4764,6 +4985,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/openingDate",
@@ -4774,6 +4998,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/operatingIncome",
@@ -4784,6 +5011,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/operator",
@@ -4817,6 +5047,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/orbitalInclination",
@@ -4827,6 +5060,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/orbitalPeriod",
@@ -4837,6 +5073,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/orbits",
@@ -4847,6 +5086,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/orderInOffice",
@@ -4857,6 +5099,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/organisation",
@@ -4897,6 +5142,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/originalMaximumBoatLength",
@@ -4907,6 +5155,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/originalStartPoint",
@@ -4930,6 +5181,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/overallRecord",
@@ -4940,6 +5194,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/oversight",
@@ -4950,6 +5207,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/owner",
@@ -4994,6 +5254,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/parentOrganisation",
@@ -5044,6 +5307,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/partner",
@@ -5097,6 +5363,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/percentageOfAreaWater",
@@ -5107,6 +5376,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/percentageOfAreaWaterRound",
@@ -5120,6 +5392,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/periapsis",
@@ -5130,6 +5405,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/person",
@@ -5166,6 +5444,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/photographer",
@@ -5186,6 +5467,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/place",
@@ -5236,6 +5520,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/plays",
@@ -5246,6 +5533,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/podiums",
@@ -5256,6 +5546,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/poleDriver",
@@ -5286,6 +5579,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/populationAsOf",
@@ -5299,6 +5595,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/populationDensity",
@@ -5309,6 +5608,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/populationMetro",
@@ -5322,6 +5624,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/populationMetroDensity",
@@ -5335,6 +5640,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/populationPlace",
@@ -5358,6 +5666,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/populationUrban",
@@ -5371,6 +5682,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/populationUrbanDensity",
@@ -5384,6 +5698,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/postalCode",
@@ -5394,6 +5711,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/powerOutput",
@@ -5404,6 +5724,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/presenter",
@@ -5523,6 +5846,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/productionEndDate",
@@ -5533,6 +5859,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/productionEndYear",
@@ -5543,6 +5872,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#gYear"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/productionStartDate",
@@ -5553,6 +5885,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/productionStartYear",
@@ -5563,6 +5898,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#gYear"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/productionYears",
@@ -5573,6 +5911,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/profession",
@@ -5593,6 +5934,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/prominence",
@@ -5603,6 +5947,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/prospectLeague",
@@ -5613,6 +5960,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/province",
@@ -5649,6 +5999,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/pubchem",
@@ -5659,6 +6012,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/publicationDate",
@@ -5669,6 +6025,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/publiclyAccessible",
@@ -5683,6 +6042,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/purpose",
@@ -5696,6 +6058,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/races",
@@ -5706,6 +6071,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/railwayPlatforms",
@@ -5716,6 +6084,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/range",
@@ -5726,6 +6097,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/rankInFinalMedalCount",
@@ -5736,6 +6110,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/ranking",
@@ -5746,6 +6123,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/ratio",
@@ -5756,6 +6136,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/rebuildingDate",
@@ -5766,6 +6149,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/recentWinner",
@@ -5786,6 +6172,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/recordPlace",
@@ -5819,6 +6208,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/refseq",
@@ -5829,6 +6221,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/regime",
@@ -5839,6 +6234,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/region",
@@ -5869,6 +6267,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/registration",
@@ -5879,6 +6280,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/relation",
@@ -5915,6 +6319,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/reopened",
@@ -5925,6 +6332,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/requirement",
@@ -5935,6 +6345,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/residence",
@@ -5985,6 +6398,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/retired",
@@ -5995,6 +6411,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/retiredDate",
@@ -6005,6 +6424,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/revenue",
@@ -6018,6 +6440,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/review",
@@ -6028,6 +6453,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/rgbCoordinateGreen",
@@ -6041,6 +6469,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/rgbCoordinateRed",
@@ -6054,6 +6485,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/river",
@@ -6085,6 +6519,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/role",
@@ -6095,6 +6532,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/runningMate",
@@ -6115,6 +6555,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/ruralMunicipality",
@@ -6148,6 +6591,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/satellitesDeployed",
@@ -6158,6 +6604,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/school",
@@ -6178,6 +6627,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/schoolnumber",
@@ -6188,6 +6640,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/scottishName",
@@ -6201,6 +6656,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/season",
@@ -6211,6 +6669,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/seasonNumber",
@@ -6221,6 +6682,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/secondCommander",
@@ -6261,6 +6725,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/serviceEndDate",
@@ -6271,6 +6738,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/serviceEndYear",
@@ -6281,6 +6751,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#gYear"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/serviceModule",
@@ -6291,6 +6764,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/serviceNumber",
@@ -6305,6 +6781,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/serviceStartDate",
@@ -6315,6 +6794,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/serviceStartYear",
@@ -6325,6 +6807,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#gYear"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/setupTime",
@@ -6335,6 +6820,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/share",
@@ -6345,6 +6833,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/shareDate",
@@ -6355,6 +6846,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/shareSource",
@@ -6365,6 +6859,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/sheading",
@@ -6392,6 +6889,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/shipDraft",
@@ -6406,6 +6906,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/shoots",
@@ -6416,6 +6919,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/shoreLength",
@@ -6426,6 +6932,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/showJudge",
@@ -6712,6 +7221,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/timeInSpace",
@@ -6722,6 +7234,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/timeZone",
@@ -6856,6 +7371,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/upperAge",
@@ -6866,6 +7384,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/usingcountry",
@@ -7129,58 +7650,13 @@
   "@id" : "http://purl.org/NET/cidoc-crm/core#E9_Move",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://purl.org/NET/cidoc-crm/core#P102_has_title",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "http://purl.org/NET/cidoc-crm/core#P103_was_intended_for",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "http://purl.org/NET/cidoc-crm/core#P107_has_current_or_former_member",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "http://purl.org/NET/cidoc-crm/core#P108_has_produced",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "http://purl.org/NET/cidoc-crm/core#P109_has_current_or_former_curator",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
   "@id" : "http://purl.org/NET/cidoc-crm/core#P127_has_broader_term",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "SingularInverse: crm:has_narrow_term"
   } ]
 }, {
-  "@id" : "http://purl.org/NET/cidoc-crm/core#P129_is_about",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "http://purl.org/NET/cidoc-crm/core#P131_is_identified_by",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
   "@id" : "http://purl.org/NET/cidoc-crm/core#P138_represents",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "http://purl.org/NET/cidoc-crm/core#P14_carried_out_by",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "http://purl.org/NET/cidoc-crm/core#P15_was_influenced_by",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "http://purl.org/NET/cidoc-crm/core#P26_moved_to",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "http://purl.org/NET/cidoc-crm/core#P27_moved_from",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "http://purl.org/NET/cidoc-crm/core#P2_has_type",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "http://purl.org/NET/cidoc-crm/core#P30_transferred_custody_of",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "http://purl.org/NET/cidoc-crm/core#P43_has_dimension",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "http://purl.org/NET/cidoc-crm/core#P44_has_condition",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
   "@id" : "http://purl.org/NET/cidoc-crm/core#P45_consists_of",
@@ -7192,34 +7668,22 @@
   "@id" : "http://purl.org/NET/cidoc-crm/core#P48_has_preferred_identifier",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "http://purl.org/NET/cidoc-crm/core#P52_has_current_owner",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "http://purl.org/NET/cidoc-crm/core#P53_has_former_or_current_location",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "http://purl.org/NET/cidoc-crm/core#P55_has_current_location",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
   "@id" : "http://purl.org/NET/cidoc-crm/core#P70_documents",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
   "@id" : "http://purl.org/NET/cidoc-crm/core#P82_at_some_time_within",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
-}, {
-  "@id" : "http://purl.org/NET/cidoc-crm/core#P87_is_identified_by",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "http://purl.org/NET/cidoc-crm/core#P88_consists_of",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
+  } ]
 }, {
   "@id" : "http://purl.org/NET/cidoc-crm/core#P90_has_value",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
+  } ]
 }, {
   "@id" : "http://purl.org/NET/cidoc-crm/core#P91_has_unit",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "http://purl.org/NET/cidoc-crm/core#P98_brought_into_life",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
   "@id" : "http://reliant.teknowledge.com/DAML/Mid-level-ontology.owl#Museum",
@@ -7716,6 +8180,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "_:genid50"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://schema.org/birthPlace",
@@ -7948,6 +8415,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "_:genid55"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://schema.org/datePublished",
@@ -7963,6 +8433,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "_:genid60"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://schema.org/deathDate",
@@ -7978,6 +8451,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "_:genid65"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://schema.org/deathPlace",
@@ -8029,6 +8505,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "_:genid70"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://schema.org/duns",
@@ -8089,6 +8568,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://schema.org/endDate",
@@ -8104,6 +8586,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "_:genid75"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://schema.org/exampleOfWork",
@@ -8149,6 +8634,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://schema.org/founder",
@@ -8179,6 +8667,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "_:genid84"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://schema.org/foundingLocation",
@@ -8674,6 +9165,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://schema.org/producer",
@@ -8806,6 +9300,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "_:genid89"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://schema.org/subOrganization",
@@ -8839,6 +9336,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://schema.org/translator",
@@ -8945,9 +9445,6 @@
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#795-361",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://spraakbanken.gu.se/rdf/owl/painting.owl#UniqueIdentifier" ],
-  "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIdentifierType" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#ClassificationNr"
-  } ],
   "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIdentifierValue" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "795;361"
@@ -8955,9 +9452,6 @@
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#940051",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://spraakbanken.gu.se/rdf/owl/painting.owl#UniqueIdentifier" ],
-  "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIdentifierType" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#IdNr"
-  } ],
   "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIdentifierValue" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "940051"
@@ -9088,9 +9582,6 @@
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#B19760",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://spraakbanken.gu.se/rdf/owl/painting.owl#UniqueIdentifier" ],
-  "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIdentifierType" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#NegativeNr"
-  } ],
   "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIdentifierValue" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "B 19760"
@@ -9492,26 +9983,17 @@
   "http://spraakbanken.gu.se/rdf/owl/painting.owl#currencyValue" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "5,000"
-  } ],
-  "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasUnitOfCurrency" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#SwedishKrona"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#GSM9226",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://spraakbanken.gu.se/rdf/owl/painting.owl#UniqueIdentifier" ],
-  "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIdentifierType" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#InventoryNr"
-  } ],
   "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIdentifierValue" : [ {
     "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "@value" : "GSM9226"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#GSM940051Acquisition",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://spraakbanken.gu.se/rdf/owl/painting.owl#AcquisitionActivity" ],
-  "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasAcquisitionMethod" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Present"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://spraakbanken.gu.se/rdf/owl/painting.owl#AcquisitionActivity" ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#GSM940051AcquisitionDate",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://spraakbanken.gu.se/rdf/owl/painting.owl#TimePeriod" ]
@@ -9571,21 +10053,8 @@
   "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasAssignedAttribute" : [ {
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Good"
   } ],
-  "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasClassification" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#GothenburgMotive"
-  }, {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Paintings"
-  } ],
   "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCreationDate" : [ {
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#GSM940051CreationDate"
-  } ],
-  "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCurrentLocation" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#HuvudmagasinetGårda"
-  } ],
-  "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasDimension" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#GSM940051ImageHeight"
-  }, {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#GSM940051ImageWidth"
   } ],
   "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasHistoricalContext" : [ {
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#GSM940051History"
@@ -9721,23 +10190,11 @@
   "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCreationDate" : [ {
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#GuernicaCreationDate"
   } ],
-  "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCurrentLocation" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#MuseoReinaSofía"
-  } ],
-  "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasDimension" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#GuernicaHeight"
-  } ],
-  "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIntendedUse" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Attention"
-  } ],
   "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasPaintType" : [ {
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#StandOil"
   } ],
   "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasRepresentation" : [ {
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#GuernicaJPG"
-  } ],
-  "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasTitle" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#GuernicaTitle"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#GuernicaPresentationDate",
@@ -9801,10 +10258,7 @@
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#IberianPeninsula",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://spraakbanken.gu.se/rdf/owl/painting.owl#Place" ],
-  "http://spraakbanken.gu.se/rdf/owl/painting.owl#comprises" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Spain"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://spraakbanken.gu.se/rdf/owl/painting.owl#Place" ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#IdNr",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://spraakbanken.gu.se/rdf/owl/painting.owl#IdentifierType" ]
@@ -9914,9 +10368,6 @@
   "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasBroaderTerm" : [ {
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#ModernEuropeanFineArt"
   } ],
-  "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasLocalName" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#MondrianComposition"
-  } ],
   "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasNarrowerTerm" : [ {
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#GeometricAbstraction"
   } ]
@@ -9970,10 +10421,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://spraakbanken.gu.se/rdf/owl/painting.owl#UnitOfMeasure" ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#MiniaturePainting",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid184"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#MiniaturePaintingDiameter",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://spraakbanken.gu.se/rdf/owl/painting.owl#Dimension" ],
@@ -10071,7 +10519,7 @@
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Organization"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid194"
+    "@id" : "_:genid184"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#MuseumBuilding",
@@ -10112,9 +10560,6 @@
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#NicoHvanHeekCollection",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://spraakbanken.gu.se/rdf/owl/painting.owl#Collection" ],
-  "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCurrentCurator" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#NicoHvanHeek"
-  } ],
   "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasPresentationDate" : [ {
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#HeekCollectionPresentationDate"
   } ],
@@ -10149,13 +10594,13 @@
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#ObjectDescription",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid197"
+    "@id" : "_:genid187"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#ObjectName",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid200"
+    "@id" : "_:genid190"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#ObjectType",
@@ -10167,7 +10612,7 @@
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#ObjectValue",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid204"
+    "@id" : "_:genid194"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#OilPaint",
@@ -10176,7 +10621,7 @@
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#OilPainting",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid207"
+    "@id" : "_:genid197"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#OilPastel",
@@ -10191,13 +10636,13 @@
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Agent"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid211"
+    "@id" : "_:genid201"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#OrganizationAbbreviation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid214"
+    "@id" : "_:genid204"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Original",
@@ -10233,7 +10678,7 @@
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Painter",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid217"
+    "@id" : "_:genid207"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting",
@@ -10253,7 +10698,7 @@
     "@id" : "http://purl.org/NET/cidoc-crm/core#E22_Man-Made_Object"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid221"
+    "@id" : "_:genid211"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#PaintingDescriptor",
@@ -10275,7 +10720,7 @@
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#PaintingDescriptor"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid224"
+    "@id" : "_:genid214"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#PaintingTechnique",
@@ -10309,7 +10754,7 @@
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#PastelPainting",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid225"
+    "@id" : "_:genid215"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Pen",
@@ -10321,7 +10766,7 @@
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#PencilPainting",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid229"
+    "@id" : "_:genid219"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#PermanentMuseumofModernArtCollection",
@@ -10343,19 +10788,19 @@
     "@value" : "A point located with respect to surface features of some region"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid233"
+    "@id" : "_:genid223"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#PlaceAppellation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid236"
+    "@id" : "_:genid226"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#PlaceCoordinates",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid240"
+    "@id" : "_:genid230"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Point",
@@ -10370,7 +10815,7 @@
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#PolymerPainting",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid243"
+    "@id" : "_:genid233"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#PoppyseedOil",
@@ -10387,9 +10832,6 @@
   "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCreationDate" : [ {
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#HeekCollectionPresentationDate"
   } ],
-  "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIntendedUse" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Copy"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "swe",
     "@value" : "Familjebild"
@@ -10404,7 +10846,7 @@
     "@value" : "07217051"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid247"
+    "@id" : "_:genid237"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Post-PainterlyAbstraction",
@@ -10416,7 +10858,7 @@
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#ProductionEvent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid255"
+    "@id" : "_:genid245"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Purchase",
@@ -10480,7 +10922,7 @@
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#SelfPortrait",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid258"
+    "@id" : "_:genid248"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Signature",
@@ -10489,7 +10931,7 @@
     "@value" : "EWN: 106404582"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid264"
+    "@id" : "_:genid254"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Sketch",
@@ -10499,10 +10941,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://spraakbanken.gu.se/rdf/owl/painting.owl#ColorAttribute" ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Spain",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://spraakbanken.gu.se/rdf/owl/painting.owl#Country" ],
-  "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasGeographicLocation" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Europe"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://spraakbanken.gu.se/rdf/owl/painting.owl#Country" ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#SprayPaint",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://spraakbanken.gu.se/rdf/owl/painting.owl#PaintMaterial" ]
@@ -10528,13 +10967,13 @@
     "@value" : "FN: State_of_entity"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid268"
+    "@id" : "_:genid258"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#StillLifePainting",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid271"
+    "@id" : "_:genid261"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Strong",
@@ -10554,9 +10993,6 @@
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Sweden",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://spraakbanken.gu.se/rdf/owl/painting.owl#Country" ],
-  "http://spraakbanken.gu.se/rdf/owl/painting.owl#isIdentifiedBy" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#IberianPeninsula"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "eng",
     "@value" : "Sweden"
@@ -10583,7 +11019,7 @@
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#ThangkaPainting",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid275"
+    "@id" : "_:genid265"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#TheBritishMuseum",
@@ -10629,7 +11065,7 @@
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#TimePeriod",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid281"
+    "@id" : "_:genid271"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#TissuePaper",
@@ -10638,7 +11074,7 @@
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Title",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid285"
+    "@id" : "_:genid275"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#TransferOfCustody",
@@ -10656,13 +11092,13 @@
     "@value" : "Example: CategoryNr, CollectionNr, URI"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid288"
+    "@id" : "_:genid278"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#UnitOfMeasure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid291"
+    "@id" : "_:genid281"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#University",
@@ -10702,9 +11138,9 @@
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#WatercolorPainting",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid294"
+    "@id" : "_:genid284"
   }, {
-    "@id" : "_:genid298"
+    "@id" : "_:genid288"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Waterscape",
@@ -10713,7 +11149,7 @@
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#WaterscapePainting",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
-    "@id" : "_:genid299"
+    "@id" : "_:genid289"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Week",
@@ -10793,47 +11229,6 @@
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#broughtIntLife",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#broughtIntoLife",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Birth"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Human"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/NET/cidoc-crm/core#P98_brought_into_life"
-  } ]
-}, {
-  "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#carriedOutBy",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#AcquisitionActivity"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Agent"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/NET/cidoc-crm/core#P14_carried_out_by"
-  } ]
-}, {
-  "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#comprises",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Inverse: is located in; forms part of"
-  }, {
-    "@value" : "This property identifies an E53 Place that forms part of another Place."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Place"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Place"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/NET/cidoc-crm/core#P88_consists_of"
-  } ]
-}, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#created",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -10862,6 +11257,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#currentOwnerOf",
@@ -10899,6 +11297,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#ObjectDescription"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#displayedAt",
@@ -10974,18 +11375,6 @@
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#TimePeriod"
   } ]
 }, {
-  "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasAcquisitionMethod",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#AcquisitionActivity"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#AcquisitionType"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/NET/cidoc-crm/core#P2_has_type"
-  } ]
-}, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasAcronym",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -11025,18 +11414,6 @@
     "@id" : "http://www.w3.org/2008/05/skos#boader"
   } ]
 }, {
-  "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasClassification",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#ClassificationConcept"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/NET/cidoc-crm/core#P2_has_type"
-  } ]
-}, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasColor",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -11059,21 +11436,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasAssignedAttribute"
-  } ]
-}, {
-  "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCondition",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://spraakbanken.gu.se/rdf/owl/painting.owl#inverseSingular" : [ {
-    "@value" : "isEvaluationStateOf"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#StateOfObject"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/NET/cidoc-crm/core#P44_has_condition"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCreationDate",
@@ -11100,52 +11462,6 @@
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#PlaceAppellation"
   } ]
 }, {
-  "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCurrentCurator",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Collection"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Agent"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/NET/cidoc-crm/core#P109_has_current_or_former_curator"
-  } ]
-}, {
-  "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCurrentLocation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "eng",
-    "@value" : "EngWN\nstore 02282506\ndisplay 02144506"
-  }, {
-    "@language" : "heb",
-    "@value" : "HebWN \nאִחְסֵן  01025171\n01464775 !הִפְגִּין, !הִצִּיג"
-  }, {
-    "@language" : "swe",
-    "@value" : "förvara..1\nåterfinna..1"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#PlaceAppellation"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/NET/cidoc-crm/core#P55_has_current_location"
-  } ]
-}, {
-  "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasCurrentOwner",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Agent"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/NET/cidoc-crm/core#P52_has_current_owner"
-  } ]
-}, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasDesignPattern",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -11158,30 +11474,6 @@
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasPaintingDescriptor"
   } ]
 }, {
-  "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasDimension",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Dimension"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/NET/cidoc-crm/core#P43_has_dimension"
-  } ]
-}, {
-  "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasFormerLocation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#PlaceAppellation"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/NET/cidoc-crm/core#P53_has_former_or_current_location"
-  } ]
-}, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasGeoPos",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -11189,18 +11481,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Point"
-  } ]
-}, {
-  "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasGeographicLocation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Place"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Region"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#isIdentifiedBy"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasHistoricalContext",
@@ -11215,18 +11495,6 @@
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#ObjectDescription"
   } ]
 }, {
-  "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIdentifierType",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#UniqueIdentifier"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#IdentifierType"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/NET/cidoc-crm/core#P2_has_type"
-  } ]
-}, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIdentifierValue",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -11234,30 +11502,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
-  } ]
-}, {
-  "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasIntendedUse",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Function"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/NET/cidoc-crm/core#P103_was_intended_for"
-  } ]
-}, {
-  "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasLocalName",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#ObjectName"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/NET/cidoc-crm/core#P2_has_type"
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasMaterial",
@@ -11275,18 +11522,6 @@
     "@id" : "http://purl.org/NET/cidoc-crm/core#P45_consists_of"
   } ]
 }, {
-  "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasMaterialCategory",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Material"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#MaterialType"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/NET/cidoc-crm/core#P2_has_type"
-  } ]
-}, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasMedium",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://spraakbanken.gu.se/rdf/owl/painting.owl#inverseSingular" : [ {
@@ -11298,18 +11533,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Medium"
-  } ]
-}, {
-  "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasMember",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Organization"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Human"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/NET/cidoc-crm/core#P107_has_current_or_former_member"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasNarrowerTerm",
@@ -11400,6 +11623,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasPresentationDate",
@@ -11421,18 +11647,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Place"
-  } ]
-}, {
-  "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasProduced",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#ProductionEvent"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/NET/cidoc-crm/core#P108_has_produced"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasReference",
@@ -11484,18 +11698,9 @@
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasTitle",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://spraakbanken.gu.se/saldo/saldoOnto.owl#hasSense" : [ {
     "@id" : "http://spraakbanken.gu.se/saldo/saldoOnto.owl#betitla..1"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Title"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/NET/cidoc-crm/core#P102_has_title"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasUniqueIdentifier",
@@ -11508,18 +11713,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://purl.org/NET/cidoc-crm/core#P48_has_preferred_identifier"
-  } ]
-}, {
-  "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasUnitOfCurrency",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#ObjectValue"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#CurrencyUnit"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/NET/cidoc-crm/core#P2_has_type"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasUnitOfMeasure",
@@ -11546,21 +11739,6 @@
     "@id" : "http://purl.org/NET/cidoc-crm/core#P90_has_value"
   } ]
 }, {
-  "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hasValueType",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "consider data property with boolean value"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#ObjectType"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/NET/cidoc-crm/core#P2_has_type"
-  } ]
-}, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#hascoordinates",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -11573,35 +11751,8 @@
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#horse",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://spraakbanken.gu.se/rdf/owl/painting.owl#AnimateThing" ]
 }, {
-  "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#influencedBy",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#ProductionEvent"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#ClassificationConcept"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/NET/cidoc-crm/core#P15_was_influenced_by"
-  } ]
-}, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#inverseSingular",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
-  "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#isAbout",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Inverse hasDescription"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#ObjectDescription"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/NET/cidoc-crm/core#P129_is_about"
-  } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#isCreatorOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
@@ -11619,30 +11770,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting"
-  } ]
-}, {
-  "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#isIdentifiedBy",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Place"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#PlaceAppellation"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/NET/cidoc-crm/core#P87_is_identified_by"
-  } ]
-}, {
-  "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#isIdentifiedByName",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Agent"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#AgentAppellation"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/NET/cidoc-crm/core#P131_is_identified_by"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#isKnownFor",
@@ -11695,6 +11822,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#longValue",
@@ -11704,34 +11834,13 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#modified",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
-  "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#movedFrom",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Move"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Place"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/NET/cidoc-crm/core#P27_moved_from"
-  } ]
-}, {
-  "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#movedTo",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Move"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Place"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/NET/cidoc-crm/core#P26_moved_to"
-  } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#occurredDuring",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
@@ -11788,6 +11897,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#toTimePeriodValue",
@@ -11800,18 +11912,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://purl.org/NET/cidoc-crm/core#P82_at_some_time_within"
-  } ]
-}, {
-  "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#transferredCustodyOf",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#TransferOfCustody"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://spraakbanken.gu.se/rdf/owl/painting.owl#Painting"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://purl.org/NET/cidoc-crm/core#P30_transferred_custody_of"
   } ]
 }, {
   "@id" : "http://spraakbanken.gu.se/saldo/saldoOnto.owl#WordSense",
@@ -11904,6 +12004,15 @@
     "@value" : "Version 3.5"
   } ]
 }, {
+  "@id" : "http://www.semanticweb.org/sefika/ontologies/2021/7/advance_painting.owl#date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/sefika/ontologies/2021/7/advance_painting.owl#portrait",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://schema.org/CreativeWork"
+  } ]
+}, {
   "@id" : "http://www.w3.org/2000/01/rdf-schema#comment",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -11947,11 +12056,20 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
   "@id" : "http://xmlns.com/foaf/0.1/#familyName",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
+  } ]
 }, {
   "@id" : "http://xmlns.com/foaf/0.1/#firstName",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
+  } ]
 }, {
   "@id" : "http://xmlns.com/foaf/0.1/#status",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://schema.org/identifier"
+  } ]
 } ]
